@@ -1,0 +1,34 @@
+{
+  "id": "social-facts",
+  "field": "sociology",
+  "title": "A private act can have a social rate",
+  "hook": "Émile Durkheim’s strange move was to treat suicide, the most individual act he could think of, as something with a pattern outside any one person.",
+  "body": "Durkheim called social facts the ways of acting, thinking, and feeling that are external to a given person and that press on them. Language, money, and law are his sort of examples. You did not invent them, you cannot ignore them without cost, and they are not identical to anyone's private mood. Sociology, he argued, should take those facts as its object rather than dissolve everything into individual psychology.\n\nSuicide (1897) is the stress test. Killing oneself looks like a private decision. Durkheim pointed at rates that differed systematically by group: by religion, by family situation, by moments of economic upheaval. If the rate is stable for a group and different from the next group's, he argued, something social is showing up in an act we experience as purely personal. He sorted the patterns into egoistic, altruistic, anomic, and fatalistic suicide, according to how tightly a person was bound into a group and how regulated their desires were.",
+  "deeper": "The methodological claim has aged better than every table in the book. Durkheim's statistics and some of his categories have been criticised for more than a century. 'Anomie' became a word people use loosely for any malaise. The four types are a scheme, not a diagnosis you can read off a death certificate.\n\nWhat remains useful is the level of the question. A rise in a rate is not explained by retelling one biography four hundred times. Nor is a rate a force that reaches down and pushes a particular person. Durkheim sometimes wrote as if the social fact were a thing acting on bodies. You can keep the insight, that patterns sit above individual cases, without that metaphysics. The Internet Encyclopedia of Philosophy's entry on him is a careful guide to the method; the book itself is where the fourfold scheme lives.",
+  "example": "Imagine two towns with the same number of people and very different suicide rates, steady over years. Explaining the gap by saying 'different people chose differently' restates the gap. Durkheim asks what differs in the way life is organised: how isolated people are, how sharply the rules of success have broken, how much the group demands of the member. A person in the higher-rate town is not a type. The town's rate is still a fact about the town. Public health still uses that kind of reasoning when it looks at rates rather than only at cases. It does not need Durkheim's four names to do it.",
+  "sources": [
+    {
+      "title": "Émile Durkheim, Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/emile-durkheim/"
+    },
+    {
+      "title": "Social fact, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Social_fact"
+    },
+    {
+      "title": "Suicide (Durkheim book), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suicide_(Durkheim_book)"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "Social facts and the four types of suicide match the Internet Encyclopedia of Philosophy’s account of Durkheim and the standard summary of the 1897 book. The card flags criticism of his statistics rather than treating every rate in the book as settled.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

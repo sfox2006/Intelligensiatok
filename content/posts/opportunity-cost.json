@@ -1,0 +1,30 @@
+{
+  "id": "opportunity-cost",
+  "field": "economics",
+  "title": "The cost of a choice is the best thing you didn’t take",
+  "hook": "A free afternoon is not free if you had something else worth doing with it.",
+  "body": "Opportunity cost is the value of the next-best alternative you give up. It is not the sum of every alternative, and it is not the cash that leaves your pocket. Cash is part of the story only when spending it closes off something else you valued.\n\nEconomists use the idea to separate accounting profit from economic profit. Accounting profit counts explicit costs: wages, rent, materials. Economic profit also subtracts what the owner could have earned by using their time and capital in the next-best way. A shop can show an accounting profit and still be a poor use of the owner's afternoon, if that afternoon was worth more elsewhere. The cost was real. It just never appeared on the invoice.",
+  "deeper": "The idea is older than the phrase. Once you take scarcity seriously, every yes is a no to something. The modern classroom version is tied to the production possibility frontier: points on the frontier price one good in units of the other. Moving along the frontier, the opportunity cost of more of one good is the amount of the other you stop producing.\n\nTwo limits matter. First, 'the' next-best alternative depends on what was actually available, not on a fantasy option. Second, people can be wrong about the value of what they gave up. The definition is about the best forgone alternative, not about whatever the chooser happened to dwell on. Sunk costs, already spent and unrecoverable, are not opportunity costs of going forward. That is the practical twin of the definition.",
+  "example": "A researcher is offered a paid workshop that fills an afternoon they would otherwise have spent finishing a paper. The ticket is waived, so the accounting cost is zero. The opportunity cost is the value of the progress on the paper, if that was the best other use of the afternoon. If the paper was worth more than the workshop, the free ticket was expensive. Reverse the values and the workshop is cheap even with a fee, up to the point where the fee plus the lost afternoon exceeds the workshop. The invoice and the opportunity cost answer different questions.",
+  "sources": [
+    {
+      "title": "Opportunity cost, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opportunity_cost"
+    },
+    {
+      "title": "Comparative advantage, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.92,
+    "notes": "The definition matches the standard textbook notion: the value of the next-best forgone alternative, distinct from accounting cost and from sunk cost. No numerical claim beyond the illustrative afternoon was added.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

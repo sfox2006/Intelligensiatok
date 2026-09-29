@@ -1,0 +1,32 @@
+{
+  "id": "compound-interest",
+  "field": "finance",
+  "title": "Interest paid on the interest",
+  "hook": "A sum at compound interest grows by a percentage of whatever is there now, not of what you started with.",
+  "body": "If you earn simple interest, each period pays the same amount: a percentage of the original principal. If you earn compound interest, the interest stays in the account and the next period pays a percentage of a larger base. The formula for a principal P, an annual rate r, compounded n times a year for t years, is A = P (1 + r/n)^(nt). Compounded once a year, that is just P (1 + r)^t.\n\nThe growth is convex. Early on it looks slow, because the base is still close to P. Later the same rate is applied to a much larger pile, and the increments get big. A useful approximation for the doubling time, when the rate is not extreme, is the rule of 72: years to double is about 72 divided by the annual percentage rate. At 7 percent a year, that guess is a little over 10 years. The exact doubling time is about 10.2 years.",
+  "deeper": "Nothing in the formula is a promise that a borrower will pay you. The rate is an assumption. Fees, taxes, inflation, and the chance of default sit outside the algebra. A nominal rate of 7 percent with 7 percent inflation does not double your purchasing power on that schedule. And the path is sensitive to the rate in a way people underfeel: the difference between 3 and 7 percent is not a small tweak over a working life, because the exponents pull apart.\n\nOne piece of folklore should be left out. Albert Einstein did not, on any solid evidence, call compound interest the eighth wonder of the world. The arithmetic does not need a fake quotation. The US Securities and Exchange Commission's Investor.gov glossary states the real distinction: you earn interest on the interest, not only on the original principal.",
+  "example": "Start with 100 at 7 percent, compounded once a year. After one year you have 107. After two years, 107 times 1.07, which is 114.49, not 114. The extra 0.49 is interest on the first year's interest. After ten years the factor is 1.07^10, about 1.967, so 100 grows to about 197. The rule of 72 says 72/7, roughly 10.3 years to double, against the true 10.2. For a rough mental check that is close enough. For a contract, use the formula, and read whether the rate is annual, monthly, or something that only looks like 7 percent.",
+  "sources": [
+    {
+      "title": "Compound interest, Investor.gov (US Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    },
+    {
+      "title": "Compound interest, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compound_interest"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "1.07^10 was recomputed as about 1.967, so 100 grows to about 197. The doubling time ln(2)/ln(1.07) is about 10.24 years. The misattributed Einstein quotation is excluded on purpose.",
+    "corrections": [
+      "Left out the line attributing a quip about compound interest to Einstein. It is a circulating misattribution, not a source."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

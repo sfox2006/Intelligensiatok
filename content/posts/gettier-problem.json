@@ -1,0 +1,30 @@
+{
+  "id": "gettier-problem",
+  "field": "philosophy",
+  "title": "A true belief can be justified and still not knowledge",
+  "hook": "Edmund Gettier needed three pages to show that 'justified true belief' is not yet a definition of knowledge.",
+  "body": "For a long time, a tidy proposal looked enough: you know something when you believe it, it is true, and you have a good justification. In 1963 Gettier published two short cases where all three hold and, by almost everyone's lights, the person still does not know.\n\nIn the first case, Smith has strong evidence that Jones will get the job, and that Jones has ten coins in his pocket. Smith concludes that the person who will get the job has ten coins in his pocket. In fact Smith gets the job, and Smith also happens to have ten coins. The belief is true. The evidence really did justify it. But the truth arrived by a coincidence the evidence was not about. The justification and the fact missed each other.",
+  "deeper": "The paper is aimed at the analysis of knowledge, not at scepticism. Gettier does not say we know nothing. He says a popular analysis counts some lucky beliefs as knowledge. The second case in the paper uses a similar trick with a disjunction: a justified false belief, or-ed with a truth the believer has no evidence for, can still be a justified true belief.\n\nLater work tried to patch the analysis. Some add a 'no false lemmas' rule. Some require the belief to be caused by the fact in the right way. Some, following Timothy Williamson, give up the project of defining knowledge out of simpler parts and take knowledge as basic. The cases survive as a test. If your theory says Smith knows, it has not met the problem Gettier posed.",
+  "example": "Suppose you look at a clock that stopped exactly twelve hours ago. It reads 4:00, and it is 4:00. You are justified in trusting the clock, and your belief is true. You do not know the time. The stopped clock is a cousin of Gettier's cases: a reliable-looking route, a true belief, and a success that is accidental relative to that route. Gettier's own case is sharper because the justification is genuine evidence about Jones, not a broken instrument. The accident is in which fact makes the belief true.",
+  "sources": [
+    {
+      "title": "The Analysis of Knowledge, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/"
+    },
+    {
+      "title": "Gettier problem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gettier_problem"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "The case matches Gettier's first example as presented in the Stanford Encyclopedia entry on the analysis of knowledge. The stopped-clock story is labelled as a cousin, not as Gettier's own text.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mendeleev-predictions",
+  "field": "chemistry",
+  "title": "Mendeleev left gaps, and the gaps filled in",
+  "hook": "The periodic table became convincing because empty squares made predictions. Gallium, scandium, and germanium arrived with properties Dmitri Mendeleev had already sketched.",
+  "body": "In 1869 Mendeleev arranged the known elements by atomic weight and by recurring chemical behaviour, and he left blanks where the pattern seemed to demand an element that had not been found. He gave three of the blanks provisional names: eka-aluminium, eka-boron, and eka-silicon, and he predicted properties such as atomic weight and density. Gallium, discovered in 1875, scandium in 1879, and germanium in 1886, matched those sketches closely enough that the table stopped looking like a filing system and started looking like a theory.\n\nHe was not the only person grouping elements. Others had noticed the periodic repetition. What distinguished his table was the willingness to say 'this one is missing, and it should look like this.' A pattern that only redescribes what you already know is cheap. A pattern that tells a chemist what to go and find is a different object.",
+  "deeper": "Mendeleev did not know about atomic number or electron shells. He ordered elements by weight, and in a few places the weight order and the chemical order disagree. Later work, especially Henry Moseley's measurements of atomic number, put the table on the quantity that actually drives the pattern: the number of protons, and the shell structure of the electrons. Some of Mendeleev's predictions were simply wrong. The successes are famous because they were specific, not because he was infallible.\n\nThe modern table is a map of quantum mechanics as much as a list of substances. Reading it as Mendeleev wrote it, you can still see the empirical bet. Similar outer electrons recur as you step through the elements, and chemistry recurs with them. The gaps were a way of taking that recurrence seriously before anyone could say 'outer electrons.'",
+  "example": "Eka-aluminium was predicted to sit under aluminium, with a low melting point and a density around 6 grams per cubic centimetre. Gallium melts in the hand, near 30 degrees Celsius, and its density is about 5.9 grams per cubic centimetre. One famous number is not a whole confirmation. The chemical behaviour, the place in the table, and several predicted properties lined up together, which is harder to shrug off than a single lucky density. Germanium did the same job for the square under silicon. A table that had been drawn with no blanks would have had nowhere to put the surprise, and nowhere to have been caught out.",
+  "sources": [
+    {
+      "title": "Dmitri Mendeleev, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+    },
+    {
+      "title": "Periodic table, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Periodic_table"
+    },
+    {
+      "title": "Gallium, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gallium"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The 1869 table, the three eka-predictions, and the discovery years 1875, 1879, and 1886 match the standard account. Gallium’s density is about 5.91 g/cm³ and its melting point is about 29.8 °C. The card notes that some of Mendeleev’s other predictions failed and that atomic number came later.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

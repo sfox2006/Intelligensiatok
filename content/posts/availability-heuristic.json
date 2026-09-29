@@ -1,0 +1,34 @@
+{
+  "id": "availability-heuristic",
+  "field": "psychology",
+  "title": "What comes to mind feels more common",
+  "hook": "Amos Tversky and Daniel Kahneman argued that people estimate frequency by how easily examples arrive. Ease of recall is not frequency.",
+  "body": "The availability heuristic is a shortcut: when you judge how often something happens, you reach for examples, and you let the ease of the reach stand in for the count. Vivid, recent, or widely reported events are easy to retrieve. Ordinary events are not. The shortcut is often good enough. It fails when ease and frequency come apart.\n\nA classic demonstration in their work asked whether English has more words starting with the letter K or more words with K as the third letter. Starting words (kite, king, keep) come to mind quickly. Third-letter words are harder to search for, so people say the starting words are more common. In fact the third-letter words are more common. The judgement followed availability, not the dictionary. Their 1974 Science paper, 'Judgment under Uncertainty: Heuristics and Biases,' put this shortcut beside two others, representativeness and anchoring. Kahneman's 2002 Nobel lecture is a later map of the same research, done with Tversky.",
+  "deeper": "The practical stakes are in risk. A dramatic accident that leads the news is available. The uneventful journeys are not. People can then rank dangers in something closer to the order of headlines than the order of rates. The heuristic does not mean anyone is foolish for remembering the headline. It means the headline is a biased sample of the events, and a mind that uses memory as a sample inherits the bias.\n\nAvailability is also not the same as a careful statistical argument from the examples you have. A doctor who has just seen three cases of a rare disease, and who updates too far, is being tugged by availability. A doctor who knows the base rate and uses the cases as evidence is doing something else, closer to the update Bayes described. The heuristic is what you do instead of that arithmetic when the arithmetic is unavailable and the examples are not.",
+  "example": "Ask someone whether more people die in fires or by drowning in a given country, and do not let them look it up. Whichever cause they have seen on screen lately will feel larger. The feeling is information about their memory, not about the registry of deaths. The letter-K task is cleaner because the truth is in the dictionary and the bias has a direction you can predict before you run the experiment: the easier search will be judged more frequent. Tversky and Kahneman's claim is that this substitution, ease for frequency, is a general habit, not a trick confined to letters.",
+  "sources": [
+    {
+      "title": "Daniel Kahneman, Nobel Prize lecture (2002)",
+      "url": "https://www.nobelprize.org/uploads/2018/06/kahnemann-lecture.pdf"
+    },
+    {
+      "title": "Availability heuristic, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Availability_heuristic"
+    },
+    {
+      "title": "Daniel Kahneman, Nobel Prize facts",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The K-as-first-versus-third-letter demonstration and the 1974 heuristics paper are the standard account of availability, also covered in Kahneman’s Nobel lecture. The card does not attach a specific death-rate comparison, which would need its own source.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

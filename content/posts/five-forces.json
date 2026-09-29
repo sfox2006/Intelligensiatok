@@ -1,0 +1,30 @@
+{
+  "id": "five-forces",
+  "field": "business",
+  "title": "Profit depends on the structure around the firm",
+  "hook": "Michael Porter’s five forces are a checklist for where competition will squeeze margins. They are not a formula for a share price.",
+  "body": "In Competitive Strategy (1980), Porter asked why some industries are reliably more profitable than others. His answer was five pressures. Rivalry among the firms already there. The threat of new entrants. The threat of substitutes. The bargaining power of buyers. The bargaining power of suppliers. Where those pressures are strong, the value the firms create is competed away or captured by someone else. Where they are weak, a firm can keep more of it.\n\nThe tool is about industry structure, not about a single company's charm. A brilliant team in an industry with no barriers, powerful customers, and an easy substitute can still earn thin returns. A mediocre team behind a real barrier can earn thick ones. Strategy, in this frame, is choosing where those pressures are tolerable and then making one of them worse for rivals.",
+  "deeper": "Each force is a question, not a score you can look up. Entrants are threatening when startup costs are low, customers can switch, and incumbents have no special access to supply or regulation. Buyers are powerful when they are few, well informed, and able to walk away. Substitutes are the option the customer has from outside the industry: a video call for a flight, not just a rival airline. People miscount rivals as the only force. Porter's point was that the other four decide how fierce that rivalry gets, and who keeps the money.\n\nThe framework does not say that structure is destiny, and it does not price a stock. Firms change structure. Technology moves the substitutes. A regulator can create or remove a barrier overnight. Used as a set of questions before you tell a story about a brand, it earns its keep. Used as a five-box diagram in place of the questions, it doesn't.",
+  "example": "Commercial aviation has fierce rivalry, expensive but not impossible entry, powerful aircraft suppliers, price-sensitive buyers, and a substitute in rail on short routes. The framework predicts thin margins for a typical airline even when planes are full, because several forces are pulling at once. Contrast a niche industrial software product that customers embed in their own process, with high switching costs, few substitutes, and fragmented buyers. The same framework predicts that the software firm keeps more of the value, before anyone has mentioned the talent of its founders. Talent still matters. It matters inside a structure, not instead of one.",
+  "sources": [
+    {
+      "title": "Porter’s five forces, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Porter%27s_five_forces"
+    },
+    {
+      "title": "Michael Porter, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Porter"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The five forces and the 1980 book match the standard account of Porter’s framework. The card presents it as a set of questions about industry structure, not as a predictive law or an investment rule.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

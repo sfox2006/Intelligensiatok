@@ -1,0 +1,30 @@
+{
+  "id": "central-limit-theorem",
+  "field": "statistics",
+  "title": "Averages settle into a bell, even when the raw data do not",
+  "hook": "The central limit theorem is why a mean of many independent pieces looks normal. It has hypotheses. Infinite variance is one way to escape it.",
+  "body": "Take independent observations from the same distribution, and assume that distribution has a finite mean and a finite variance. Add them up, or take their average, and standardise so the result has mean zero and variance one. As the number of observations grows, the distribution of that standardised average gets closer to the normal bell curve. The original distribution does not have to be a bell. A die is flat. The average of many dice is not.\n\nThat is the central limit theorem, in the form used all over applied statistics. It is why a sample mean has a standard error, and why confidence intervals that lean on a normal approximation are often decent for large samples even when each data point is skewed. 'Large' is not a universal number. A very skewed distribution takes longer to settle than a mild one. The theorem says where the sequence is going. It does not say your sample of thirty has arrived.",
+  "deeper": "The finite-variance hypothesis is the one people drop without noticing. A Cauchy distribution is a textbook case with a defined centre and no finite variance. The average of Cauchy observations does not settle to a normal curve. It stays Cauchy. Heavy tails in real data are a reason to be slower with a normal approximation, not a reason to quote the theorem louder.\n\nIndependence matters too. If the observations share a common shock, you do not have n pieces of information. You may have something closer to one shock, repeated. The theorem is a gift to anyone averaging genuinely many, weakly dependent, finite-variance pieces. It is not a claim that everything in nature is normally distributed. Heights of adults are roughly bell-shaped for biological reasons. The theorem is about averages, not about the histogram of the raw world.",
+  "example": "One fair die shows 1 through 6 with equal probability. The shape is flat, the mean is 3.5, and the variance is finite. Roll thirty dice and average them. You will almost never see an average near 1 or near 6, because that would require nearly every die to cooperate. Averages near 3.5 pile up. Plot those averages over many rounds and the histogram looks like a bell, even though no single roll did. The theorem is the promise that this is not a special fact about dice. Replace the die with any independent draw that has a finite variance, take enough of them, and the standardised average does the same thing.",
+  "sources": [
+    {
+      "title": "Central Limit Theorem, Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/CentralLimitTheorem.html"
+    },
+    {
+      "title": "Central limit theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Central_limit_theorem"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "The statement includes independent, identically distributed observations with finite mean and variance, and the Cauchy counterexample when variance is infinite. That matches the standard theorem as given by MathWorld and the encyclopedia account.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

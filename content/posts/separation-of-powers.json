@@ -1,0 +1,36 @@
+{
+  "id": "separation-of-powers",
+  "field": "politics",
+  "title": "Split the power, so no one office holds all of it",
+  "hook": "Montesquieu’s famous lesson was drawn from an England that did not actually keep the branches as separate as he thought.",
+  "body": "In The Spirit of the Laws (1748), Montesquieu argued that liberty is lost when the same person or body holds legislative, executive, and judicial power. The remedy he praised was to place those functions in different hands, so that each could check the others. The American founders read him closely. The US Constitution's three branches are the most famous attempt to build the scheme into a written design.\n\nMontesquieu thought he was describing England. He was partly wrong about England. Ministers sit in Parliament, and the executive is drawn from the legislature. British practice is a fusion, with courts that are more independent, not a clean three-way split. The idea still did the work he wanted it to do as a warning: concentrated power is easy to abuse because the abuser also judges the abuse.",
+  "deeper": "Separation is not the same design as checks and balances, though the two travel together. Separation says who may not hold two powers at once. Checks say how one power slows another: a veto, a confirmation, a court that can refuse to apply a statute, a legislature that can refuse supply. You can separate offices and still leave one of them dominant. You can also mix offices, as parliamentary systems do, and rely on elections, courts, and a professional civil service.\n\nLocke had already distinguished legislative and executive power, and added a federative power over foreign affairs. Montesquieu's contribution was the clarity of the threefold picture and the link he drew to liberty. The picture is a design principle. It does not, by itself, tell you how independent a court is in a country that has the right nouns in its constitution.",
+  "example": "Suppose one council writes the tax, collects it, and hears the appeal of anyone who objects. A member who dislikes a critic can write a rule, apply it, and dismiss the objection. Split the work. A legislature writes the tax, an executive collects it, and a court hears the objection without sitting in the legislature. The critic can still lose. What changes is that the loss requires more than one body's agreement, and the people who wrote the rule are not the last word on what it means. That is the mechanism. It fails in practice when the court is hired and fired by the council it is meant to check.",
+  "sources": [
+    {
+      "title": "Baron de Montesquieu, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/montesquieu/"
+    },
+    {
+      "title": "Separation of powers, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Separation_of_powers"
+    },
+    {
+      "title": "Montesquieu, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montesquieu"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.92,
+    "notes": "The 1748 date, the threefold division, and the influence on the US design match the Stanford Encyclopedia and the standard encyclopedia accounts. The card includes the mismatch with the British constitution rather than repeating Montesquieu's description as fact.",
+    "corrections": [
+      "Kept the common oversimplification out of the card: England was not a clean three-branch system, and the post says so."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

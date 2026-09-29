@@ -1,0 +1,34 @@
+{
+  "id": "categorical-imperative",
+  "field": "philosophy",
+  "title": "Kant’s test is whether you can will the rule for everyone",
+  "hook": "A hypothetical imperative says what to do if you want something. Kant's categorical imperative does not come with an if.",
+  "body": "In the Groundwork, Kant distinguishes rules that depend on a goal from rules that bind whatever you want. 'If you want a good reputation, keep your promises' is hypothetical. It lapses if you stop caring about reputation. A moral rule, he argues, cannot be like that. It has to be categorical.\n\nThe best-known formula says: act only on a maxim you can at the same time will as a universal law. A maxim is the principle you are acting on, not the outward motion. The test is not 'would this have good results?' It is whether the principle still makes sense, or is still something you can rationally want, when everyone acts on it. Lying to get out of a tight spot fails, on Kant's telling, because a world of that maxim undermines the trust that makes the lie useful.",
+  "deeper": "Kant gives more than one formula and treats them as equivalent. The formula of humanity says: treat persons never merely as means, but always also as ends. Using someone's trust as a tool, while denying them the standing to consent to the principle, is the failure he cares about. Consequences are not irrelevant to ordinary life, but they are not what makes an action morally worthy. Moral worth, in the Groundwork, attaches to acting from duty, not merely in line with it.\n\nThis is easy to cartoon. Kant does not say you should ignore the person bleeding in the road because of a rule about appointments. He is arguing about the form of moral reasons. The formulas are also harder to apply than the slogans. What the maxim was, and what 'can be willed' demands, is where serious Kantian argument starts. The Groundwork is the short book. The Metaphysics of Morals is where he tries the harder cases.",
+  "example": "You need money and you promise to repay, knowing you cannot. The maxim is roughly: when I need money, I will make a false promise. Universalise it. If everyone did that, promises to repay would stop being believed, and the practice your maxim depends on would disappear. Kant thinks the maxim cannot even be conceived as a universal law, not merely that the results would be unpleasant. Contrast a hypothetical version: 'if you want another loan later, don't default.' That advice vanishes the moment you don't want another loan. The categorical test is meant to stay in force anyway.",
+  "sources": [
+    {
+      "title": "Kant’s Moral Philosophy, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/"
+    },
+    {
+      "title": "Kant, Fundamental Principles of the Metaphysic of Morals (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/5682"
+    },
+    {
+      "title": "Categorical imperative, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Categorical_imperative"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The two formulas and the false-promise example follow the Groundwork, as summarised in the Stanford Encyclopedia and in the Gutenberg translation titled Fundamental Principles of the Metaphysic of Morals. The card does not claim the formulas are easy to apply.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

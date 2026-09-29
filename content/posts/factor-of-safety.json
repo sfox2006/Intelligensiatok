@@ -1,0 +1,30 @@
+{
+  "id": "factor-of-safety",
+  "field": "engineering",
+  "title": "Design it stronger than the load you expect",
+  "hook": "A factor of safety is failure load divided by working load. The number is chosen, not discovered. An elevator and a bookshelf should not share it.",
+  "body": "If a component fails at a load F and you intend to run it at a load W, the factor of safety is F/W. Equivalently, the allowable load is the failure load divided by the factor you chose. A cable that breaks at 10 kilonewtons, designed with a factor of 5, is given a working load of 2 kilonewtons. The extra capacity is there because the failure load is uncertain, the real load is uncertain, the material has flaws, and the consequences of being wrong are not all the same.\n\nThere is no universal correct factor written in the physics. Codes and experience set them. A static bookshelf bracket and a cable that carries people do not get the same number, because the uncertainty and the cost of failure differ. Using a larger factor is not free. The part gets heavier and more expensive. Engineering is the argument about how much margin this particular uncertainty is worth.",
+  "deeper": "The simple ratio hides a few distinctions that matter once you design anything real. Failure can mean breaking, or it can mean bending too far to be useful. The load can be a steady weight or a repeated cycle that causes fatigue at a level a single pull would never reach. The failure load you put in the numerator may be a tested minimum, or a published average you should not trust. Modern structural practice often talks about load factors and resistance factors separately, rather than one lumped number. The lumped number is still the right introduction, because it makes the margin visible.\n\nA factor of 1 means you believe your load and your strength exactly, and you accept failure at the first surprise. Almost no responsible design does that. A very large factor can be a way of refusing to measure the load. The interesting designs are the ones that say what uncertainty they bought the margin for.",
+  "example": "A hoist cable is tested to break at 10 kilonewtons. The heaviest intended load, including the box and a dynamic bump when the motor starts, is estimated at 1.6 kilonewtons, and the designer adds a further allowance and sets the working load at 2 kilonewtons. The factor of safety is 10/2 = 5. If someone then hangs 4 kilonewtons on it, the factor on the day is 2.5, not 5. The printed factor was a statement about the design load, not a property that travels with the cable into every misuse. If a later test shows that some cables from the batch break at 8 rather than 10, the honest factor on the original design load falls to 4, and the code, not the slogan, decides whether 4 is still enough for a hoist that carries people.",
+  "sources": [
+    {
+      "title": "Factor of safety, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Factor_of_safety"
+    },
+    {
+      "title": "Structural engineering, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Structural_engineering"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The definition, failure load over working load, matches the standard engineering usage. The 10 kN and factor-of-5 arithmetic gives a 2 kN working load and was checked. The card states that codes, not a law of nature, choose the factor.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

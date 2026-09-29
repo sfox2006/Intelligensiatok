@@ -1,0 +1,34 @@
+{
+  "id": "halting-problem",
+  "field": "computing",
+  "title": "No program can decide whether every program halts",
+  "hook": "Alan Turing’s 1936 result is narrow and absolute. There is no general method that looks at an arbitrary program and an arbitrary input and always says, correctly, whether it will finish.",
+  "body": "Some programs halt. Some run forever. It would be useful to have a checker, call it H, that takes the text of a program and an input and answers 'halts' or 'runs forever,' correctly, every time. Turing showed that no such H can exist, if the programs in question are as general as a Turing machine, which is as general as ordinary programming languages.\n\nThe argument is a diagonal trick. Suppose H exists. Build a program D that calls H on D's own text, and then does the opposite of what H predicted: if H says D halts, D loops forever; if H says D loops, D halts. Run D. Whatever H answered, D has done the other thing. So H was wrong about this one case. The supposition that a perfect H exists is false. Particular programs can still be analysed. Compilers prove that some loops terminate. The theorem is about a single method that works for every program and every input.",
+  "deeper": "The result belongs to the decision problems of the 1930s. Hilbert had asked for a procedure that would decide the truth of any mathematical statement. Turing, and Alonzo Church by another route, showed that even the special question 'does this computation finish?' is already undecidable. Gödel's incompleteness theorem is a cousin, not the same theorem. One is about proofs in arithmetic. The other is about the non-existence of an algorithm.\n\nNothing here says computers cannot solve problems, or that software is mysterious. It says a certain universal tool is impossible, in the way a method for squaring the circle with straightedge and compass is impossible. You can still square lots of practical regions. You can still prove that your particular loop ends. You cannot write the checker that never fails. The Stanford Encyclopedia's entries on Turing and on Turing machines state the model. The halting problem is the application people remember.",
+  "example": "Imagine H as a function that has never been wrong. D is a short program: ask H whether D halts, and if the answer is yes, enter an infinite loop; if the answer is no, stop immediately. There is no consistent answer for H to give about D. This is not a bug in D. It is a proof that the specification of H cannot be met. A practical timeout is not a counterexample. A timeout that says 'I gave up' has not decided. A timeout that says 'this loops' will be wrong about a program that would have halted on step one more than the timeout allowed. The theorem is about correct answers, not about useful approximations.",
+  "sources": [
+    {
+      "title": "Turing machines, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/turing-machine/"
+    },
+    {
+      "title": "Alan Turing, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/turing/"
+    },
+    {
+      "title": "Halting problem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halting_problem"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.96,
+    "notes": "The diagonal construction matches the standard proof of the undecidability of the halting problem, as presented in the Stanford Encyclopedia entries on Turing and Turing machines. The card limits the claim to a general decider and does not say that particular programs cannot be analysed.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

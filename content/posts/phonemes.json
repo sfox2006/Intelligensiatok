@@ -1,0 +1,30 @@
+{
+  "id": "phonemes",
+  "field": "linguistics",
+  "title": "A phoneme is a difference that can change the word",
+  "hook": "English speakers hear one p in ‘pin’ and ‘spin’. A phonetician hears two. Only one of those facts is about meaning.",
+  "body": "A phoneme is the smallest unit of sound that distinguishes words in a given language. In English, pat and bat are different words, so /p/ and /b/ are different phonemes. An allophone is a pronunciation variant of a phoneme that does not, by itself, change the word. English /p/ is aspirated, with a puff of air, at the start of 'pin,' and unaspirated in 'spin,' after the s. Swap those two p's and you may sound odd. You will not have said a different English word.\n\nThe distinction is about a language's system, not about the physics of the mouth. The same physical difference can be phonemic in one language and allophonic in another. Hindi uses aspiration to distinguish words. A puff of air that English treats as a detail of /p/ can, in Hindi, be the difference between one word and another. Speakers hear the contrasts their language uses, and they are very good at ignoring the ones it doesn't.",
+  "deeper": "You find the phonemes of a language by looking for minimal pairs, words that differ by exactly one sound and differ in meaning, and by looking at where sounds are allowed to occur. If two sounds never appear in the same environment, and swapping them never matters, they are candidates for one phoneme. If they contrast in the same environment, they are two.\n\nSpelling is a poor guide. English writes one letter p for both the aspirated and unaspirated sounds, which happens to match the phoneme analysis and hides the phonetic difference. English also writes many sounds with chaotic letters. Phonemes are not letters. They are also not a universal inventory that every baby is born ranking in the same way. Infants start able to hear a wide range of contrasts, and they become specialists in the ones the language around them uses. The technical terms are worth keeping sharp, because 'sound' is too coarse for either fact.",
+  "example": "Say 'pin' with a hand in front of your mouth and feel the puff. Say 'spin' and the puff is weak or gone. Both are English /p/. Now consider a language, such as Hindi, in which pal with an unaspirated p and phal with an aspirated p are different words, 'moment' and 'fruit.' A speaker of that language cannot treat the puff as optional colouring. An English speaker learning Hindi has to hear a difference they have spent years treating as the same phoneme. An Hindi speaker learning English has to treat as one category a difference that, at home, would have changed the word. Neither ear is defective. The systems draw the lines in different places.",
+  "sources": [
+    {
+      "title": "Phoneme, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phoneme"
+    },
+    {
+      "title": "Allophone, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Allophone"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The pin/spin aspiration example is the standard English allophone pair for /p/. The Hindi contrast between पल (moment) and फल (fruit) is a standard textbook illustration of phonemic aspiration. Glosses are given at that conventional level.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

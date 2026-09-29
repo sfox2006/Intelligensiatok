@@ -1,0 +1,30 @@
+{
+  "id": "hardy-weinberg",
+  "field": "biology",
+  "title": "A null model for when gene frequencies stay put",
+  "hook": "Hardy–Weinberg equilibrium is what happens when nothing interesting is happening to the genes. Its use is to notice when something is.",
+  "body": "Take a gene with two alleles, A and a, at frequencies p and q, with p + q = 1. If mating is random and nothing is systematically adding, removing, or favouring either allele, then the genotype frequencies in the next generation are p² for AA, 2pq for Aa, and q² for aa. Those three add to 1. Allele frequencies stay at p and q. The population is in Hardy–Weinberg equilibrium.\n\nG. H. Hardy and Wilhelm Weinberg published the result independently in 1908. It answered a worry that dominant alleles would inevitably take over. They don't, not from dominance alone. A rare recessive allele spends most of its time hidden in heterozygotes, and its frequency is stable under the assumptions. The equation is a null model. If you measure genotypes and they are far from p², 2pq, q², then at least one assumption has failed. The equation does not say which one.",
+  "deeper": "The assumptions are the content. No selection. No mutation that matters at this gene. No migration that brings alleles in or out. Random mating, rather than mates chosen by genotype. And a population large enough that chance, drift, does not shove the frequency around. Real populations violate these in various combinations. That is why the model is a baseline rather than a description of a forest.\n\nPeople also confuse genotype frequency with allele frequency. If 1 percent of people show a recessive condition, that is q², not q. The allele can be much more common than the condition, because most copies sit in carriers. Screening programmes and textbook problems both start from that square root. OpenStax Biology 2e, section 19.2, is the classroom version. It is worth reading beside the assumptions, not instead of them.",
+  "example": "Suppose a recessive allele has frequency q = 0.1, so p = 0.9. Under the assumptions, the fraction of people who are aa, and who show the recessive trait if it is fully recessive, is q² = 0.01, one percent. Carriers, Aa, are 2pq = 2 times 0.9 times 0.1 = 0.18, eighteen percent. AA is 0.81. Most copies of the rare allele are in the eighteen percent, not in the one percent who are affected. If you then observe that almost nobody is a carrier and almost everyone is aa, the numbers are nowhere near this, and you go looking for selection, non-random mating, or a population that is not mixing. You do not 'fix' the algebra.",
+  "sources": [
+    {
+      "title": "Hardy–Weinberg principle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+    },
+    {
+      "title": "19.2 Population Genetics, Biology 2e (OpenStax)",
+      "url": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.96,
+    "notes": "The genotype frequencies p², 2pq, and q² and the 1908 attribution match the standard statement. The example was recomputed: q = 0.1 gives q² = 0.01 and 2pq = 0.18. The card treats the equation as a null model.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

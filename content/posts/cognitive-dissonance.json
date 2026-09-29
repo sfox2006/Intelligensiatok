@@ -1,0 +1,30 @@
+{
+  "id": "cognitive-dissonance",
+  "field": "psychology",
+  "title": "A clash between two beliefs is uncomfortable, and people edit one",
+  "hook": "Leon Festinger’s theory says the discomfort of inconsistency is itself a motive. The famous $1 versus $20 experiment is one way he tried to show it.",
+  "body": "Cognitive dissonance, as Festinger set it out in 1957, is the discomfort of holding two cognitions that contradict each other, or of acting against a belief you hold. People can reduce it by changing the behaviour, changing the belief, or adding a new cognition that makes the pair fit. The theory's bite is that the belief often moves, because the behaviour has already happened and cannot.\n\nThe classic demonstration is Festinger and Carlsmith's 1959 experiment. Students did a dull task, then were paid either $1 or $20 to tell the next person that the task had been enjoyable. Later, the students paid $1 rated the task as more enjoyable than the students paid $20. The interpretation: $20 is a sufficient external reason to have said something false, so the belief can stay ('I lied, and I was paid'). $1 is a poor reason. The inconsistency between 'the task was dull' and 'I told someone it was fun' is reduced by deciding the task was not so dull.",
+  "deeper": "The result is easy to overgrow. It is one experiment, with a particular task and a particular pair of payments, in the currency of the late 1950s. Later work has argued about how reliably the pattern replicates and about which situations produce a belief change rather than a shrug. Dissonance theory is influential because the mechanism is recognisable, not because one study measured the size of human hypocrisy.\n\nThere is also a boundary inside the theory. If you had a good external justification, the theory predicts less attitude change, which is the $20 condition. Coercion, a large reward, or a gun to the head are all reasons that let the original belief survive. The interesting prediction is about insufficient justification: the small push, not the large one, is what recruits the belief to the side of the act.",
+  "example": "You tell a friend a film was excellent, because you chose it and you do not want an argument. You were not paid. Afterwards the film, which bored you, is remembered as better than it was. That is the $1 pattern in ordinary clothes: a public statement, a weak external reason, and a private rating that drifts toward the statement. Contrast being required, on pain of losing a job, to praise the film. Festinger's theory says you can leave the cinema still thinking it was bad, because the threat did the explanatory work. Whether any one evening in fact works this way is not something the 1959 means can guarantee. The pattern to look for is the weak reason, not the mere fact of having said something.",
+  "sources": [
+    {
+      "title": "Cognitive dissonance, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+    },
+    {
+      "title": "Leon Festinger, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leon_Festinger"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.86,
+    "notes": "The $1 versus $20 forced-compliance study is Festinger and Carlsmith 1959, as summarised in the standard encyclopedia accounts. The card treats it as one experiment and notes later debate about replication and boundary conditions, so the confidence stays below the most settled entries.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

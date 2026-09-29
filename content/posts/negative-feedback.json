@@ -1,0 +1,34 @@
+{
+  "id": "negative-feedback",
+  "field": "engineering",
+  "title": "The Watt governor closes the valve when the engine runs away",
+  "hook": "Negative feedback measures the error and pushes the other way. Reverse the linkage and the same machine becomes a runaway.",
+  "body": "James Watt's steam engines needed a speed that stayed put while the load changed. The centrifugal governor, fitted to his engines in the 1780s, did it mechanically. Two heavy balls spin with the engine shaft. If the shaft speeds up, the balls swing outward. The linkage translates that rise into a closing of the steam valve. Less steam, the engine slows, the balls drop, the valve opens a little. The response opposes the error. That is negative feedback.\n\nPositive feedback is the same loop with the sign flipped. If a rise in speed opened the valve, the engine would speed up further. The governor's fame is the sign. James Clerk Maxwell's 1868 paper 'On Governors' is an early mathematical treatment of whether such a loop settles or oscillates. It is one of the roots of control theory. The device is older than the theory. The theory is what tells you the device can be tuned badly.",
+  "deeper": "A feedback loop has a setpoint, a measurement, and an actuator. The error is setpoint minus measurement, or the other way around, depending on the sign convention. The actuator's job is to reduce the error. If the actuator is too aggressive, the system overshoots. Speed drops below the setpoint, the valve slams open, speed rises too far, and the engine hunts. Stability is not automatic just because the sign is negative. Gain and delay decide whether the correction arrives in proportion, or arrives late and too large.\n\nThe same picture describes a thermostat, a cruise control, and a biological pathway that inhibits its own first step. The metaphor travels because the structure is small: measure, compare, act in opposition. It does not travel as far as 'balance' in the loose sense. A system can be in negative feedback and still sit at the wrong setpoint, if you asked it to hold the wrong speed.",
+  "example": "An engine is set for 60 revolutions and is doing 60, with the valve partly open. A machine downstream is switched off, so the load falls and the shaft starts to climb. The balls rise. The valve closes until the shaft is back near 60, now with less steam because less work is being asked. Switch the machine back on and the shaft dips, the balls fall, and the valve opens. If a mechanic reverses the linkage during a repair, the first small rise in speed opens the valve, the rise becomes a surge, and the governor is now an accelerator. The hardware is almost the same. The sign was the safety device.",
+  "sources": [
+    {
+      "title": "Centrifugal governor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Centrifugal_governor"
+    },
+    {
+      "title": "Negative feedback, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Negative_feedback"
+    },
+    {
+      "title": "James Watt, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Watt"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.91,
+    "notes": "The centrifugal governor’s opposing action and its use on Watt’s engines match the standard account. Maxwell’s 1868 paper ‘On Governors’ is a real and relevant source for the mathematics; the card does not claim Watt wrote the theory. The sign-reversal example is a consequence of the definition, not a historical anecdote.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

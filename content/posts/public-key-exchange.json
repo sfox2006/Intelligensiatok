@@ -1,0 +1,34 @@
+{
+  "id": "public-key-exchange",
+  "field": "computing",
+  "title": "Two people can agree a secret in public",
+  "hook": "Diffie and Hellman’s 1976 paper showed how to share a key while an eavesdropper watches. The trick is a calculation that is easy to do and hard to undo.",
+  "body": "Before this idea, two people who wanted a secret channel needed a secret already, so they could agree the key. Whitfield Diffie and Martin Hellman, in 'New Directions in Cryptography' (IEEE Transactions on Information Theory, 1976), described a way to create a shared secret from scratch over a public line. Each person picks a private number and mixes it, in a published way, with a public value. They exchange the mixed results. Each can combine the other's mixed result with their own private number and arrive at the same shared secret. An eavesdropper sees the public value and both mixed results, and still lacks a private number.\n\nIn the original version, the hardness is the discrete logarithm: given the mixed result, recovering the private number is believed to be infeasible for large enough sizes. The paper also set out the broader hope of public-key cryptography, including the idea of a signature. Ralph Merkle was working on related ideas at the same time. The 2015 Turing Award went to all three.",
+  "deeper": "Key exchange is not the same object as encryption. Diffie–Hellman, used as above, ends with a shared secret. It does not by itself send a message. RSA, published soon after, is a different construction, aimed at encryption and signatures with a public key and a private key. Both sit in the family the 1976 paper opened. Neither is something to invent at home. Real systems add authentication, so you know who you are mixing numbers with, and they choose sizes and groups that have survived public attack. A textbook picture of the algebra is not a design.\n\nThe conceptual point is still worth having, because it reverses an old assumption. Secrecy of the channel is not required for secrecy of the key, provided the one-wayness holds and you are talking to the person you think you are. If the one-wayness fails, the eavesdropper who keeps the transcript can recompute the secret. The security is the hardness, not the theatre of the exchange.",
+  "example": "A toy version uses small numbers and is not secure. Agree publicly on a base g and a modulus p. Alice picks a private a and sends g^a mod p. Bob picks a private b and sends g^b mod p. Alice raises Bob's message to the power a. Bob raises Alice's message to the power b. Both get g^(ab) mod p. The eavesdropper sees g, p, g^a, and g^b, and wants g^(ab). With the enormous sizes used in real systems, no public method is known that recovers it in reasonable time. With the toy sizes, the eavesdropper just tries every private number. The example is there to show what is being hidden. It is not a parameter set. Do not use it for anything you need kept secret.",
+  "sources": [
+    {
+      "title": "Whitfield Diffie and Martin Hellman, “New Directions in Cryptography” (1976)",
+      "url": "https://ee.stanford.edu/~hellman/publications/24.pdf"
+    },
+    {
+      "title": "Diffie–Hellman key exchange, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange"
+    },
+    {
+      "title": "Public-key cryptography, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The PDF is the 1976 IEEE paper by Diffie and Hellman. The card separates key exchange from encryption, names Merkle and the 2015 Turing Award, and gives only an explicitly insecure toy of the algebra, with a warning not to use it.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

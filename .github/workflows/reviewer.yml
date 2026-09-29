@@ -1,0 +1,69 @@
+name: Reviewer agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Print reviews and do not commit
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: "15 7 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intelligensiatok-agents
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Review drafts
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_REVIEWER_MODEL: ${{ vars.LLM_REVIEWER_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          PUBLISH_CONFIDENCE: ${{ vars.PUBLISH_CONFIDENCE }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: node scripts/reviewer.mjs
+      - name: Rebuild the feed index
+        run: node scripts/build-index.mjs
+      - name: Validate
+        run: node scripts/validate.mjs
+      - id: commit
+        name: Commit reviewed posts
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/posts content/feed.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No review changes to commit."
+          else
+            git commit -m "Review drafts and refresh the feed index"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Ask Pages to redeploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/dispatches \
+            -d '{"event_type":"feed-updated"}'

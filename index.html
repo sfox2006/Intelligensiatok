@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Intelligensiatok is a vertical feed of reviewed ideas from philosophy, economics, the sciences, and the rest of the shelf.">
+  <meta name="theme-color" content="#0e0f12">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Intelligensiatok">
+  <meta property="og:title" content="Intelligensiatok">
+  <meta property="og:description" content="A vertical feed of reviewed ideas. One concept at a time, with sources.">
+  <meta property="og:type" content="website">
+  <title>Intelligensiatok</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="app.css">
+  <script>
+    try {
+      var storedTheme = localStorage.getItem("intelligensiatok.theme");
+      if (storedTheme === "light" || storedTheme === "dark") {
+        document.documentElement.dataset.theme = storedTheme;
+      }
+    } catch (error) {}
+  </script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <header class="topbar">
+    <button type="button" id="theme-btn" class="icon-btn" aria-label="Toggle colour theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2.2M12 18.8V21M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M3 12h2.2M18.8 12H21M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/><circle cx="12" cy="12" r="3.2"/></svg>
+    </button>
+    <h1 class="brand">Intelligensiatok</h1>
+    <button type="button" id="subjects-btn" class="text-btn">Subjects</button>
+  </header>
+
+  <main id="feed" class="feed" tabindex="0" aria-label="Idea feed"></main>
+
+  <dialog id="deeper-dialog" aria-labelledby="deeper-title"></dialog>
+
+  <dialog id="subjects-dialog" aria-labelledby="subjects-title">
+    <div class="sheet">
+      <div class="sheet-bar">
+        <h2 id="subjects-title">Subjects</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div id="subject-list" class="chips"></div>
+      <div class="sheet-actions">
+        <button type="button" id="export-json">Export JSON</button>
+        <button type="button" id="export-md">Export Markdown</button>
+        <label class="file-btn">Import<input id="import-file" type="file" accept="application/json,.json"></label>
+        <button type="button" id="clear-saved">Clear saved</button>
+        <button type="button" id="about-btn">How this works</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="sheet">
+      <div class="sheet-bar">
+        <h2 id="about-title">How this works</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="prose">
+        <p>Intelligensiatok is a shelf of ideas, one full screen at a time. Each card is written by a field agent. It appears here only after a reviewer has checked the claims and the sources.</p>
+        <p>The badge is that review. Open a card and read the notes, the confidence, and any correction that was made. If a claim matters to your work, follow the sources.</p>
+        <p>Scroll, or use the arrow keys. Save keeps a post on this device. Share copies a stable link for that post. Go deeper opens the longer note and a worked example.</p>
+        <p>Saved posts stay in this browser. Export them as JSON or Markdown if you want a copy, then import that file on another device or commit it to the <code>saved/</code> folder in the repository. Nothing is uploaded on its own.</p>
+        <h3>Keys</h3>
+        <ul>
+          <li>J and K, or the arrow keys, move between cards.</li>
+          <li>F saves. D opens the deeper note. C copies the link.</li>
+          <li>A opens subjects. T toggles the theme. Escape closes a panel.</li>
+        </ul>
+        <h3>On a phone</h3>
+        <p>In Safari, use Share, then Add to Home Screen. In Chrome, use the browser menu and install the app. After the first visit the feed is cached, so a card you have already loaded still opens without a connection.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <noscript><p class="noscript">Intelligensiatok needs JavaScript to show the feed. Open it in a browser with JavaScript enabled.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "bayes-theorem",
+  "field": "statistics",
+  "title": "A positive test is not the chance you are ill",
+  "hook": "Bayes’ theorem is a rule for updating a prior. Skip the base rate and a rare condition will look common every time the test lights up.",
+  "body": "Bayes' theorem says how to revise the probability of a hypothesis after you see evidence. In symbols, P(H|E) = P(E|H) P(H) / P(E). The vertical bar means 'given.' P(H) is the probability you assigned to the hypothesis before the evidence. P(E|H) is the probability of the evidence if the hypothesis is true. P(E) is the probability of the evidence altogether, including the cases where the hypothesis is false.\n\nThe last term is where intuition slips. A test can be right most of the time it is used on a sick person and still be wrong about most of the people it flags, if the sickness is rare and the test sometimes flags healthy people. The false alarms, each small, are multiplied by a large healthy population. They can outnumber the true alarms. The theorem is not a medical opinion. It is the arithmetic of that mix.",
+  "deeper": "The theorem itself is a short consequence of the definition of conditional probability, written down by Thomas Bayes in the eighteenth century and developed by Laplace. The arguments start when people disagree about the prior, P(H), or about how likely the evidence was under each story. In a diagnostic test the prior can be a frequency in a population, and the arithmetic is then uncontroversial if the frequencies are known. In a scientific dispute the prior may be a judgement, and two careful people can update in the same way from different starting points and still disagree.\n\nWhat the theorem forbids is ignoring the starting point. 'The test is 90 percent accurate' does not have a meaning you can act on until you say accurate at what, and how common the condition is. The Stanford Encyclopedia's entry on Bayes' theorem and MathWorld's statement are the clean formal references. A worked population is the way to see the mechanism.",
+  "example": "In a group of 10,000 people, 1 percent have a condition: 100 people. A test catches 90 of those 100. Of the 9,900 without the condition, 5 percent test positive: 495 people. Positive results in total: 90 + 495 = 585. If you are one of the 585, the chance you have the condition is 90/585, about 15 percent. The test's 90 percent detection rate never became your 90 percent. It was diluted by 495 false alarms. Make the condition rarer and the dilution gets worse. Improve the false-alarm rate and it gets better. Both numbers have to be in the sentence.",
+  "sources": [
+    {
+      "title": "Bayes’ Theorem, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/"
+    },
+    {
+      "title": "Bayes’ Theorem, Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/BayesTheorem.html"
+    },
+    {
+      "title": "Bayes’ theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.97,
+    "notes": "The update formula matches the standard statement. The screening arithmetic was recomputed: 90 true positives, 495 false positives, 90/585 ≈ 15.4 percent. The card does not call that figure a property of any real clinical test.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

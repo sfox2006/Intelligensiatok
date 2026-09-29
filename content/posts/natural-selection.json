@@ -1,0 +1,34 @@
+{
+  "id": "natural-selection",
+  "field": "biology",
+  "title": "Heritable variants that leave more offspring become common",
+  "hook": "Natural selection is a filter on variation that already exists. The variation is undirected. The filter is not a coin toss.",
+  "body": "Three conditions do the work. Individuals vary. Some of that variation is heritable, so offspring resemble the parents that had it. And some variants leave more offspring than others, because of how they interact with the environment. If all three hold, the variants that reproduce better become a larger share of the next generation. That is natural selection. Charles Darwin and Alfred Russel Wallace both arrived at it. Darwin's On the Origin of Species (1859) is the book that laid out the case.\n\nMutation and recombination supply variation. They do not aim at what would be useful. Selection is the part that is not random: which variants spread depends on their consequences for survival and reproduction in that environment. 'Survival of the fittest' was Herbert Spencer's phrase, and it is easy to turn into a tautology. The content is differential reproductive success of heritable variants, which you can in principle measure.",
+  "deeper": "Selection is not the only process that changes the frequency of a variant. Drift, the luck of finite numbers, matters more when populations are small. Migration moves variants between populations. A trait can spread because it is tied to another trait that selection favours. And 'the fittest' is not a moral rank. It is a count of offspring in a stated environment, which can change when the environment changes.\n\nDarwin did not know Mendel's mechanism of inheritance, which is why his account of how variation is passed on is the dated part of the book. The twentieth century joined genetics to selection in what biologists call the modern synthesis. The conditions above are still the ones to check when someone claims that a trait 'evolved for' a purpose. Purpose is a description you earn after the differential reproduction is shown, not a substitute for it.",
+  "example": "A population of beetles includes a heritable shade difference, dark and light, on a pale sandy background. Birds eat the beetles they see. Light beetles are eaten less often and, on average, leave more offspring. The next generation has a higher fraction of light beetles, even though nobody needed a new mutation that year and no beetle tried to change colour. Move the same population onto dark volcanic soil and the advantage can reverse. The filter changed. The inheritance did not suddenly become random, and it did not suddenly become a plan.",
+  "sources": [
+    {
+      "title": "Charles Darwin, On the Origin of Species (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/1228"
+    },
+    {
+      "title": "Natural selection, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Natural_selection"
+    },
+    {
+      "title": "18.1 Understanding Evolution, Biology 2e (OpenStax)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "The three conditions match the standard statement of natural selection and Darwin’s argument in the Origin. The card separates selection from mutation, names Wallace, and does not treat ‘survival of the fittest’ as Darwin’s definition.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

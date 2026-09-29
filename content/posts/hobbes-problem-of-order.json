@@ -1,0 +1,34 @@
+{
+  "id": "hobbes-problem-of-order",
+  "field": "politics",
+  "title": "Hobbes’s question is what happens with no common power",
+  "hook": "Leviathan is not a travel report from prehistory. It is an argument about why rules need someone who can enforce them.",
+  "body": "Thomas Hobbes, writing Leviathan in 1651, asks you to consider people who are roughly equal in vulnerability, who want safety and the means to live, and who have no common power over them. In that condition, he argues, you cannot safely specialise, trust a promise, or leave anything you value unguarded. Anticipating that others will reason the same way, you prepare for conflict. He calls the result a war of every person against every person. The famous phrase is an argument, not a diary of early human life.\n\nHis proposed exit is a covenant that authorises a sovereign powerful enough to make the rules stick. People give up the private right to judge every dispute, because that right, held by everyone at once, is what made the promises empty. The sovereign is frightening on purpose. Hobbes thinks the alternative he has described is worse.",
+  "deeper": "The state of nature is a thought experiment with stated conditions: no common power, rough equality, and goods that cannot be enjoyed securely. It is not a claim that archaeologists should expect permanent war in every society without a king. Anthropologists have spent a long time on societies that keep order without a Hobbesian state. That evidence does not, by itself, answer Hobbes's narrower question about what happens when there is no effective enforcement at all.\n\nLater political theory argues with him about the shape of the exit. Locke wants a government that can be resisted when it becomes the threat. Hobbes is much more afraid of the collapse back into private judgement than of an overbearing sovereign. Reading him well means keeping those priorities visible, and not quoting 'nasty, brutish, and short' as if it were a finding about the Stone Age.",
+  "example": "Two neighbours would both be better off if each left the harvest unguarded and did a full day's work. Each also knows that an unguarded harvest can be taken, and that the other knows it. If there is no third party who will reliably punish theft, the safer private plan is to guard, or to steal first. Both end up poorer. A sovereign, in Hobbes's design, changes the payoffs by making the theft costly enough that the cooperative plan is privately safe. Whether any actual state does this, or preys instead, is the argument Locke presses. Hobbes's example is about the structure of the problem, not a warrant for any particular government.",
+  "sources": [
+    {
+      "title": "Thomas Hobbes, Leviathan (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/3207"
+    },
+    {
+      "title": "Hobbes’s Moral and Political Philosophy, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/hobbes-moral/"
+    },
+    {
+      "title": "Thomas Hobbes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The state-of-nature argument and the 1651 date of Leviathan match the Gutenberg text and the Stanford Encyclopedia entry. The card explicitly refuses the reading on which Hobbes was doing anthropology.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

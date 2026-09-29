@@ -1,0 +1,36 @@
+{
+  "id": "infinitude-of-primes",
+  "field": "mathematics",
+  "title": "There is no last prime number",
+  "hook": "Euclid’s proof does not say that one plus the product of the primes you listed is itself prime. It says that product-plus-one has a prime factor you missed.",
+  "body": "A prime number is an integer greater than 1 whose only positive divisors are 1 and itself. Euclid's Elements, Book IX, Proposition 20, proves that there are more primes than any finite list you can write down. Suppose the list p1, p2, ..., pk is every prime. Form N = p1 times p2 times ... times pk, plus 1. N is bigger than 1, so it has some prime factor. That factor cannot be any pi on the list, because dividing N by pi leaves a remainder of 1. So there is a prime that was not on the list. The supposition that the list was complete is false.\n\nThe proof never claims that N itself is prime. Often it is not. Two times three times five times seven times eleven times thirteen, plus one, equals 30031, and 30031 is 59 times 509. Both 59 and 509 are primes that were not in the opening list. That is all the argument needed.",
+  "deeper": "The result is that the primes do not run out. It is not a recipe for generating the next prime, and it is not a statement about how dense the primes are. Much later mathematics, from Euler's product for the Riemann zeta function through the prime number theorem, describes that density. Euclid's proposition is earlier and more elementary, which is why it is still the right first proof.\n\nThe common slip, repeated in popular accounts, is to check a few cases where the product plus one happens to be prime (2+1, 2 times 3 plus 1, and so on) and to think the proof says this always happens. The fifth primorial-plus-one is already composite if you start from a longer list, and the proof is unbothered. David Joyce's online edition of the Elements states Proposition IX.20 in Euclid's form. Reading one translation alongside that slip is the whole lesson.",
+  "example": "Start with the list 2, 3, 5. The product plus one is 31, which is prime, so this particular case does hand you a new prime directly. Start with 2, 3, 5, 7, 11, 13. The product is 30030, plus one is 30031. Divide by 59: 59 times 509 is 30031. Neither 59 nor 509 was on the list, so the list was incomplete, exactly as the proof said, even though 30031 is not prime. If someone tells you Euclid proved that 'the product of the first k primes, plus one, is always prime,' the number 30031 is a sufficient reply.",
+  "sources": [
+    {
+      "title": "Euclid’s Elements, Book IX, Proposition 20 (David Joyce)",
+      "url": "https://mathcs.clarku.edu/~djoyce/java/elements/bookIX/propIX20.html"
+    },
+    {
+      "title": "Euclid’s theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euclid%27s_theorem"
+    },
+    {
+      "title": "Euclid’s Theorems, Wolfram MathWorld",
+      "url": "https://mathworld.wolfram.com/EuclidsTheorems.html"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.98,
+    "notes": "Proposition IX.20 was checked against Joyce’s edition of the Elements. The composite example was recomputed: 2×3×5×7×11×13+1 = 30031 = 59×509. The card corrects the common claim that N itself must be prime.",
+    "corrections": [
+      "The proof does not claim that one plus the product of the listed primes is prime. The published text says only that this number has a prime factor off the list, and gives 30031 = 59×509 as a counterexample to the stronger claim."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

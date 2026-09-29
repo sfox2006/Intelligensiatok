@@ -1,0 +1,30 @@
+{
+  "id": "le-chatelier",
+  "field": "chemistry",
+  "title": "A system at equilibrium pushes back",
+  "hook": "Le Chatelier’s principle says which way an equilibrium shifts. It does not say how fast, and a catalyst does not change the answer.",
+  "body": "Henri Le Chatelier stated the idea in the 1880s. If a system at equilibrium is disturbed by a change in concentration, pressure, or temperature, it shifts in the direction that partly counteracts the disturbance. Add more of a reactant and the system makes more product. Squeeze a gas mixture and it shifts toward the side with fewer moles of gas. Heat an equilibrium and it shifts in the endothermic direction, the direction that absorbs heat.\n\nThe principle is qualitative. It tells you the direction of the shift, not the new concentrations, and not the time required. It also does not say the disturbance is completely undone. Add reactant and some of the addition is consumed, not all of it. A catalyst speeds the forward and reverse reactions by the same factor. Equilibrium arrives sooner and sits in the same place. Anyone who adds a catalyst expecting a new equilibrium has asked the principle to do a job it does not do.",
+  "deeper": "The ammonia synthesis is the standard illustration, and it is worth keeping the names straight. Nitrogen and hydrogen form ammonia: N₂ + 3H₂ ⇌ 2NH₃, with heat released. Four moles of gas become two, so higher pressure shifts the equilibrium toward ammonia. Because the reaction is exothermic, a lower temperature also favours ammonia, but the reaction is then painfully slow. Industrial Haber–Bosch plants use high pressure, a compromise temperature, and a catalyst. Le Chatelier did not invent that process. Fritz Haber and Carl Bosch did, later. They were using equilibrium logic he had helped make obvious.\n\nOpenStax Chemistry 2e, section 13.3, states the principle with these cases. The failure mode in student problems is almost always the catalyst, or a pressure change in a reaction where the number of gas moles does not change. If both sides have the same number of gas molecules, squeezing does not pick a side.",
+  "example": "Start with the ammonia equilibrium at a fixed temperature. Double the pressure by compressing the vessel. The mixture shifts toward ammonia, the side with fewer gas molecules, which brings the total pressure back down a little, not all the way. The new equilibrium has a higher mole fraction of ammonia. Now add a catalyst and change nothing else. The approach to that same equilibrium speeds up. The mole fraction you were heading toward does not move. Finally, raise the temperature. Because making ammonia releases heat, the hotter equilibrium contains less ammonia, even though the reaction is faster. Speed and position are different knobs.",
+  "sources": [
+    {
+      "title": "13.3 Shifting Equilibria: Le Châtelier’s Principle, Chemistry 2e (OpenStax)",
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle"
+    },
+    {
+      "title": "Le Chatelier’s principle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Le_Chatelier%27s_principle"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "The direction of shifts for concentration, pressure, and temperature, and the fact that a catalyst does not move the equilibrium, match OpenStax Chemistry 2e section 13.3. The ammonia equation is the standard illustration. Haber–Bosch is not attributed to Le Chatelier.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

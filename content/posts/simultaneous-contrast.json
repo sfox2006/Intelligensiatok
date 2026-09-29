@@ -1,0 +1,30 @@
+{
+  "id": "simultaneous-contrast",
+  "field": "art",
+  "title": "A colour changes when its neighbour changes",
+  "hook": "Michel-Eugène Chevreul, a chemist at the Gobelins tapestry works, showed that some complaints about dyes were complaints about vision.",
+  "body": "Simultaneous contrast is the shift in a colour's appearance caused by a colour next to it, at the same time. A grey patch looks lighter on a black ground than on a white one. A colour pushes its neighbour toward the complementary hue: a grey beside green looks faintly reddish, a grey beside red looks faintly greenish. The dye did not change. The comparison did.\n\nChevreul was director of dyes at the Gobelins manufactory in Paris. Weavers complained that some blacks and some colours looked dull or wrong depending on the threads beside them. He showed that the chemistry was often fine and the perception was lawful. His book, De la loi du contraste simultané des couleurs, appeared in 1839. Painters, including Georges Seurat later in the century, read him. The result is a piece of physiology that arrived through a factory.",
+  "deeper": "Chevreul distinguished simultaneous contrast from successive contrast, which is the afterimage you see after staring at a colour and looking away. Simultaneous contrast happens while both colours are in view. It is not a small effect confined to a laboratory grey. Textile design, painting, and any interface that puts a coloured badge on a coloured ground are inside it. Two brands can use the same ink and look different because the field around the ink differs.\n\nThe principle does not say that colour is an illusion and therefore arbitrary. It says appearance is relational. If you care about the appearance, you have to specify the neighbour. Chevreul's practical advice to the weavers was about choosing combinations that would still look like the intended colour once the neighbours were present. That is a more useful moral than 'colour isn't real.' The chemistry of the dye and the physiology of the edge are both real, and they answer different complaints.",
+  "example": "Cut two squares from the same grey paper. Place one on a black sheet and one on a white sheet. The grey on black looks lighter. Nothing about the paper changed between the two placements, which you can check by swapping them and watching the appearance move with the ground rather than with the piece of paper. Then place a small grey square on a strong green. The grey takes on a rosy cast. Place the same square on a strong red and the cast goes the other way. A tapestry weaver seeing a black look brownish next to a blue has the same kind of problem Chevreul was hired to solve. Re-dyeing the black is the wrong first experiment. Changing, or accounting for, the neighbour is the right one.",
+  "sources": [
+    {
+      "title": "Michel Eugène Chevreul, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul"
+    },
+    {
+      "title": "Simultaneous contrast, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Simultaneous_contrast"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.91,
+    "notes": "Chevreul’s role at the Gobelins and the 1839 book on simultaneous contrast match the standard account. The grey-on-black versus grey-on-white demonstration is the usual classroom illustration of lightness contrast. Seurat is named as a later reader, not as a pupil.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

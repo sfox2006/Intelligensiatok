@@ -1,0 +1,30 @@
+{
+  "id": "matthew-effect",
+  "field": "sociology",
+  "title": "Credit in science tends to flow to the already known",
+  "hook": "Robert Merton named it after a verse in Matthew: to those who have, more will be given. He was talking about reputation, not money alone.",
+  "body": "In a 1968 paper in Science, Merton argued that the reward system of science does not only pay for the work. It pays an extra dividend to people who are already eminent. When a famous scientist and a less famous one make a similar contribution, the famous one tends to get a larger share of the recognition. The gap then compounds. Invitations, students, the benefit of the doubt in a dispute, and the chance to do the next visible piece of work flow toward the name people already know.\n\nHe called this the Matthew effect, after the Gospel line about more being given to those who have. The interviews he drew on, conducted by Harriet Zuckerman with Nobel laureates, were full of scientists describing exactly that tilt, sometimes as beneficiaries and sometimes as the people whose early work had been overlooked until a bigger name touched it.",
+  "deeper": "The mechanism is not a conspiracy and it is not only unfairness, though it is often unfair. Readers use reputation as a filter because they cannot read everything. A famous co-author is easier to remember than the junior partner. Journals and prize committees are made of readers. The filter then changes the future, because recognition buys time and collaborators. Merton's point is that a system which looks like it rewards contributions one by one can still produce cumulative advantage.\n\nLater work has looked for the effect in citations, hiring, and funding, with mixed sizes and plenty of argument about measurement. The 1968 paper is not a claim that every prize is undeserved, or that unknown scientists never break through. It is a claim about a bias in the allocation of credit, strong enough that the history of who 'made' a discovery is a poor photograph of who did the work.",
+  "example": "Two labs publish similar findings a few months apart. The lab led by a prizewinner is cited as the one that 'showed' the result. The other is cited, if at all, as 'see also.' Next year the prizewinner's lab is asked to write the review, which cites its own paper first, and a student who wants to enter the field writes to that lab. The second lab's paper was not worse. The returns went to the name that already organised other people's attention. Merton's effect is that loop. It can start from a genuine early difference and then run far past it.",
+  "sources": [
+    {
+      "title": "Robert K. Merton, “The Matthew Effect in Science,” Science (1968)",
+      "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+    },
+    {
+      "title": "Matthew effect, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Matthew_effect"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The PDF is Merton’s Science paper, volume 159, pages 56–63, 5 January 1968, and it discusses Zuckerman’s interviews with Nobel laureates. The card stays with the credit-allocation claim and does not invent a measured size for the effect.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

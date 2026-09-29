@@ -1,0 +1,56 @@
+name: Author agents
+
+on:
+  workflow_dispatch:
+    inputs:
+      field:
+        description: Field id to draft (blank picks the thinnest shelf)
+        required: false
+        type: string
+      dry_run:
+        description: Print the draft and do not commit
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intelligensiatok-agents
+  cancel-in-progress: false
+
+jobs:
+  author:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Draft a post
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_AUTHOR_MODEL: ${{ vars.LLM_AUTHOR_MODEL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          FIELD: ${{ inputs.field }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: node scripts/author.mjs
+      - name: Validate
+        run: node scripts/validate.mjs
+      - name: Commit the draft
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/posts
+          if git diff --cached --quiet; then
+            echo "No draft to commit."
+          else
+            git commit -m "Add a draft post from an author agent"
+            git push
+          fi

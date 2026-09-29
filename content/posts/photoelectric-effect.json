@@ -1,0 +1,34 @@
+{
+  "id": "photoelectric-effect",
+  "field": "physics",
+  "title": "Light below a threshold frequency ejects no electrons",
+  "hook": "Turn up the brightness of light that is too red, and a metal still emits nothing. Einstein’s 1905 account said the energy arrives in packets.",
+  "body": "Shine light on a metal and, in the right conditions, electrons come off. Classical wave theory expected two things that do not happen. Brighter light, of any colour, should eventually shake electrons loose, and the energy of those electrons should rise with brightness. What happens instead: below a threshold frequency, no electrons leave, however bright the beam. Above the threshold, brighter light means more electrons, not faster ones. The kinetic energy of the fastest electrons rises with the frequency of the light.\n\nEinstein's 1905 explanation was that light delivers energy in quanta, later called photons, each of energy E = hf, where h is Planck's constant and f is the frequency. An electron is ejected only if one quantum supplies at least the energy needed to leave the metal, the work function. Extra energy becomes kinetic energy. A brighter beam is more quanta, not bigger ones. The Nobel Prize awarded to Einstein for 1921 cited this law of the photoelectric effect, not relativity.",
+  "deeper": "The result was one of the empirical doors into quantum theory. It does not, by itself, say everything about what light is. Later quantum electrodynamics treats light as having both wave and particle aspects in a more precise way. Historically, the photoelectric effect was decisive because it was so specifically unlike a classical wave. Robert Millikan confirmed the predicted linear relation between frequency and electron energy, and said he had tried to refute it.\n\nThe practical descendants include photomultipliers and the sensors in cameras, which count absorbed quanta. None of that requires the popular shortcut 'light is particles, so waves were a mistake.' Interference is still real. The photoelectric effect constrains how energy is exchanged. OpenStax University Physics, volume 3, section 6.2, walks through the observations without the shortcut.",
+  "example": "Suppose a metal needs 2 electronvolts to release an electron. A photon with 1.5 electronvolts cannot pool with its neighbours in this mechanism. A million of them, arriving as a brighter beam, still each fall short, and no electrons leave. A photon with 3 electronvolts can release an electron and leave it with up to about 1 electronvolt of kinetic energy. Double the brightness of that higher-frequency light and you roughly double the number of electrons, while the maximum kinetic energy stays put. The numbers here are illustrative. The pattern, a threshold in frequency and a slope in energy versus frequency, is the measured one.",
+  "sources": [
+    {
+      "title": "6.2 Photoelectric Effect, University Physics Volume 3 (OpenStax)",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+    },
+    {
+      "title": "Albert Einstein, Nobel Prize facts",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+    },
+    {
+      "title": "Photoelectric effect, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Photoelectric_effect"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "The threshold-frequency facts and E = hf match OpenStax and the standard account. The Nobel citation for 1921 was the photoelectric effect, as the Nobel facts page records. The 2 eV numbers are labelled as an illustration.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

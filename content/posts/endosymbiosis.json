@@ -1,0 +1,36 @@
+{
+  "id": "endosymbiosis",
+  "field": "biology",
+  "title": "Mitochondria were once free-living bacteria",
+  "hook": "The cell’s power stations have their own DNA and divide on their own. Lynn Margulis argued that they used to be independent organisms. On that point she was right.",
+  "body": "Eukaryotic cells, the kind in animals, plants, fungi, and a great many microbes, contain mitochondria. Those organelles make most of the cell's usable energy. They also have a small circular genome, their own ribosomes, and they divide by fission inside the cell. Chloroplasts, which do photosynthesis in plants and algae, have the same odd résumé.\n\nThe endosymbiotic explanation is that these organelles descend from bacteria that took up residence inside a host cell and were not digested. Over a very long time the guests lost the ability to live alone, and the host came to depend on them. Lynn Margulis pressed this case from the late 1960s, when it was widely dismissed. Sequence comparisons later put it on firm ground: mitochondrial genes sit with bacterial lineages, not with the genes of the surrounding cell's nucleus. The University of California Museum of Paleontology's history of the idea is a clear account of that reversal.",
+  "deeper": "The original argument was broader than the part that stuck. Margulis also proposed an endosymbiotic origin for the eukaryotic flagellum. That part is not the consensus. The evidence that convinced people about mitochondria and chloroplasts, a genome, a double membrane, division by fission, and a phylogenetic tree, is exactly what the flagellum does not have. A good idea about two organelles is not a method that turns every complicated structure into a former bacterium.\n\nThere is also a direction of dependence worth noticing. Human mitochondrial DNA is a tiny remnant. Many of the proteins mitochondria use are now encoded in the nucleus and imported. The guest is not a little animal living in a room. It is a highly reduced descendant of one, genetically entangled with the host. 'Were once bacteria' is the accurate tense.",
+  "example": "A chloroplast still looks, in cross-section, like a cyanobacterium inside a membrane. It has its own DNA, and that DNA groups with cyanobacteria when you build a tree, rather than with the plant's nuclear genes. The plant cannot photosynthesise without the chloroplast, and the chloroplast cannot live on a petri dish. That mutual dependence is the evolved endpoint, not the starting arrangement. The starting arrangement, on this evidence, was an engulfment that did not end in dinner. The flagellum, by contrast, has no genome to build such a tree from, which is why the same story is not told about it.",
+  "sources": [
+    {
+      "title": "Endosymbiosis: Lynn Margulis, Understanding Evolution (UC Berkeley)",
+      "url": "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1900-to-present/endosymbiosis-lynn-margulis/"
+    },
+    {
+      "title": "Endosymbiotic theory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Endosymbiotic_theory"
+    },
+    {
+      "title": "Lynn Margulis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lynn_Margulis"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "Mitochondria and chloroplasts as bacterial endosymbionts match the Berkeley evolution site and the standard theory. The card excludes Margulis’s endosymbiotic account of the flagellum, which is not accepted.",
+    "corrections": [
+      "Did not extend the theory to the eukaryotic flagellum. That was part of Margulis’s broader case and is not the consensus; the published text limits the claim to mitochondria and chloroplasts."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

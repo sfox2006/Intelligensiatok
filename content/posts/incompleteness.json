@@ -1,0 +1,30 @@
+{
+  "id": "incompleteness",
+  "field": "mathematics",
+  "title": "Some arithmetic truths are not provable inside the system",
+  "hook": "Gödel’s first incompleteness theorem is a precise limit on formal proofs. It is not a slogan about truth being impossible.",
+  "body": "In 1931 Kurt Gödel proved a theorem about formal systems that are strong enough to talk about basic arithmetic of the natural numbers. If such a system is consistent, meaning it does not prove a contradiction, then it is incomplete. There is a statement in its language that is true in the ordinary sense of arithmetic and that the system does not prove. The system cannot be both consistent and complete for that arithmetic.\n\nThe second incompleteness theorem is the sharper political fact inside mathematics. A consistent system of this kind cannot prove its own consistency. You can prove the consistency of a weaker system by stepping outside it and using stronger methods. You cannot, from inside, finish the job with the system's own rules and still be sure, by those rules alone, that the system is consistent. 'Sure' here means a formal proof, not a feeling of confidence.",
+  "deeper": "The popular retellings go wrong in a few standard ways. Gödel did not show that mathematics is contradictory. Consistency is an assumption of the first theorem, and the conclusion is incompleteness, which is a different fault. He did not show that nothing can be known, or that proof is useless. Arithmetic still proves infinitely many things. He showed that truth in the standard model of arithmetic outruns what any one such formal system can derive.\n\n'Strong enough' is a real hypothesis. A very weak system can be complete for the small language it has, and useless for general arithmetic. The theorem is about systems that can represent the basic operations and reasoning we actually use with whole numbers. The Stanford Encyclopedia's entry on the incompleteness theorems is the right place to see the hypotheses stated with care. The 1931 paper is the primary text. Neither says that reason has collapsed.",
+  "example": "Think of a rulebook for proving claims about whole numbers, powerful enough to do ordinary arithmetic and consistent in fact. Gödel's construction builds, from the rulebook, a sentence that in effect says 'this sentence is not provable in this rulebook.' If the rulebook proved that sentence, it would be proving something false, and a system that proves a false arithmetic sentence of this kind is inconsistent. So, if it is consistent, it does not prove the sentence. But then the sentence is true: it really is not provable. Truth and provability-in-this-one-system come apart for that sentence. A different, stronger rulebook might prove it. That stronger book then has a sentence of its own.",
+  "sources": [
+    {
+      "title": "Gödel’s Incompleteness Theorems, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/"
+    },
+    {
+      "title": "Gödel’s incompleteness theorems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "The statement follows the Stanford Encyclopedia: a consistent formal system capable of basic arithmetic is incomplete, and such a system cannot prove its own consistency. The card explicitly rejects the claim that Gödel showed mathematics to be contradictory.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

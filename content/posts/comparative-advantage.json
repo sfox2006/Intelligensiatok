@@ -1,0 +1,34 @@
+{
+  "id": "comparative-advantage",
+  "field": "economics",
+  "title": "Trade can pay when one side is better at both things",
+  "hook": "Absolute advantage is about who uses fewer hours. Comparative advantage is about who gives up less.",
+  "body": "David Ricardo's 1817 illustration is still the cleanest. Suppose England needs 100 hours of labour to make a unit of cloth and 120 to make a unit of wine. Portugal needs 90 for cloth and 80 for wine. Portugal uses fewer hours for both. It has an absolute advantage in each.\n\nComparative advantage looks at the alternative. England's cloth costs 100/120 of a unit of wine, about five-sixths. Portugal's cloth costs 90/80, which is more than a unit of wine. England gives up less wine to make cloth, so England has the comparative advantage in cloth. Portugal gives up less cloth to make wine. If each specialises toward the lower opportunity cost, both can consume more than they could alone. The result is about relative costs, not about one country being generally more productive.",
+  "deeper": "Ricardo's numbers are an illustration, not a census of English and Portuguese workshops. The logic needs a few assumptions: the goods can be traded, labour can move between the two industries at home, and we are comparing two goods. Later theory (Heckscher–Ohlin and what followed) relocates the source of the cost difference in factor endowments. The opportunity-cost point survives the change of scenery.\n\nA gain for the country in the model is not a gain for every person in the country. The industry that shrinks loses, and the model says nothing automatic about compensation. It also says nothing about bargaining power, transport costs, or goods that are not rival consumption goods. Those are real limits. They are not the same claim as 'trade only helps if you are the best at something.'",
+  "example": "Leave the hours as Ricardo stated them. England's opportunity cost of 1 wine is 120/100 = 1.2 cloth. Portugal's opportunity cost of 1 wine is 80/90, about 0.89 cloth. Portugal is the lower-cost producer of wine in terms of cloth forgone, even though Portugal is also the lower-cost producer of cloth in terms of hours. A deal in which England ships cloth and Portugal ships wine can be priced so that each gives up less than it would have spent producing the import itself. Any price of wine, in units of cloth, between 0.89 and 1.2 leaves both sides ahead of making both goods at home.",
+  "sources": [
+    {
+      "title": "David Ricardo, On the Principles of Political Economy and Taxation (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/33310"
+    },
+    {
+      "title": "Comparative advantage, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+    },
+    {
+      "title": "David Ricardo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Ricardo"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.96,
+    "notes": "Ricardo's labour figures (England 100 and 120, Portugal 90 and 80) are the ones in the Principles. The opportunity-cost arithmetic was recomputed. The card labels the numbers as an illustration and separates national gains from individual gains.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}
