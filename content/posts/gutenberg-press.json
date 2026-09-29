@@ -1,0 +1,32 @@
+{
+  "id": "gutenberg-press",
+  "field": "history",
+  "title": "Europe’s printing boom started in Mainz, and not from nothing",
+  "hook": "Gutenberg’s Bible, finished around 1455, is the famous object. Movable metal type was already in use in Korea.",
+  "body": "Johannes Gutenberg, working in Mainz, combined movable metal type, an oil-based ink, and a press adapted from wine and paper technology into a process that could produce a book in many consistent copies. The Gutenberg Bible was completed in the middle of the 1450s. Within a few decades, presses were operating in cities across Europe. The change in the cost and speed of copying, relative to a scribe, was enormous.\n\nHe did not invent printing, and he did not invent movable type. Woodblock printing is much older, especially in East Asia. Metal movable type was used in Korea before Gutenberg; the Jikji, a Buddhist book, was printed with it in 1377. What began in Mainz was the European industry: a cluster of techniques that spread fast through a continent of competing towns, in the alphabet Gutenberg was casting.",
+  "deeper": "The interesting historical question is the spread, not the portrait of a lone genius. A press is a workshop. Typefounding, paper, and a market of readers have to move together. Europe's political fragmentation meant a printer in trouble in one city could often set up in another, which is a poor way to suppress a technology and a good way to diffuse it. The association with the Reformation is real and easy to overstate. Print came before Luther, and it carried indulgences and liturgies as well as protests. It changed who could address a public. It did not dictate what the public would decide.\n\nDates are firmer for the Bible than for the first experiments. 'Around 1455' is the honest precision for the book. 'Gutenberg invented printing in 1440' is a slogan with a false verb and a shaky year.",
+  "example": "A scribe copying a Bible produces one Bible, and the next copy starts again, errors included or newly made. A compositor sets a page once. The press can then pull hundreds of copies of that page before the type is needed for another. The saving is in the repeat, not in the first setting, which is slow. That arithmetic is why a short pamphlet, printed in a large run, became a different political object from a manuscript copied for a patron. It is also why a typesetting error becomes a mass-produced error. Consistency cuts both ways.",
+  "sources": [
+    {
+      "title": "Johannes Gutenberg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+    },
+    {
+      "title": "Jikji, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jikji"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.92,
+    "notes": "The Gutenberg Bible is placed in the mid-1450s, and the Jikji of 1377 is cited so the card does not claim Gutenberg invented movable type. Woodblock printing is acknowledged as older still.",
+    "corrections": [
+      "Removed the claim that Gutenberg invented printing or movable type. Metallic movable type was used in Korea earlier; the card credits him with the process that spread through Europe."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

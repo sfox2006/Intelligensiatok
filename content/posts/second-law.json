@@ -1,0 +1,34 @@
+{
+  "id": "second-law",
+  "field": "physics",
+  "title": "Heat does not, by itself, flow uphill",
+  "hook": "The second law is about isolated systems. A living thing stays orderly by exporting entropy, not by cancelling the law.",
+  "body": "One classical statement, due to Clausius, is that heat does not spontaneously pass from a colder body to a hotter one. Kelvin's statement is that you cannot build an engine that turns heat entirely into work, in a cycle, with no other effect. The modern summary uses entropy: in an isolated system, entropy does not decrease. The statements are equivalent. They all say that some processes run one way and not the reverse, even when energy is conserved.\n\nThe first law is a conservation law. It would allow a cup of tea to get hotter while the room gets colder, if the energy books balanced. The second law is why that does not happen on its own. You can move heat from cold to hot, which is what a refrigerator does, but only by doing work and dumping even more heat somewhere else. The refrigerator plus the kitchen is not a counterexample. It is the law in action.",
+  "deeper": "Entropy is not a mood called disorder, though that metaphor sometimes helps. In statistical mechanics it tracks how many microscopic arrangements correspond to a macroscopic state. Systems tend to evolve toward states that can happen in more ways. That is a tendency of isolated systems, with a probability so close to certainty for anything large that we treat it as a law.\n\nEarth is not an isolated system. It receives a stream of energy from the Sun and radiates energy to space. A cell takes in low-entropy food and dumps heat and waste. Local order can increase. The books are kept by the surroundings. OpenStax's University Physics treats the second law in its own chapter, and the encyclopedia articles on the second law and on entropy are the right companions if the word 'disorder' has started to do too much work.",
+  "example": "Two blocks, one hot and one cold, are placed in contact inside an insulated box. Energy flows from hot to cold until the temperatures match. The reverse, a spontaneous un-mixing back into hot and cold, is compatible with conservation of energy and is not observed. A refrigerator between them can make the cold block colder, but only while a motor runs and the coils at the back warm the room by more than the cold block lost. Turn the motor off and the spontaneous direction returns. Nothing in the example requires the blocks to be 'messy' or 'tidy.' It requires an isolated pair, and a direction.",
+  "sources": [
+    {
+      "title": "Ch. 4 Introduction, University Physics Volume 2 (OpenStax)",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/4-introduction"
+    },
+    {
+      "title": "Second law of thermodynamics, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+    },
+    {
+      "title": "Entropy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Entropy"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "Clausius and Kelvin statements and the entropy formulation match the standard presentation in OpenStax University Physics Volume 2, chapter 4, and the encyclopedia articles. The card is explicit that organisms are not isolated systems.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

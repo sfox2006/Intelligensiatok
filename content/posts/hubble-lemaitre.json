@@ -1,0 +1,36 @@
+{
+  "id": "hubble-lemaitre",
+  "field": "astronomy",
+  "title": "Nearby, redshift grows with distance",
+  "hook": "The Hubble–Lemaître law says a galaxy’s recession speed is roughly proportional to how far away it is. The constant in that sentence is still argued over.",
+  "body": "Look at a nearby galaxy's spectrum and the familiar lines are shifted toward the red. Interpreting that shift as a velocity, and comparing it with distance, gives a simple relation: velocity is approximately H0 times distance. H0 is the Hubble constant. Galaxies farther away recede faster. The usual reading is that space itself is expanding, so the wavelengths stretch with it, rather than that the galaxies are shells of debris flying through a static room from one explosion.\n\nGeorges Lemaître published an expanding-universe relation in 1927. Edwin Hubble's 1929 paper supplied the observational plot that made the relation famous. The International Astronomical Union now recommends the name Hubble–Lemaître law, which is a fair repair. Hubble did not discover that the universe had a beginning. Running the expansion backward is the root of Big Bang cosmology. That is a further inference, with its own evidence, not a caption on Hubble's graph.",
+  "deeper": "The law in that simple form is for relatively nearby galaxies, where the relationship looks linear. At large distances the expansion history is more complicated, and 'velocity' and 'distance' need careful definitions. There is also a live disagreement about the number H0. Measurements that start from the cosmic microwave background, the early universe, cluster around 67 kilometres per second per megaparsec. Measurements that start from nearby supernovae cluster around 73. The gap is larger than the quoted uncertainties. It is called the Hubble tension, and it is not yet settled which side, or which missing piece of physics, is the problem.\n\nA card that announces 'the' Hubble constant as one precise value is already out of date. A card that says the proportionality is real, the name has two parents, and the constant is in dispute at the level of several kilometres per second per megaparsec, is the one that will still be readable in a few years.",
+  "example": "Use 70 kilometres per second per megaparsec as a round teaching number, not as a verdict. A galaxy 10 megaparsecs away would then recede at about 700 kilometres per second. A galaxy 100 megaparsecs away, at about 7000. The factor of ten in distance is a factor of ten in speed, which is the whole content of the linear law. Shift the constant from 67 to 73 and those speeds move by about 10 percent. That is enough to matter for the age you infer by running the expansion backward, and not enough to threaten the fact of the expansion. The argument is about the number. The redshift-distance trend, for nearby galaxies, is not the thing in doubt.",
+  "sources": [
+    {
+      "title": "Hubble’s law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hubble%27s_law"
+    },
+    {
+      "title": "Georges Lemaître, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
+    },
+    {
+      "title": "The universe, NASA Science",
+      "url": "https://science.nasa.gov/universe/overview/"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.88,
+    "notes": "Lemaître 1927 and Hubble 1929 are correctly ordered. The approximate Hubble tension figures, about 67 versus about 73 km/s/Mpc, match the widely cited Planck and local-distance scales and are labelled as approximate and unresolved. The teaching product at 70 is explicitly not a measured verdict.",
+    "corrections": [
+      "Did not credit Hubble alone, and did not state a single settled value of H0. The published text names Lemaître’s 1927 relation and the current tension between roughly 67 and roughly 73 km/s/Mpc."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

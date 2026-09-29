@@ -1,0 +1,34 @@
+{
+  "id": "linear-perspective",
+  "field": "art",
+  "title": "Parallel lines meet at a point you choose",
+  "hook": "Brunelleschi demonstrated linear perspective in Florence in the early fifteenth century. The panel is lost. What survives is the geometry, written up by Alberti in 1435.",
+  "body": "Linear perspective is a method for constructing a picture so that lines which are parallel in the world, and perpendicular to the picture plane, converge to a vanishing point. Objects of equal size are drawn smaller as they recede, in a ratio fixed by the geometry of one viewpoint. The picture is what a single eye, at a single spot, would see projected onto a plane.\n\nFilippo Brunelleschi, in Florence in the early fifteenth century, demonstrated the method with panels of the Baptistery and the Palazzo Vecchio. The panels are lost. We know the demonstration from Antonio Manetti's biography, written later. Leon Battista Alberti's De pictura (1435) is the treatise that states the construction so a painter can carry it out: a horizon, a vanishing point, and a way of spacing the receding intervals. The geometry spread through European painting because it could be taught, not because everyone agreed it was the only honest way to paint.",
+  "deeper": "Perspective solves one problem, the consistent projection from one viewpoint. It does not solve every problem a picture has. A wide scene forces a choice of where the viewer stands, and the edges of a very wide view look stretched if you insist on one plane and one point. Medieval and many non-European traditions constructed space by other rules: stacked registers, oblique parallel lines that do not meet, or a focus organised by importance rather than by optics. Those are systems, not failed attempts at Alberti.\n\nThere is also a gap between the construction and the eye. We have two eyes, we move, and we do not experience the world as a perspective diagram. The diagram is a convention that matches a projection. It was a powerful convention for architecture, stage design, and painting that wanted that match. Calling it 'how humans see' is a step further than the geometry goes.",
+  "example": "Stand on a straight road. The edges of the road are parallel on the ground and appear to meet near the horizon, at the vanishing point. A row of equal lamp posts along the road should be drawn so that their tops and bases lie on lines meeting at that same point, and the gaps between them shrink in a determined way, not by feel. Alberti's construction tells you where the next gap goes. Move the viewpoint closer and the nearest post grows sharply relative to the far ones. That sensitivity to the viewpoint is the method working. A picture that converges the road to one point and lets the lamp posts wander off a different point is not 'expressive perspective.' It is two viewpoints in one drawing, and the road will look bent whether or not you meant it to.",
+  "sources": [
+    {
+      "title": "Linear perspective, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Linear_perspective"
+    },
+    {
+      "title": "Filippo Brunelleschi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
+    },
+    {
+      "title": "Leon Battista Alberti, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leon_Battista_Alberti"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "Alberti’s De pictura of 1435 and Brunelleschi’s early-fifteenth-century demonstrations, known through Manetti, match the standard art-historical account. The card does not treat linear perspective as the only coherent pictorial system.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

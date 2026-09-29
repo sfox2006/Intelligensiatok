@@ -1,0 +1,30 @@
+{
+  "id": "milankovitch-cycles",
+  "field": "earth-science",
+  "title": "Ice ages keep time with Earth’s orbit",
+  "hook": "Eccentricity, tilt, and wobble change how sunlight is distributed. NASA is explicit that this clock does not explain the warming of the last century.",
+  "body": "Milutin Milankovitch calculated how three slow cycles change the sunlight reaching Earth. Eccentricity is the stretch of the orbit, on a rhythm near 100,000 years. Obliquity is the tilt of the axis, near 41,000 years. Precession is the wobble of that axis, on the order of 20,000 years. Together they do not much change the total sunlight the planet receives. They change where and in which season it arrives, and the northern continents are sensitive to summer sunlight, because a cool summer fails to melt the previous winter's snow.\n\nThe pacemaker paper of Hays, Imbrie, and Shackleton in 1976 found those rhythms in the climate record of ocean sediments. The match is the reason the cycles are taken seriously as a clock for the ice ages of the last few million years. NASA's account of the cycles states the three periods and the link to ice sheets.",
+  "deeper": "A clock is not a complete cause. Ice sheets themselves change the climate, by reflecting sunlight and by altering the ocean and the carbon cycle, so the orbital nudge is amplified. The cycles also do not line up with every climate shift in Earth's deeper history, when the continents were elsewhere and the atmosphere was different. They are a theory about a particular era's ice ages.\n\nThey are not a theory of the warming measured since the late nineteenth century. That warming is fast compared with the orbital periods, and the orbital changes over the last few decades are far too small, and in the wrong pattern, to account for it. NASA's Milankovitch page says outright that the cycles cannot explain Earth's current warming. A card about the ice ages owes that sentence in the same breath as the 100,000-year rhythm.",
+  "example": "Tilt is the easiest of the three to picture. More tilt means hotter summers and colder winters in a hemisphere. Less tilt means milder seasons. A landmass in the north, with milder summers, keeps snow more easily, and an ice sheet can grow even if global annual sunlight barely changed. Precession decides which hemisphere has its summer when Earth is slightly closer to the Sun. Eccentricity decides how much that closer-farther difference matters. Stack a low-tilt, snow-friendly north on top of the right precession and a stretch of eccentricity, and you have the kind of configuration the pacemaker paper found written into the sediments. None of those cycles completes in a human lifetime. That is the simplest reason they cannot be the warming on a graph of the last hundred years.",
+  "sources": [
+    {
+      "title": "Milankovitch orbital cycles and Earth’s climate, NASA Science",
+      "url": "https://science.nasa.gov/science-research/earth-science/climate-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/"
+    },
+    {
+      "title": "Milankovitch cycles, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Milankovitch_cycles"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.92,
+    "notes": "The three cycles and their approximate periods match NASA’s Milankovitch page, which also states that the cycles cannot explain current warming. Hays, Imbrie, and Shackleton 1976 is the standard ‘pacemaker’ citation. Periods are given as approximate.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

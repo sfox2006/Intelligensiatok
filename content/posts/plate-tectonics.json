@@ -1,0 +1,34 @@
+{
+  "id": "plate-tectonics",
+  "field": "earth-science",
+  "title": "The crust is a set of plates that move",
+  "hook": "Alfred Wegener had the fit of the continents and not a mechanism. The mechanism arrived with the seafloor.",
+  "body": "Earth's outer shell, the lithosphere, is broken into plates. The plates move relative to one another, riding over a softer asthenosphere, at rates of centimetres a year. Where they pull apart, new oceanic crust forms. Where they meet, one may dive under the other, or they may crumple into mountains, or slide past. Earthquakes and volcanoes concentrate on those boundaries. This is plate tectonics, the organising theory of modern geology.\n\nWegener argued in the early twentieth century that the continents had once been joined and had drifted. The fit of South America and Africa, and matching fossils and rocks, were real clues. What he did not have was a convincing account of how a continent plows through ocean crust. That missing mechanism is why the idea stalled. The revival came from the ocean floor: Harry Hess's seafloor spreading, magnetic stripes that record reversals of Earth's field as crust forms and moves out from ridges, and the global map of earthquakes. The US Geological Survey's This Dynamic Earth tells that history without pretending Wegener finished it.",
+  "deeper": "Plates do not all move at one speed, and they do not respect the outline of a country. A single plate can carry ocean and continent. The Pacific plate is mostly seafloor. The boundary that matters for a city is the nearest plate edge, not the centre of the continent it sits on. Motion is measured directly now, with satellites, at the centimetres per year the geology had inferred from magnetic stripes and from the ages of ocean crust.\n\nThe theory does not say the map is fixed. Ocean crust is recycled at subduction zones on timescales of a couple of hundred million years, which is why the oldest seafloor is young compared with the oldest continental rock. Continents, being harder to subduct, preserve a much longer archive. 'The continents move' is the true popular sentence. 'The plates move, and continents are passengers on some of them' is the more careful one.",
+  "example": "The Atlantic is widening because the Americas and Europe-Africa are on plates that are separating at the Mid-Atlantic Ridge. New basalt forms at the ridge and inherits the magnetic direction of the day. When Earth's magnetic field reverses, the next basalt records the new direction. Sailing away from the ridge, you cross matching stripes on both sides, older as you go. That pattern is a tape of the spreading. It is also why a fossil match between Brazil and West Africa is no longer a puzzle that needs a sunken land bridge. The two coasts were adjacent, and the stripe record is the timer for how they parted.",
+  "sources": [
+    {
+      "title": "This Dynamic Earth, US Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
+    },
+    {
+      "title": "Plate tectonics, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plate_tectonics"
+    },
+    {
+      "title": "Historical perspective, This Dynamic Earth (USGS)",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.95,
+    "notes": "The distinction between Wegener’s continental drift and later seafloor-spreading evidence matches the USGS account in This Dynamic Earth. Speeds of centimetres a year and the magnetic-stripe evidence are standard and are not given false extra precision.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

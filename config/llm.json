@@ -1,0 +1,10 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "authorModel": "",
+  "reviewerModel": "",
+  "baseUrl": "https://api.openai.com/v1",
+  "authorPostsPerRun": 1,
+  "reviewerPostsPerRun": 5,
+  "publishConfidence": 0.75
+}

@@ -1,0 +1,24 @@
+{
+  "fields": [
+    { "id": "philosophy", "label": "Philosophy", "agent": "humanities" },
+    { "id": "history", "label": "History", "agent": "humanities" },
+    { "id": "linguistics", "label": "Linguistics", "agent": "humanities" },
+    { "id": "art", "label": "Art", "agent": "humanities" },
+    { "id": "politics", "label": "Politics", "agent": "social-sciences" },
+    { "id": "political-science", "label": "Political science", "agent": "social-sciences" },
+    { "id": "sociology", "label": "Sociology", "agent": "social-sciences" },
+    { "id": "psychology", "label": "Psychology", "agent": "social-sciences" },
+    { "id": "economics", "label": "Economics", "agent": "economics-business" },
+    { "id": "business", "label": "Business", "agent": "economics-business" },
+    { "id": "finance", "label": "Finance", "agent": "economics-business" },
+    { "id": "physics", "label": "Physics", "agent": "natural-sciences" },
+    { "id": "biology", "label": "Biology", "agent": "natural-sciences" },
+    { "id": "chemistry", "label": "Chemistry", "agent": "natural-sciences" },
+    { "id": "astronomy", "label": "Astronomy", "agent": "natural-sciences" },
+    { "id": "earth-science", "label": "Earth science", "agent": "natural-sciences" },
+    { "id": "mathematics", "label": "Mathematics", "agent": "maths-computing" },
+    { "id": "statistics", "label": "Statistics", "agent": "maths-computing" },
+    { "id": "computing", "label": "Computing", "agent": "maths-computing" },
+    { "id": "engineering", "label": "Engineering", "agent": "maths-computing" }
+  ]
+}

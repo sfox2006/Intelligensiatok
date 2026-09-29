@@ -1,0 +1,34 @@
+{
+  "id": "market-for-lemons",
+  "field": "economics",
+  "title": "When sellers know more, the good cars can leave",
+  "hook": "George Akerlof’s lemons market is a story about averages. Buyers who cannot tell quality pay for the average, and the average then falls.",
+  "body": "In a 1970 paper, Akerlof asked what happens in a used-car market where sellers know whether a car is sound and buyers do not. Buyers, knowing only the mix, will not pay a sound-car price for a random car. They pay for average quality. At that price, owners of the best cars would rather keep them. Those cars exit. The average falls, the price falls, and more good cars exit. In the stark version of the model the market can unravel until only lemons remain, or no market remains at all.\n\nThe mechanism is adverse selection: the people who most want to sell at a given price are the ones with the worse goods. It is not the same thing as moral hazard, which is about hidden actions after a contract. Here the hidden thing is quality, already fixed, and the buyer's ignorance changes who shows up to trade.",
+  "deeper": "Akerlof's point travelled. Insurance draws people who know they are higher risk. A lender who cannot tell borrowers apart prices for the pool, and the safest borrowers may walk away. The 2001 Nobel Prize to Akerlof, Michael Spence, and Joseph Stiglitz was for this family of results about asymmetric information. Spence's side of it is signalling: a costly, hard-to-fake credential can reveal the hidden type. Stiglitz's includes screening.\n\nThe used-car market did not in fact disappear. Warranties, brand reputation, inspections, and return policies are all ways of pushing information back into the trade. The model is useful because it says why those institutions exist, and what fails when they are absent. It is not a prediction that every market with private information collapses.",
+  "example": "Suppose cars are worth either 10 or 2 to buyers, equally many of each, and sellers will sell if the price covers that value. Buyers cannot tell them apart, so they pay the average, 6. Sellers of cars worth 10 refuse. Only the cars worth 2 remain, and buyers who anticipate that will not pay 6. They pay 2. The good cars never trade, even though a buyer would have paid 10 for one if the quality could be shown. A warranty that only a sound-car seller can afford to offer is one way the model lets the good car back in: it changes the information, not the horsepower.",
+  "sources": [
+    {
+      "title": "The Market for Lemons, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons"
+    },
+    {
+      "title": "George A. Akerlof, Nobel Prize facts",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/"
+    },
+    {
+      "title": "Markets with asymmetric information, Nobel Prize popular information (2001)",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "The adverse-selection mechanism matches Akerlof's lemons model as described by the Nobel Prize's 2001 popular information and the standard encyclopedia account. The numerical cars are an illustration, and the card says real markets often answer with warranties and inspections rather than collapsing.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

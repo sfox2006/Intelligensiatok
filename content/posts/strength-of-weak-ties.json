@@ -1,0 +1,30 @@
+{
+  "id": "strength-of-weak-ties",
+  "field": "sociology",
+  "title": "Acquaintances reach further than close friends",
+  "hook": "Mark Granovetter’s 1973 argument is about bridges. The people you barely know are more likely to live in a different cluster.",
+  "body": "A strong tie is a close friend. You share time, and your close friends tend to know one another. The group is dense. Information that is already inside it bounces around and stays there. A weak tie is an acquaintance. You share less, and, Granovetter argued, that person is more likely to sit in another dense group. The weak tie is a bridge.\n\nBridges carry news the home group does not already have. Granovetter's memorable application was job search. In a study of professional, technical, and managerial workers who had changed jobs, he found that many heard about the opening through acquaintances rather than through close friends. The result is not 'friendship does not matter.' It is that novelty often arrives on the thin links, because the thick ones are redundant.",
+  "deeper": "The paper is 'The Strength of Weak Ties,' American Journal of Sociology, 1973. The mechanism is structural, not a piece of advice about collecting business cards. If your acquaintances are all in the same clique, they are weak and still redundant. Strength is not the same variable as bridge-ness. Granovetter's claim is that, in ordinary social life, the two are related: strong ties cluster, weak ties are likelier to span.\n\nThe job-search sample was a particular group of workers in a particular place. It is not a warrant for how every hiring market works, and it says little about jobs that are filled inside a family or a closed profession. Later network research took the bridge idea into diffusion of many kinds. The original caution still applies. A weak tie helps when the thing you need is information you do not already have.",
+  "example": "Three friends all work at the same lab and eat lunch together. A rumour about a grant deadline reaches one of them and, the same day, the other two. A former classmate, emailed twice a year, works at a funding agency and mentions the deadline a month earlier. The classmate is the weak tie, and the month is the value of the bridge. If the classmate also ate lunch at the lab every day, the tie would not be a bridge no matter how faintly you stayed in touch. The structure, not the warmth, is doing the work.",
+  "sources": [
+    {
+      "title": "Mark S. Granovetter, “The Strength of Weak Ties” (1973)",
+      "url": "https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf"
+    },
+    {
+      "title": "The Strength of Weak Ties, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Strength_of_Weak_Ties"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.9,
+    "notes": "The bridge mechanism and the 1973 AJS paper match Granovetter’s article and the encyclopedia summary. The card limits the job-finding result to the professional sample he studied and does not turn it into general networking advice.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

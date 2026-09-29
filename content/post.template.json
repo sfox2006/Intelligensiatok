@@ -1,0 +1,22 @@
+{
+  "id": "replace-with-a-slug",
+  "field": "economics",
+  "title": "Replace with a plain title",
+  "hook": "One or two precise sentences that state why the idea is worth a minute.",
+  "body": "Explain the idea itself in two short paragraphs, separated by a blank line. The card should teach the mechanism, not tease it. Name the assumption that does the work.\n\nAdd the caveat a careful reader would ask for. Prefer a well-established result over a clever obscurity.",
+  "deeper": "A longer note: where the idea came from, what it does not say, and the usual way it gets overstated. Keep the tone curious and concrete.",
+  "example": "A worked example with every number shown, or a specific historical case told carefully enough that a reader could check it.",
+  "sources": [
+    {
+      "title": "Author, Title (year)",
+      "url": "https://example.org/a-real-stable-url"
+    },
+    {
+      "title": "A second independent source",
+      "url": "https://example.org/another-real-url"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "draft"
+}

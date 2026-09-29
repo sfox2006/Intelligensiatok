@@ -1,0 +1,1554 @@
+{
+  "version": 1,
+  "count": 47,
+  "posts": [
+    {
+      "id": "bayes-theorem",
+      "field": "statistics",
+      "title": "A positive test is not the chance you are ill",
+      "hook": "Bayes’ theorem is a rule for updating a prior. Skip the base rate and a rare condition will look common every time the test lights up.",
+      "body": "Bayes' theorem says how to revise the probability of a hypothesis after you see evidence. In symbols, P(H|E) = P(E|H) P(H) / P(E). The vertical bar means 'given.' P(H) is the probability you assigned to the hypothesis before the evidence. P(E|H) is the probability of the evidence if the hypothesis is true. P(E) is the probability of the evidence altogether, including the cases where the hypothesis is false.\n\nThe last term is where intuition slips. A test can be right most of the time it is used on a sick person and still be wrong about most of the people it flags, if the sickness is rare and the test sometimes flags healthy people. The false alarms, each small, are multiplied by a large healthy population. They can outnumber the true alarms. The theorem is not a medical opinion. It is the arithmetic of that mix.",
+      "deeper": "The theorem itself is a short consequence of the definition of conditional probability, written down by Thomas Bayes in the eighteenth century and developed by Laplace. The arguments start when people disagree about the prior, P(H), or about how likely the evidence was under each story. In a diagnostic test the prior can be a frequency in a population, and the arithmetic is then uncontroversial if the frequencies are known. In a scientific dispute the prior may be a judgement, and two careful people can update in the same way from different starting points and still disagree.\n\nWhat the theorem forbids is ignoring the starting point. 'The test is 90 percent accurate' does not have a meaning you can act on until you say accurate at what, and how common the condition is. The Stanford Encyclopedia's entry on Bayes' theorem and MathWorld's statement are the clean formal references. A worked population is the way to see the mechanism.",
+      "example": "In a group of 10,000 people, 1 percent have a condition: 100 people. A test catches 90 of those 100. Of the 9,900 without the condition, 5 percent test positive: 495 people. Positive results in total: 90 + 495 = 585. If you are one of the 585, the chance you have the condition is 90/585, about 15 percent. The test's 90 percent detection rate never became your 90 percent. It was diluted by 495 false alarms. Make the condition rarer and the dilution gets worse. Improve the false-alarm rate and it gets better. Both numbers have to be in the sentence.",
+      "sources": [
+        {
+          "title": "Bayes’ Theorem, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/bayes-theorem/"
+        },
+        {
+          "title": "Bayes’ Theorem, Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/BayesTheorem.html"
+        },
+        {
+          "title": "Bayes’ theorem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.97,
+        "notes": "The update formula matches the standard statement. The screening arithmetic was recomputed: 90 true positives, 495 false positives, 90/585 ≈ 15.4 percent. The card does not call that figure a property of any real clinical test.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "phonemes",
+      "field": "linguistics",
+      "title": "A phoneme is a difference that can change the word",
+      "hook": "English speakers hear one p in ‘pin’ and ‘spin’. A phonetician hears two. Only one of those facts is about meaning.",
+      "body": "A phoneme is the smallest unit of sound that distinguishes words in a given language. In English, pat and bat are different words, so /p/ and /b/ are different phonemes. An allophone is a pronunciation variant of a phoneme that does not, by itself, change the word. English /p/ is aspirated, with a puff of air, at the start of 'pin,' and unaspirated in 'spin,' after the s. Swap those two p's and you may sound odd. You will not have said a different English word.\n\nThe distinction is about a language's system, not about the physics of the mouth. The same physical difference can be phonemic in one language and allophonic in another. Hindi uses aspiration to distinguish words. A puff of air that English treats as a detail of /p/ can, in Hindi, be the difference between one word and another. Speakers hear the contrasts their language uses, and they are very good at ignoring the ones it doesn't.",
+      "deeper": "You find the phonemes of a language by looking for minimal pairs, words that differ by exactly one sound and differ in meaning, and by looking at where sounds are allowed to occur. If two sounds never appear in the same environment, and swapping them never matters, they are candidates for one phoneme. If they contrast in the same environment, they are two.\n\nSpelling is a poor guide. English writes one letter p for both the aspirated and unaspirated sounds, which happens to match the phoneme analysis and hides the phonetic difference. English also writes many sounds with chaotic letters. Phonemes are not letters. They are also not a universal inventory that every baby is born ranking in the same way. Infants start able to hear a wide range of contrasts, and they become specialists in the ones the language around them uses. The technical terms are worth keeping sharp, because 'sound' is too coarse for either fact.",
+      "example": "Say 'pin' with a hand in front of your mouth and feel the puff. Say 'spin' and the puff is weak or gone. Both are English /p/. Now consider a language, such as Hindi, in which pal with an unaspirated p and phal with an aspirated p are different words, 'moment' and 'fruit.' A speaker of that language cannot treat the puff as optional colouring. An English speaker learning Hindi has to hear a difference they have spent years treating as the same phoneme. An Hindi speaker learning English has to treat as one category a difference that, at home, would have changed the word. Neither ear is defective. The systems draw the lines in different places.",
+      "sources": [
+        {
+          "title": "Phoneme, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phoneme"
+        },
+        {
+          "title": "Allophone, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allophone"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The pin/spin aspiration example is the standard English allophone pair for /p/. The Hindi contrast between पल (moment) and फल (fruit) is a standard textbook illustration of phonemic aspiration. Glosses are given at that conventional level.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "social-facts",
+      "field": "sociology",
+      "title": "A private act can have a social rate",
+      "hook": "Émile Durkheim’s strange move was to treat suicide, the most individual act he could think of, as something with a pattern outside any one person.",
+      "body": "Durkheim called social facts the ways of acting, thinking, and feeling that are external to a given person and that press on them. Language, money, and law are his sort of examples. You did not invent them, you cannot ignore them without cost, and they are not identical to anyone's private mood. Sociology, he argued, should take those facts as its object rather than dissolve everything into individual psychology.\n\nSuicide (1897) is the stress test. Killing oneself looks like a private decision. Durkheim pointed at rates that differed systematically by group: by religion, by family situation, by moments of economic upheaval. If the rate is stable for a group and different from the next group's, he argued, something social is showing up in an act we experience as purely personal. He sorted the patterns into egoistic, altruistic, anomic, and fatalistic suicide, according to how tightly a person was bound into a group and how regulated their desires were.",
+      "deeper": "The methodological claim has aged better than every table in the book. Durkheim's statistics and some of his categories have been criticised for more than a century. 'Anomie' became a word people use loosely for any malaise. The four types are a scheme, not a diagnosis you can read off a death certificate.\n\nWhat remains useful is the level of the question. A rise in a rate is not explained by retelling one biography four hundred times. Nor is a rate a force that reaches down and pushes a particular person. Durkheim sometimes wrote as if the social fact were a thing acting on bodies. You can keep the insight, that patterns sit above individual cases, without that metaphysics. The Internet Encyclopedia of Philosophy's entry on him is a careful guide to the method; the book itself is where the fourfold scheme lives.",
+      "example": "Imagine two towns with the same number of people and very different suicide rates, steady over years. Explaining the gap by saying 'different people chose differently' restates the gap. Durkheim asks what differs in the way life is organised: how isolated people are, how sharply the rules of success have broken, how much the group demands of the member. A person in the higher-rate town is not a type. The town's rate is still a fact about the town. Public health still uses that kind of reasoning when it looks at rates rather than only at cases. It does not need Durkheim's four names to do it.",
+      "sources": [
+        {
+          "title": "Émile Durkheim, Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/emile-durkheim/"
+        },
+        {
+          "title": "Social fact, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_fact"
+        },
+        {
+          "title": "Suicide (Durkheim book), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Suicide_(Durkheim_book)"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "Social facts and the four types of suicide match the Internet Encyclopedia of Philosophy’s account of Durkheim and the standard summary of the 1897 book. The card flags criticism of his statistics rather than treating every rate in the book as settled.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "separation-of-powers",
+      "field": "politics",
+      "title": "Split the power, so no one office holds all of it",
+      "hook": "Montesquieu’s famous lesson was drawn from an England that did not actually keep the branches as separate as he thought.",
+      "body": "In The Spirit of the Laws (1748), Montesquieu argued that liberty is lost when the same person or body holds legislative, executive, and judicial power. The remedy he praised was to place those functions in different hands, so that each could check the others. The American founders read him closely. The US Constitution's three branches are the most famous attempt to build the scheme into a written design.\n\nMontesquieu thought he was describing England. He was partly wrong about England. Ministers sit in Parliament, and the executive is drawn from the legislature. British practice is a fusion, with courts that are more independent, not a clean three-way split. The idea still did the work he wanted it to do as a warning: concentrated power is easy to abuse because the abuser also judges the abuse.",
+      "deeper": "Separation is not the same design as checks and balances, though the two travel together. Separation says who may not hold two powers at once. Checks say how one power slows another: a veto, a confirmation, a court that can refuse to apply a statute, a legislature that can refuse supply. You can separate offices and still leave one of them dominant. You can also mix offices, as parliamentary systems do, and rely on elections, courts, and a professional civil service.\n\nLocke had already distinguished legislative and executive power, and added a federative power over foreign affairs. Montesquieu's contribution was the clarity of the threefold picture and the link he drew to liberty. The picture is a design principle. It does not, by itself, tell you how independent a court is in a country that has the right nouns in its constitution.",
+      "example": "Suppose one council writes the tax, collects it, and hears the appeal of anyone who objects. A member who dislikes a critic can write a rule, apply it, and dismiss the objection. Split the work. A legislature writes the tax, an executive collects it, and a court hears the objection without sitting in the legislature. The critic can still lose. What changes is that the loss requires more than one body's agreement, and the people who wrote the rule are not the last word on what it means. That is the mechanism. It fails in practice when the court is hired and fired by the council it is meant to check.",
+      "sources": [
+        {
+          "title": "Baron de Montesquieu, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/montesquieu/"
+        },
+        {
+          "title": "Separation of powers, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Separation_of_powers"
+        },
+        {
+          "title": "Montesquieu, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Montesquieu"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "The 1748 date, the threefold division, and the influence on the US design match the Stanford Encyclopedia and the standard encyclopedia accounts. The card includes the mismatch with the British constitution rather than repeating Montesquieu's description as fact.",
+        "corrections": [
+          "Kept the common oversimplification out of the card: England was not a clean three-branch system, and the post says so."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "median-voter",
+      "field": "political-science",
+      "title": "Two office-seekers are pulled toward the middle",
+      "hook": "On a single line of disagreement, the voter in the middle is hard to beat. The theorem says when that geometry runs politics.",
+      "body": "Harold Hotelling noticed in 1929 that two shops on a beach, each wanting more customers, end up side by side in the middle. Duncan Black and Anthony Downs moved the beach into politics. Line voters up by the policy they most want, from left to right. Assume preferences are single-peaked: each person has a favourite point and likes policies less as they move away from it. Assume two candidates who care only about winning, and an election decided by majority rule.\n\nThen both candidates' best position is the median voter's favourite. A candidate who stands to the left of the median loses the median and everyone to the right. The same trap waits on the other side. So platforms converge. The theorem is a result inside those assumptions. It is not a description of every campaign you have lived through.",
+      "deeper": "Drop an assumption and the result moves. If the argument has two dimensions, there may be no point that beats every alternative. A candidate can lose on a left-right line and win by opening a second fight. If candidates care about policy and not only about office, they may refuse the median. If voters abstain when nobody is close to them, standing at the centre can cost you the people at the edges. Primaries pull candidates outward before a general election pulls them back, which is why the same politician can sound like two different medians in one year.\n\nDowns's 1957 book, An Economic Theory of Democracy, is the version political science absorbed. Black's earlier theorem is the social-choice core. Hotelling's beach is the intuition, and it was about firms. Treating the median voter as a law of nature is the mistake. Treating the median as the place to look, when the fight really is one-dimensional and the candidates really do just want to win, is the use.",
+      "example": "Five voters want a tax rate of 10, 20, 30, 40, and 50 percent. The median is 30. A candidate at 40 loses to a candidate at 30, because the voters at 10, 20, and 30 all prefer 30, and that is a majority. The same happens to a candidate at 20. Nothing in the example requires the voters to be evenly spaced, or the middle to be a compromise in a moral sense. It is the middle of the ranking. Add a second issue, say trade, and a voter who is moderate on tax and extreme on trade can tip a coalition that the one-dimensional picture never sees.",
+      "sources": [
+        {
+          "title": "Median voter theorem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Median_voter_theorem"
+        },
+        {
+          "title": "An Economic Theory of Democracy, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/An_Economic_Theory_of_Democracy"
+        },
+        {
+          "title": "Hotelling’s law, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hotelling%27s_law"
+        },
+        {
+          "title": "Duncan Black, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duncan_Black"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.91,
+        "notes": "The assumptions (single-peaked preferences, one dimension, two office-seeking candidates, majority rule) match the standard statement of the median voter theorem. Hotelling 1929, Black, and Downs 1957 are the right names. The card lists the assumptions that make the result fail.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "endosymbiosis",
+      "field": "biology",
+      "title": "Mitochondria were once free-living bacteria",
+      "hook": "The cell’s power stations have their own DNA and divide on their own. Lynn Margulis argued that they used to be independent organisms. On that point she was right.",
+      "body": "Eukaryotic cells, the kind in animals, plants, fungi, and a great many microbes, contain mitochondria. Those organelles make most of the cell's usable energy. They also have a small circular genome, their own ribosomes, and they divide by fission inside the cell. Chloroplasts, which do photosynthesis in plants and algae, have the same odd résumé.\n\nThe endosymbiotic explanation is that these organelles descend from bacteria that took up residence inside a host cell and were not digested. Over a very long time the guests lost the ability to live alone, and the host came to depend on them. Lynn Margulis pressed this case from the late 1960s, when it was widely dismissed. Sequence comparisons later put it on firm ground: mitochondrial genes sit with bacterial lineages, not with the genes of the surrounding cell's nucleus. The University of California Museum of Paleontology's history of the idea is a clear account of that reversal.",
+      "deeper": "The original argument was broader than the part that stuck. Margulis also proposed an endosymbiotic origin for the eukaryotic flagellum. That part is not the consensus. The evidence that convinced people about mitochondria and chloroplasts, a genome, a double membrane, division by fission, and a phylogenetic tree, is exactly what the flagellum does not have. A good idea about two organelles is not a method that turns every complicated structure into a former bacterium.\n\nThere is also a direction of dependence worth noticing. Human mitochondrial DNA is a tiny remnant. Many of the proteins mitochondria use are now encoded in the nucleus and imported. The guest is not a little animal living in a room. It is a highly reduced descendant of one, genetically entangled with the host. 'Were once bacteria' is the accurate tense.",
+      "example": "A chloroplast still looks, in cross-section, like a cyanobacterium inside a membrane. It has its own DNA, and that DNA groups with cyanobacteria when you build a tree, rather than with the plant's nuclear genes. The plant cannot photosynthesise without the chloroplast, and the chloroplast cannot live on a petri dish. That mutual dependence is the evolved endpoint, not the starting arrangement. The starting arrangement, on this evidence, was an engulfment that did not end in dinner. The flagellum, by contrast, has no genome to build such a tree from, which is why the same story is not told about it.",
+      "sources": [
+        {
+          "title": "Endosymbiosis: Lynn Margulis, Understanding Evolution (UC Berkeley)",
+          "url": "https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1900-to-present/endosymbiosis-lynn-margulis/"
+        },
+        {
+          "title": "Endosymbiotic theory, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endosymbiotic_theory"
+        },
+        {
+          "title": "Lynn Margulis, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lynn_Margulis"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "Mitochondria and chloroplasts as bacterial endosymbionts match the Berkeley evolution site and the standard theory. The card excludes Margulis’s endosymbiotic account of the flagellum, which is not accepted.",
+        "corrections": [
+          "Did not extend the theory to the eukaryotic flagellum. That was part of Margulis’s broader case and is not the consensus; the published text limits the claim to mitochondria and chloroplasts."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "compound-interest",
+      "field": "finance",
+      "title": "Interest paid on the interest",
+      "hook": "A sum at compound interest grows by a percentage of whatever is there now, not of what you started with.",
+      "body": "If you earn simple interest, each period pays the same amount: a percentage of the original principal. If you earn compound interest, the interest stays in the account and the next period pays a percentage of a larger base. The formula for a principal P, an annual rate r, compounded n times a year for t years, is A = P (1 + r/n)^(nt). Compounded once a year, that is just P (1 + r)^t.\n\nThe growth is convex. Early on it looks slow, because the base is still close to P. Later the same rate is applied to a much larger pile, and the increments get big. A useful approximation for the doubling time, when the rate is not extreme, is the rule of 72: years to double is about 72 divided by the annual percentage rate. At 7 percent a year, that guess is a little over 10 years. The exact doubling time is about 10.2 years.",
+      "deeper": "Nothing in the formula is a promise that a borrower will pay you. The rate is an assumption. Fees, taxes, inflation, and the chance of default sit outside the algebra. A nominal rate of 7 percent with 7 percent inflation does not double your purchasing power on that schedule. And the path is sensitive to the rate in a way people underfeel: the difference between 3 and 7 percent is not a small tweak over a working life, because the exponents pull apart.\n\nOne piece of folklore should be left out. Albert Einstein did not, on any solid evidence, call compound interest the eighth wonder of the world. The arithmetic does not need a fake quotation. The US Securities and Exchange Commission's Investor.gov glossary states the real distinction: you earn interest on the interest, not only on the original principal.",
+      "example": "Start with 100 at 7 percent, compounded once a year. After one year you have 107. After two years, 107 times 1.07, which is 114.49, not 114. The extra 0.49 is interest on the first year's interest. After ten years the factor is 1.07^10, about 1.967, so 100 grows to about 197. The rule of 72 says 72/7, roughly 10.3 years to double, against the true 10.2. For a rough mental check that is close enough. For a contract, use the formula, and read whether the rate is annual, monthly, or something that only looks like 7 percent.",
+      "sources": [
+        {
+          "title": "Compound interest, Investor.gov (US Securities and Exchange Commission)",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+        },
+        {
+          "title": "Compound interest, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compound_interest"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "1.07^10 was recomputed as about 1.967, so 100 grows to about 197. The doubling time ln(2)/ln(1.07) is about 10.24 years. The misattributed Einstein quotation is excluded on purpose.",
+        "corrections": [
+          "Left out the line attributing a quip about compound interest to Einstein. It is a circulating misattribution, not a source."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "platos-cave",
+      "field": "philosophy",
+      "title": "The cave is a story about education",
+      "hook": "Plato's prisoners mistake shadows for the whole world. The point is what it would take to turn around.",
+      "body": "In the Republic, Plato asks us to imagine people chained in a cave, facing a wall. Behind them a fire burns, and puppeteers carry objects that cast shadows. The prisoners name the shadows and take them for reality, because the shadows are all they have ever seen.\n\nThe story, told in Book VII, is about education as a turning of the whole soul, not a transfer of information. One prisoner is freed, suffers the glare, and eventually looks at the sun, which stands for the Form of the Good. Coming back to the cave, he is clumsy in the dark and unpersuasive. Plato is not reporting a discovery about caves. He is building an analogy for the difference between appearance and what he thinks understanding requires.",
+      "deeper": "The cave sits inside a larger image. A line is divided into imagination, belief, thought, and understanding. The visible world, including ordinary objects, is the cave side of that line. The intelligible world, culminating in the Good, is outside. The sun does two jobs in the story: it makes sight possible, and it makes things grow. The Good, Plato suggests, makes both knowing and the being of the forms possible. That is a metaphysical claim, and it is much heavier than the memorable picture of the prisoners.\n\nSocrates tells the story to Glaucon while they are designing an education for rulers. The practical upshot in the dialogue is not 'question everything' in the modern slogan sense. It is that the people who have made the ascent would rather stay outside, and have to be compelled to go back down and rule. Whether that politics is attractive is a separate argument from the image itself.",
+      "example": "Take the shadow of a vase and the vase. A prisoner who has only ever seen the shadow can become very skilled at predicting which shadow comes next. That skill is real, and Plato does not deny it. What the prisoner cannot do is say what a vase is, or why the shadow has the shape it has. The freed prisoner who returns and talks about vases sounds, to the experts on shadows, like someone who has lost a useful skill. The analogy is doing that work: competence inside a limited frame is not the same as understanding the thing that casts it.",
+      "sources": [
+        {
+          "title": "Plato’s Myths, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato-myths/"
+        },
+        {
+          "title": "Plato, The Republic (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1497"
+        },
+        {
+          "title": "Allegory of the cave, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "Checked against the Republic's cave passage as presented in the Gutenberg text and the Stanford Encyclopedia's discussion of Plato's myths. The card treats the cave as an analogy in an argument about education, not as a report.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "stellar-parallax",
+      "field": "astronomy",
+      "title": "Nearby stars shift as the Earth goes around the Sun",
+      "hook": "Parallax is the apparent wobble of a close star against the distant ones. One parsec is the distance at which that wobble is one arcsecond.",
+      "body": "Hold a finger in front of your face and blink from one eye to the other. The finger jumps against the far wall. The jump is larger when the finger is closer. Stellar parallax is the same geometry with a much longer baseline: the diameter of Earth's orbit. As Earth moves from one side of the Sun to the other, a nearby star appears to shift against stars so distant that they barely shift at all.\n\nHalf of that annual shift, the angle at the star between the Sun and the Earth, is the parallax angle. If that angle is one arcsecond, the star is one parsec away, about 3.26 light-years. The definition is arranged so that distance in parsecs is 1 divided by the parallax in arcseconds. Proxima Centauri, the nearest star to the Sun, has a parallax a bit under an arcsecond, so it sits a bit over one parsec away, about 4.2 light-years. NASA's Imagine the Universe notes both the method and that Proxima is the nearest of the Alpha Centauri system.",
+      "deeper": "The angles are small, which is why the measurement took so long to achieve. A parsec-sized shift is one arcsecond. Most stars you can see are much further, and their parallaxes are tiny fractions of that. Friedrich Bessel measured the parallax of 61 Cygni in 1838, one of the first convincing stellar parallaxes, and a direct physical demonstration that Earth really does move around the Sun. The stars were not fixed on a nearby dome.\n\nParallax is the first rung of the cosmic distance ladder. Beyond the neighbourhood where the angle is measurable, astronomers use brighter standard candles and other methods, each calibrated on the rung below. The European Space Agency's Gaia mission has measured parallaxes for an enormous number of stars, which tightens every later rung. It does not, by itself, reach the distant galaxies. The geometry runs out of angle.",
+      "example": "A star with a parallax of 0.1 arcseconds is 1/0.1 = 10 parsecs away, about 33 light-years. A star with a parallax of 0.01 arcseconds is 100 parsecs away. The arithmetic is the definition, not a model. What is hard is measuring 0.01 arcseconds. That is why a satellite, above the blurring of the atmosphere and with a stable baseline, changed the subject. If someone quotes a distance to a nearby star and a parallax, you can check that they are reciprocals. If they quote a distance to a galaxy in the same breath as a parallax, they have changed methods, and the card you want next is the distance ladder, not a bigger triangle.",
+      "sources": [
+        {
+          "title": "Nearest star, Imagine the Universe! (NASA Goddard)",
+          "url": "https://imagine.gsfc.nasa.gov/features/cosmic/nearest_star_info.html"
+        },
+        {
+          "title": "Stellar parallax, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stellar_parallax"
+        },
+        {
+          "title": "Parsec, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parsec"
+        },
+        {
+          "title": "Gaia, European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The parsec definition (parallax of one arcsecond) and the reciprocal distance rule are standard. Proxima Centauri is the nearest star, at about 4.2 light-years, a little over one parsec. Bessel’s 1838 measurement of 61 Cygni is the usual historical marker. Gaia is correctly described as a parallax mission, not as a tool for the most distant galaxies.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "market-for-lemons",
+      "field": "economics",
+      "title": "When sellers know more, the good cars can leave",
+      "hook": "George Akerlof’s lemons market is a story about averages. Buyers who cannot tell quality pay for the average, and the average then falls.",
+      "body": "In a 1970 paper, Akerlof asked what happens in a used-car market where sellers know whether a car is sound and buyers do not. Buyers, knowing only the mix, will not pay a sound-car price for a random car. They pay for average quality. At that price, owners of the best cars would rather keep them. Those cars exit. The average falls, the price falls, and more good cars exit. In the stark version of the model the market can unravel until only lemons remain, or no market remains at all.\n\nThe mechanism is adverse selection: the people who most want to sell at a given price are the ones with the worse goods. It is not the same thing as moral hazard, which is about hidden actions after a contract. Here the hidden thing is quality, already fixed, and the buyer's ignorance changes who shows up to trade.",
+      "deeper": "Akerlof's point travelled. Insurance draws people who know they are higher risk. A lender who cannot tell borrowers apart prices for the pool, and the safest borrowers may walk away. The 2001 Nobel Prize to Akerlof, Michael Spence, and Joseph Stiglitz was for this family of results about asymmetric information. Spence's side of it is signalling: a costly, hard-to-fake credential can reveal the hidden type. Stiglitz's includes screening.\n\nThe used-car market did not in fact disappear. Warranties, brand reputation, inspections, and return policies are all ways of pushing information back into the trade. The model is useful because it says why those institutions exist, and what fails when they are absent. It is not a prediction that every market with private information collapses.",
+      "example": "Suppose cars are worth either 10 or 2 to buyers, equally many of each, and sellers will sell if the price covers that value. Buyers cannot tell them apart, so they pay the average, 6. Sellers of cars worth 10 refuse. Only the cars worth 2 remain, and buyers who anticipate that will not pay 6. They pay 2. The good cars never trade, even though a buyer would have paid 10 for one if the quality could be shown. A warranty that only a sound-car seller can afford to offer is one way the model lets the good car back in: it changes the information, not the horsepower.",
+      "sources": [
+        {
+          "title": "The Market for Lemons, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons"
+        },
+        {
+          "title": "George A. Akerlof, Nobel Prize facts",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/"
+        },
+        {
+          "title": "Markets with asymmetric information, Nobel Prize popular information (2001)",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The adverse-selection mechanism matches Akerlof's lemons model as described by the Nobel Prize's 2001 popular information and the standard encyclopedia account. The numerical cars are an illustration, and the card says real markets often answer with warranties and inspections rather than collapsing.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "principal-agent",
+      "field": "business",
+      "title": "The person who decides is not always the person who pays",
+      "hook": "Adam Smith already worried about managers spending other people’s money. Jensen and Meckling turned that worry into a bill for agency costs.",
+      "body": "A principal hires an agent to act for them. A shareholder hires a manager. A patient hires a doctor. The agent usually knows more about what they did all day, and their interests are not the principal's. Effort is costly to the agent and valuable to the principal. Perks are pleasant to the agent and paid for by the principal. The gap is the agency problem.\n\nMichael Jensen and William Meckling, in 1976, defined agency costs as the sum of three things: the cost of monitoring the agent, the cost of bonding (the agent's own efforts to commit, such as an audit they pay for), and the residual loss that remains because monitoring is never perfect. The firm, on their telling, is a knot of these contracts. It is not a person with a single goal. Smith's earlier complaint, that directors of joint-stock companies look after other people's money with less care than their own, is the same conflict in eighteenth-century dress.",
+      "deeper": "The remedies are all costly, which is why the problem does not disappear by being noticed. Paying the manager in shares aligns some incentives and can create others, including a taste for risk the diversified shareholder does not share. A board monitors, and then you have an agency problem between shareholders and the board. Publishing accounts helps outsiders and consumes time. None of these is a proof that managers are villains. They are the predictable result of asking one person to choose and another to bear the result, when the choice is hard to see.\n\nThe same pattern shows up outside firms: a voter and an elected official, a client and a lawyer. The name 'agency' is the economics. The structure is older than the name.",
+      "example": "An owner-manager who keeps every extra dollar of profit will stay late if the late hour produces more than it costs them in fatigue. Hire a manager on a flat salary and the extra dollar goes to the owner, while the fatigue stays with the manager. The manager, left alone, stops earlier. A bonus tied to profit pulls the hour back out, but the owner now pays the bonus even in years when the profit came from luck rather than the late hour. That overpayment is part of Jensen and Meckling's residual loss. You can shrink it. You should not expect to invoice it down to zero.",
+      "sources": [
+        {
+          "title": "Jensen and Meckling, “Theory of the Firm” (1976), DOI 10.1016/0304-405X(76)90026-X",
+          "url": "https://doi.org/10.1016/0304-405X(76)90026-X"
+        },
+        {
+          "title": "Principal–agent problem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem"
+        },
+        {
+          "title": "Adam Smith, The Wealth of Nations (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/3300"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "Agency costs are described as monitoring, bonding, and residual loss, which is Jensen and Meckling’s 1976 definition. The DOI is the Journal of Financial Economics paper. Smith is cited for the older joint-stock complaint, not as the inventor of the 1976 terms.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "strength-of-weak-ties",
+      "field": "sociology",
+      "title": "Acquaintances reach further than close friends",
+      "hook": "Mark Granovetter’s 1973 argument is about bridges. The people you barely know are more likely to live in a different cluster.",
+      "body": "A strong tie is a close friend. You share time, and your close friends tend to know one another. The group is dense. Information that is already inside it bounces around and stays there. A weak tie is an acquaintance. You share less, and, Granovetter argued, that person is more likely to sit in another dense group. The weak tie is a bridge.\n\nBridges carry news the home group does not already have. Granovetter's memorable application was job search. In a study of professional, technical, and managerial workers who had changed jobs, he found that many heard about the opening through acquaintances rather than through close friends. The result is not 'friendship does not matter.' It is that novelty often arrives on the thin links, because the thick ones are redundant.",
+      "deeper": "The paper is 'The Strength of Weak Ties,' American Journal of Sociology, 1973. The mechanism is structural, not a piece of advice about collecting business cards. If your acquaintances are all in the same clique, they are weak and still redundant. Strength is not the same variable as bridge-ness. Granovetter's claim is that, in ordinary social life, the two are related: strong ties cluster, weak ties are likelier to span.\n\nThe job-search sample was a particular group of workers in a particular place. It is not a warrant for how every hiring market works, and it says little about jobs that are filled inside a family or a closed profession. Later network research took the bridge idea into diffusion of many kinds. The original caution still applies. A weak tie helps when the thing you need is information you do not already have.",
+      "example": "Three friends all work at the same lab and eat lunch together. A rumour about a grant deadline reaches one of them and, the same day, the other two. A former classmate, emailed twice a year, works at a funding agency and mentions the deadline a month earlier. The classmate is the weak tie, and the month is the value of the bridge. If the classmate also ate lunch at the lab every day, the tie would not be a bridge no matter how faintly you stayed in touch. The structure, not the warmth, is doing the work.",
+      "sources": [
+        {
+          "title": "Mark S. Granovetter, “The Strength of Weak Ties” (1973)",
+          "url": "https://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf"
+        },
+        {
+          "title": "The Strength of Weak Ties, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Strength_of_Weak_Ties"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The bridge mechanism and the 1973 AJS paper match Granovetter’s article and the encyclopedia summary. The card limits the job-finding result to the professional sample he studied and does not turn it into general networking advice.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "five-forces",
+      "field": "business",
+      "title": "Profit depends on the structure around the firm",
+      "hook": "Michael Porter’s five forces are a checklist for where competition will squeeze margins. They are not a formula for a share price.",
+      "body": "In Competitive Strategy (1980), Porter asked why some industries are reliably more profitable than others. His answer was five pressures. Rivalry among the firms already there. The threat of new entrants. The threat of substitutes. The bargaining power of buyers. The bargaining power of suppliers. Where those pressures are strong, the value the firms create is competed away or captured by someone else. Where they are weak, a firm can keep more of it.\n\nThe tool is about industry structure, not about a single company's charm. A brilliant team in an industry with no barriers, powerful customers, and an easy substitute can still earn thin returns. A mediocre team behind a real barrier can earn thick ones. Strategy, in this frame, is choosing where those pressures are tolerable and then making one of them worse for rivals.",
+      "deeper": "Each force is a question, not a score you can look up. Entrants are threatening when startup costs are low, customers can switch, and incumbents have no special access to supply or regulation. Buyers are powerful when they are few, well informed, and able to walk away. Substitutes are the option the customer has from outside the industry: a video call for a flight, not just a rival airline. People miscount rivals as the only force. Porter's point was that the other four decide how fierce that rivalry gets, and who keeps the money.\n\nThe framework does not say that structure is destiny, and it does not price a stock. Firms change structure. Technology moves the substitutes. A regulator can create or remove a barrier overnight. Used as a set of questions before you tell a story about a brand, it earns its keep. Used as a five-box diagram in place of the questions, it doesn't.",
+      "example": "Commercial aviation has fierce rivalry, expensive but not impossible entry, powerful aircraft suppliers, price-sensitive buyers, and a substitute in rail on short routes. The framework predicts thin margins for a typical airline even when planes are full, because several forces are pulling at once. Contrast a niche industrial software product that customers embed in their own process, with high switching costs, few substitutes, and fragmented buyers. The same framework predicts that the software firm keeps more of the value, before anyone has mentioned the talent of its founders. Talent still matters. It matters inside a structure, not instead of one.",
+      "sources": [
+        {
+          "title": "Porter’s five forces, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Porter%27s_five_forces"
+        },
+        {
+          "title": "Michael Porter, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Michael_Porter"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The five forces and the 1980 book match the standard account of Porter’s framework. The card presents it as a set of questions about industry structure, not as a predictive law or an investment rule.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "cognitive-dissonance",
+      "field": "psychology",
+      "title": "A clash between two beliefs is uncomfortable, and people edit one",
+      "hook": "Leon Festinger’s theory says the discomfort of inconsistency is itself a motive. The famous $1 versus $20 experiment is one way he tried to show it.",
+      "body": "Cognitive dissonance, as Festinger set it out in 1957, is the discomfort of holding two cognitions that contradict each other, or of acting against a belief you hold. People can reduce it by changing the behaviour, changing the belief, or adding a new cognition that makes the pair fit. The theory's bite is that the belief often moves, because the behaviour has already happened and cannot.\n\nThe classic demonstration is Festinger and Carlsmith's 1959 experiment. Students did a dull task, then were paid either $1 or $20 to tell the next person that the task had been enjoyable. Later, the students paid $1 rated the task as more enjoyable than the students paid $20. The interpretation: $20 is a sufficient external reason to have said something false, so the belief can stay ('I lied, and I was paid'). $1 is a poor reason. The inconsistency between 'the task was dull' and 'I told someone it was fun' is reduced by deciding the task was not so dull.",
+      "deeper": "The result is easy to overgrow. It is one experiment, with a particular task and a particular pair of payments, in the currency of the late 1950s. Later work has argued about how reliably the pattern replicates and about which situations produce a belief change rather than a shrug. Dissonance theory is influential because the mechanism is recognisable, not because one study measured the size of human hypocrisy.\n\nThere is also a boundary inside the theory. If you had a good external justification, the theory predicts less attitude change, which is the $20 condition. Coercion, a large reward, or a gun to the head are all reasons that let the original belief survive. The interesting prediction is about insufficient justification: the small push, not the large one, is what recruits the belief to the side of the act.",
+      "example": "You tell a friend a film was excellent, because you chose it and you do not want an argument. You were not paid. Afterwards the film, which bored you, is remembered as better than it was. That is the $1 pattern in ordinary clothes: a public statement, a weak external reason, and a private rating that drifts toward the statement. Contrast being required, on pain of losing a job, to praise the film. Festinger's theory says you can leave the cinema still thinking it was bad, because the threat did the explanatory work. Whether any one evening in fact works this way is not something the 1959 means can guarantee. The pattern to look for is the weak reason, not the mere fact of having said something.",
+      "sources": [
+        {
+          "title": "Cognitive dissonance, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+        },
+        {
+          "title": "Leon Festinger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leon_Festinger"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.86,
+        "notes": "The $1 versus $20 forced-compliance study is Festinger and Carlsmith 1959, as summarised in the standard encyclopedia accounts. The card treats it as one experiment and notes later debate about replication and boundary conditions, so the confidence stays below the most settled entries.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "negative-feedback",
+      "field": "engineering",
+      "title": "The Watt governor closes the valve when the engine runs away",
+      "hook": "Negative feedback measures the error and pushes the other way. Reverse the linkage and the same machine becomes a runaway.",
+      "body": "James Watt's steam engines needed a speed that stayed put while the load changed. The centrifugal governor, fitted to his engines in the 1780s, did it mechanically. Two heavy balls spin with the engine shaft. If the shaft speeds up, the balls swing outward. The linkage translates that rise into a closing of the steam valve. Less steam, the engine slows, the balls drop, the valve opens a little. The response opposes the error. That is negative feedback.\n\nPositive feedback is the same loop with the sign flipped. If a rise in speed opened the valve, the engine would speed up further. The governor's fame is the sign. James Clerk Maxwell's 1868 paper 'On Governors' is an early mathematical treatment of whether such a loop settles or oscillates. It is one of the roots of control theory. The device is older than the theory. The theory is what tells you the device can be tuned badly.",
+      "deeper": "A feedback loop has a setpoint, a measurement, and an actuator. The error is setpoint minus measurement, or the other way around, depending on the sign convention. The actuator's job is to reduce the error. If the actuator is too aggressive, the system overshoots. Speed drops below the setpoint, the valve slams open, speed rises too far, and the engine hunts. Stability is not automatic just because the sign is negative. Gain and delay decide whether the correction arrives in proportion, or arrives late and too large.\n\nThe same picture describes a thermostat, a cruise control, and a biological pathway that inhibits its own first step. The metaphor travels because the structure is small: measure, compare, act in opposition. It does not travel as far as 'balance' in the loose sense. A system can be in negative feedback and still sit at the wrong setpoint, if you asked it to hold the wrong speed.",
+      "example": "An engine is set for 60 revolutions and is doing 60, with the valve partly open. A machine downstream is switched off, so the load falls and the shaft starts to climb. The balls rise. The valve closes until the shaft is back near 60, now with less steam because less work is being asked. Switch the machine back on and the shaft dips, the balls fall, and the valve opens. If a mechanic reverses the linkage during a repair, the first small rise in speed opens the valve, the rise becomes a surge, and the governor is now an accelerator. The hardware is almost the same. The sign was the safety device.",
+      "sources": [
+        {
+          "title": "Centrifugal governor, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Centrifugal_governor"
+        },
+        {
+          "title": "Negative feedback, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negative_feedback"
+        },
+        {
+          "title": "James Watt, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Watt"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.91,
+        "notes": "The centrifugal governor’s opposing action and its use on Watt’s engines match the standard account. Maxwell’s 1868 paper ‘On Governors’ is a real and relevant source for the mathematics; the card does not claim Watt wrote the theory. The sign-reversal example is a consequence of the definition, not a historical anecdote.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "gutenberg-press",
+      "field": "history",
+      "title": "Europe’s printing boom started in Mainz, and not from nothing",
+      "hook": "Gutenberg’s Bible, finished around 1455, is the famous object. Movable metal type was already in use in Korea.",
+      "body": "Johannes Gutenberg, working in Mainz, combined movable metal type, an oil-based ink, and a press adapted from wine and paper technology into a process that could produce a book in many consistent copies. The Gutenberg Bible was completed in the middle of the 1450s. Within a few decades, presses were operating in cities across Europe. The change in the cost and speed of copying, relative to a scribe, was enormous.\n\nHe did not invent printing, and he did not invent movable type. Woodblock printing is much older, especially in East Asia. Metal movable type was used in Korea before Gutenberg; the Jikji, a Buddhist book, was printed with it in 1377. What began in Mainz was the European industry: a cluster of techniques that spread fast through a continent of competing towns, in the alphabet Gutenberg was casting.",
+      "deeper": "The interesting historical question is the spread, not the portrait of a lone genius. A press is a workshop. Typefounding, paper, and a market of readers have to move together. Europe's political fragmentation meant a printer in trouble in one city could often set up in another, which is a poor way to suppress a technology and a good way to diffuse it. The association with the Reformation is real and easy to overstate. Print came before Luther, and it carried indulgences and liturgies as well as protests. It changed who could address a public. It did not dictate what the public would decide.\n\nDates are firmer for the Bible than for the first experiments. 'Around 1455' is the honest precision for the book. 'Gutenberg invented printing in 1440' is a slogan with a false verb and a shaky year.",
+      "example": "A scribe copying a Bible produces one Bible, and the next copy starts again, errors included or newly made. A compositor sets a page once. The press can then pull hundreds of copies of that page before the type is needed for another. The saving is in the repeat, not in the first setting, which is slow. That arithmetic is why a short pamphlet, printed in a large run, became a different political object from a manuscript copied for a patron. It is also why a typesetting error becomes a mass-produced error. Consistency cuts both ways.",
+      "sources": [
+        {
+          "title": "Johannes Gutenberg, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+        },
+        {
+          "title": "Jikji, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jikji"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "The Gutenberg Bible is placed in the mid-1450s, and the Jikji of 1377 is cited so the card does not claim Gutenberg invented movable type. Woodblock printing is acknowledged as older still.",
+        "corrections": [
+          "Removed the claim that Gutenberg invented printing or movable type. Metallic movable type was used in Korea earlier; the card credits him with the process that spread through Europe."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "diversification",
+      "field": "finance",
+      "title": "Risk that is not shared can be mixed away",
+      "hook": "Harry Markowitz’s 1952 point was that a portfolio is not the average of its parts. What matters is how the parts move together.",
+      "body": "If two risks are perfectly correlated, holding both is like holding one. They rise and fall together, and the portfolio is as bumpy as the pieces. If they are less than perfectly correlated, one can be up while the other is down, and the portfolio's variance is lower than the weighted average of the variances. That gap is the gain from diversification. It is a fact about covariances.\n\nMarkowitz's paper 'Portfolio Selection' (Journal of Finance, 1952) made this the centre of portfolio theory. He treated the investor as caring about expected return and about variance, and he showed that some combinations are inefficient: you could get more expected return for the same variance, or less variance for the same expected return, by mixing differently. The Nobel Prize in 1990 honoured that work. The practical slogan, don't put everything in one asset, is much older. The contribution was to say exactly which feature of the 'everything' does the smoothing.",
+      "deeper": "There is a remainder that mixing does not touch. A risk that hits every asset at once, because it hits the economy those assets are claims on, is still in the portfolio after you have spread your bets. Later models call versions of this market risk. Idiosyncratic risk, the part that is special to one firm or one property, is the part diversification is built to shrink. Owning twenty stocks instead of one really does change the second. It does not entitle you to the first disappearing.\n\nDiversification is also not a forecast of profit. A bundle of overpriced assets is a diversified bundle of overpriced assets. The US Securities and Exchange Commission puts the caution in plain language on Investor.gov: spreading your money around does not ensure a profit or guarantee against loss. Markowitz's mathematics is about the shape of risk for a given set of prospects. It is not a promise about the prospects.",
+      "example": "Two firms, each of which gains 20 or loses 10 with equal probability, independently. Held alone, each has an expected outcome of 5, and a real chance of a loss. Held half and half, the portfolio loses 10 only if both lose, probability 1/4. It gains 20 only if both gain, probability 1/4. Half the time they split, and the portfolio moves by 5. The chance of the worst case has fallen from 1/2 to 1/4, and the expected outcome is still 5. If instead both firms always gain and lose on the same days, the 50-50 mix has the same distribution as either firm. Correlation, not the count of logos, did the work.",
+      "sources": [
+        {
+          "title": "Harry Markowitz, Nobel Prize facts",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/1990/markowitz/facts/"
+        },
+        {
+          "title": "Diversification, Investor.gov (US Securities and Exchange Commission)",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification"
+        },
+        {
+          "title": "Modern portfolio theory, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Modern_portfolio_theory"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The 1952 paper and the role of covariance match the Nobel account of Markowitz and the standard statement of modern portfolio theory. The two-firm example was enumerated: independent worst case 1/4, expected value 5 either way. The card does not claim diversification prevents loss.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "categorical-imperative",
+      "field": "philosophy",
+      "title": "Kant’s test is whether you can will the rule for everyone",
+      "hook": "A hypothetical imperative says what to do if you want something. Kant's categorical imperative does not come with an if.",
+      "body": "In the Groundwork, Kant distinguishes rules that depend on a goal from rules that bind whatever you want. 'If you want a good reputation, keep your promises' is hypothetical. It lapses if you stop caring about reputation. A moral rule, he argues, cannot be like that. It has to be categorical.\n\nThe best-known formula says: act only on a maxim you can at the same time will as a universal law. A maxim is the principle you are acting on, not the outward motion. The test is not 'would this have good results?' It is whether the principle still makes sense, or is still something you can rationally want, when everyone acts on it. Lying to get out of a tight spot fails, on Kant's telling, because a world of that maxim undermines the trust that makes the lie useful.",
+      "deeper": "Kant gives more than one formula and treats them as equivalent. The formula of humanity says: treat persons never merely as means, but always also as ends. Using someone's trust as a tool, while denying them the standing to consent to the principle, is the failure he cares about. Consequences are not irrelevant to ordinary life, but they are not what makes an action morally worthy. Moral worth, in the Groundwork, attaches to acting from duty, not merely in line with it.\n\nThis is easy to cartoon. Kant does not say you should ignore the person bleeding in the road because of a rule about appointments. He is arguing about the form of moral reasons. The formulas are also harder to apply than the slogans. What the maxim was, and what 'can be willed' demands, is where serious Kantian argument starts. The Groundwork is the short book. The Metaphysics of Morals is where he tries the harder cases.",
+      "example": "You need money and you promise to repay, knowing you cannot. The maxim is roughly: when I need money, I will make a false promise. Universalise it. If everyone did that, promises to repay would stop being believed, and the practice your maxim depends on would disappear. Kant thinks the maxim cannot even be conceived as a universal law, not merely that the results would be unpleasant. Contrast a hypothetical version: 'if you want another loan later, don't default.' That advice vanishes the moment you don't want another loan. The categorical test is meant to stay in force anyway.",
+      "sources": [
+        {
+          "title": "Kant’s Moral Philosophy, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kant-moral/"
+        },
+        {
+          "title": "Kant, Fundamental Principles of the Metaphysic of Morals (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/5682"
+        },
+        {
+          "title": "Categorical imperative, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Categorical_imperative"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The two formulas and the false-promise example follow the Groundwork, as summarised in the Stanford Encyclopedia and in the Gutenberg translation titled Fundamental Principles of the Metaphysic of Morals. The card does not claim the formulas are easy to apply.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "hubble-lemaitre",
+      "field": "astronomy",
+      "title": "Nearby, redshift grows with distance",
+      "hook": "The Hubble–Lemaître law says a galaxy’s recession speed is roughly proportional to how far away it is. The constant in that sentence is still argued over.",
+      "body": "Look at a nearby galaxy's spectrum and the familiar lines are shifted toward the red. Interpreting that shift as a velocity, and comparing it with distance, gives a simple relation: velocity is approximately H0 times distance. H0 is the Hubble constant. Galaxies farther away recede faster. The usual reading is that space itself is expanding, so the wavelengths stretch with it, rather than that the galaxies are shells of debris flying through a static room from one explosion.\n\nGeorges Lemaître published an expanding-universe relation in 1927. Edwin Hubble's 1929 paper supplied the observational plot that made the relation famous. The International Astronomical Union now recommends the name Hubble–Lemaître law, which is a fair repair. Hubble did not discover that the universe had a beginning. Running the expansion backward is the root of Big Bang cosmology. That is a further inference, with its own evidence, not a caption on Hubble's graph.",
+      "deeper": "The law in that simple form is for relatively nearby galaxies, where the relationship looks linear. At large distances the expansion history is more complicated, and 'velocity' and 'distance' need careful definitions. There is also a live disagreement about the number H0. Measurements that start from the cosmic microwave background, the early universe, cluster around 67 kilometres per second per megaparsec. Measurements that start from nearby supernovae cluster around 73. The gap is larger than the quoted uncertainties. It is called the Hubble tension, and it is not yet settled which side, or which missing piece of physics, is the problem.\n\nA card that announces 'the' Hubble constant as one precise value is already out of date. A card that says the proportionality is real, the name has two parents, and the constant is in dispute at the level of several kilometres per second per megaparsec, is the one that will still be readable in a few years.",
+      "example": "Use 70 kilometres per second per megaparsec as a round teaching number, not as a verdict. A galaxy 10 megaparsecs away would then recede at about 700 kilometres per second. A galaxy 100 megaparsecs away, at about 7000. The factor of ten in distance is a factor of ten in speed, which is the whole content of the linear law. Shift the constant from 67 to 73 and those speeds move by about 10 percent. That is enough to matter for the age you infer by running the expansion backward, and not enough to threaten the fact of the expansion. The argument is about the number. The redshift-distance trend, for nearby galaxies, is not the thing in doubt.",
+      "sources": [
+        {
+          "title": "Hubble’s law, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hubble%27s_law"
+        },
+        {
+          "title": "Georges Lemaître, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
+        },
+        {
+          "title": "The universe, NASA Science",
+          "url": "https://science.nasa.gov/universe/overview/"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.88,
+        "notes": "Lemaître 1927 and Hubble 1929 are correctly ordered. The approximate Hubble tension figures, about 67 versus about 73 km/s/Mpc, match the widely cited Planck and local-distance scales and are labelled as approximate and unresolved. The teaching product at 70 is explicitly not a measured verdict.",
+        "corrections": [
+          "Did not credit Hubble alone, and did not state a single settled value of H0. The published text names Lemaître’s 1927 relation and the current tension between roughly 67 and roughly 73 km/s/Mpc."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "comparative-advantage",
+      "field": "economics",
+      "title": "Trade can pay when one side is better at both things",
+      "hook": "Absolute advantage is about who uses fewer hours. Comparative advantage is about who gives up less.",
+      "body": "David Ricardo's 1817 illustration is still the cleanest. Suppose England needs 100 hours of labour to make a unit of cloth and 120 to make a unit of wine. Portugal needs 90 for cloth and 80 for wine. Portugal uses fewer hours for both. It has an absolute advantage in each.\n\nComparative advantage looks at the alternative. England's cloth costs 100/120 of a unit of wine, about five-sixths. Portugal's cloth costs 90/80, which is more than a unit of wine. England gives up less wine to make cloth, so England has the comparative advantage in cloth. Portugal gives up less cloth to make wine. If each specialises toward the lower opportunity cost, both can consume more than they could alone. The result is about relative costs, not about one country being generally more productive.",
+      "deeper": "Ricardo's numbers are an illustration, not a census of English and Portuguese workshops. The logic needs a few assumptions: the goods can be traded, labour can move between the two industries at home, and we are comparing two goods. Later theory (Heckscher–Ohlin and what followed) relocates the source of the cost difference in factor endowments. The opportunity-cost point survives the change of scenery.\n\nA gain for the country in the model is not a gain for every person in the country. The industry that shrinks loses, and the model says nothing automatic about compensation. It also says nothing about bargaining power, transport costs, or goods that are not rival consumption goods. Those are real limits. They are not the same claim as 'trade only helps if you are the best at something.'",
+      "example": "Leave the hours as Ricardo stated them. England's opportunity cost of 1 wine is 120/100 = 1.2 cloth. Portugal's opportunity cost of 1 wine is 80/90, about 0.89 cloth. Portugal is the lower-cost producer of wine in terms of cloth forgone, even though Portugal is also the lower-cost producer of cloth in terms of hours. A deal in which England ships cloth and Portugal ships wine can be priced so that each gives up less than it would have spent producing the import itself. Any price of wine, in units of cloth, between 0.89 and 1.2 leaves both sides ahead of making both goods at home.",
+      "sources": [
+        {
+          "title": "David Ricardo, On the Principles of Political Economy and Taxation (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/33310"
+        },
+        {
+          "title": "Comparative advantage, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+        },
+        {
+          "title": "David Ricardo, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_Ricardo"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.96,
+        "notes": "Ricardo's labour figures (England 100 and 120, Portugal 90 and 80) are the ones in the Principles. The opportunity-cost arithmetic was recomputed. The card labels the numbers as an illustration and separates national gains from individual gains.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "public-key-exchange",
+      "field": "computing",
+      "title": "Two people can agree a secret in public",
+      "hook": "Diffie and Hellman’s 1976 paper showed how to share a key while an eavesdropper watches. The trick is a calculation that is easy to do and hard to undo.",
+      "body": "Before this idea, two people who wanted a secret channel needed a secret already, so they could agree the key. Whitfield Diffie and Martin Hellman, in 'New Directions in Cryptography' (IEEE Transactions on Information Theory, 1976), described a way to create a shared secret from scratch over a public line. Each person picks a private number and mixes it, in a published way, with a public value. They exchange the mixed results. Each can combine the other's mixed result with their own private number and arrive at the same shared secret. An eavesdropper sees the public value and both mixed results, and still lacks a private number.\n\nIn the original version, the hardness is the discrete logarithm: given the mixed result, recovering the private number is believed to be infeasible for large enough sizes. The paper also set out the broader hope of public-key cryptography, including the idea of a signature. Ralph Merkle was working on related ideas at the same time. The 2015 Turing Award went to all three.",
+      "deeper": "Key exchange is not the same object as encryption. Diffie–Hellman, used as above, ends with a shared secret. It does not by itself send a message. RSA, published soon after, is a different construction, aimed at encryption and signatures with a public key and a private key. Both sit in the family the 1976 paper opened. Neither is something to invent at home. Real systems add authentication, so you know who you are mixing numbers with, and they choose sizes and groups that have survived public attack. A textbook picture of the algebra is not a design.\n\nThe conceptual point is still worth having, because it reverses an old assumption. Secrecy of the channel is not required for secrecy of the key, provided the one-wayness holds and you are talking to the person you think you are. If the one-wayness fails, the eavesdropper who keeps the transcript can recompute the secret. The security is the hardness, not the theatre of the exchange.",
+      "example": "A toy version uses small numbers and is not secure. Agree publicly on a base g and a modulus p. Alice picks a private a and sends g^a mod p. Bob picks a private b and sends g^b mod p. Alice raises Bob's message to the power a. Bob raises Alice's message to the power b. Both get g^(ab) mod p. The eavesdropper sees g, p, g^a, and g^b, and wants g^(ab). With the enormous sizes used in real systems, no public method is known that recovers it in reasonable time. With the toy sizes, the eavesdropper just tries every private number. The example is there to show what is being hidden. It is not a parameter set. Do not use it for anything you need kept secret.",
+      "sources": [
+        {
+          "title": "Whitfield Diffie and Martin Hellman, “New Directions in Cryptography” (1976)",
+          "url": "https://ee.stanford.edu/~hellman/publications/24.pdf"
+        },
+        {
+          "title": "Diffie–Hellman key exchange, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange"
+        },
+        {
+          "title": "Public-key cryptography, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The PDF is the 1976 IEEE paper by Diffie and Hellman. The card separates key exchange from encryption, names Merkle and the 2015 Turing Award, and gives only an explicitly insecure toy of the algebra, with a warning not to use it.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "mendeleev-predictions",
+      "field": "chemistry",
+      "title": "Mendeleev left gaps, and the gaps filled in",
+      "hook": "The periodic table became convincing because empty squares made predictions. Gallium, scandium, and germanium arrived with properties Dmitri Mendeleev had already sketched.",
+      "body": "In 1869 Mendeleev arranged the known elements by atomic weight and by recurring chemical behaviour, and he left blanks where the pattern seemed to demand an element that had not been found. He gave three of the blanks provisional names: eka-aluminium, eka-boron, and eka-silicon, and he predicted properties such as atomic weight and density. Gallium, discovered in 1875, scandium in 1879, and germanium in 1886, matched those sketches closely enough that the table stopped looking like a filing system and started looking like a theory.\n\nHe was not the only person grouping elements. Others had noticed the periodic repetition. What distinguished his table was the willingness to say 'this one is missing, and it should look like this.' A pattern that only redescribes what you already know is cheap. A pattern that tells a chemist what to go and find is a different object.",
+      "deeper": "Mendeleev did not know about atomic number or electron shells. He ordered elements by weight, and in a few places the weight order and the chemical order disagree. Later work, especially Henry Moseley's measurements of atomic number, put the table on the quantity that actually drives the pattern: the number of protons, and the shell structure of the electrons. Some of Mendeleev's predictions were simply wrong. The successes are famous because they were specific, not because he was infallible.\n\nThe modern table is a map of quantum mechanics as much as a list of substances. Reading it as Mendeleev wrote it, you can still see the empirical bet. Similar outer electrons recur as you step through the elements, and chemistry recurs with them. The gaps were a way of taking that recurrence seriously before anyone could say 'outer electrons.'",
+      "example": "Eka-aluminium was predicted to sit under aluminium, with a low melting point and a density around 6 grams per cubic centimetre. Gallium melts in the hand, near 30 degrees Celsius, and its density is about 5.9 grams per cubic centimetre. One famous number is not a whole confirmation. The chemical behaviour, the place in the table, and several predicted properties lined up together, which is harder to shrug off than a single lucky density. Germanium did the same job for the square under silicon. A table that had been drawn with no blanks would have had nowhere to put the surprise, and nowhere to have been caught out.",
+      "sources": [
+        {
+          "title": "Dmitri Mendeleev, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+        },
+        {
+          "title": "Periodic table, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Periodic_table"
+        },
+        {
+          "title": "Gallium, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gallium"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The 1869 table, the three eka-predictions, and the discovery years 1875, 1879, and 1886 match the standard account. Gallium’s density is about 5.91 g/cm³ and its melting point is about 29.8 °C. The card notes that some of Mendeleev’s other predictions failed and that atomic number came later.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "hobbes-problem-of-order",
+      "field": "politics",
+      "title": "Hobbes’s question is what happens with no common power",
+      "hook": "Leviathan is not a travel report from prehistory. It is an argument about why rules need someone who can enforce them.",
+      "body": "Thomas Hobbes, writing Leviathan in 1651, asks you to consider people who are roughly equal in vulnerability, who want safety and the means to live, and who have no common power over them. In that condition, he argues, you cannot safely specialise, trust a promise, or leave anything you value unguarded. Anticipating that others will reason the same way, you prepare for conflict. He calls the result a war of every person against every person. The famous phrase is an argument, not a diary of early human life.\n\nHis proposed exit is a covenant that authorises a sovereign powerful enough to make the rules stick. People give up the private right to judge every dispute, because that right, held by everyone at once, is what made the promises empty. The sovereign is frightening on purpose. Hobbes thinks the alternative he has described is worse.",
+      "deeper": "The state of nature is a thought experiment with stated conditions: no common power, rough equality, and goods that cannot be enjoyed securely. It is not a claim that archaeologists should expect permanent war in every society without a king. Anthropologists have spent a long time on societies that keep order without a Hobbesian state. That evidence does not, by itself, answer Hobbes's narrower question about what happens when there is no effective enforcement at all.\n\nLater political theory argues with him about the shape of the exit. Locke wants a government that can be resisted when it becomes the threat. Hobbes is much more afraid of the collapse back into private judgement than of an overbearing sovereign. Reading him well means keeping those priorities visible, and not quoting 'nasty, brutish, and short' as if it were a finding about the Stone Age.",
+      "example": "Two neighbours would both be better off if each left the harvest unguarded and did a full day's work. Each also knows that an unguarded harvest can be taken, and that the other knows it. If there is no third party who will reliably punish theft, the safer private plan is to guard, or to steal first. Both end up poorer. A sovereign, in Hobbes's design, changes the payoffs by making the theft costly enough that the cooperative plan is privately safe. Whether any actual state does this, or preys instead, is the argument Locke presses. Hobbes's example is about the structure of the problem, not a warrant for any particular government.",
+      "sources": [
+        {
+          "title": "Thomas Hobbes, Leviathan (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/3207"
+        },
+        {
+          "title": "Hobbes’s Moral and Political Philosophy, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hobbes-moral/"
+        },
+        {
+          "title": "Thomas Hobbes, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The state-of-nature argument and the 1651 date of Leviathan match the Gutenberg text and the Stanford Encyclopedia entry. The card explicitly refuses the reading on which Hobbes was doing anthropology.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "plate-tectonics",
+      "field": "earth-science",
+      "title": "The crust is a set of plates that move",
+      "hook": "Alfred Wegener had the fit of the continents and not a mechanism. The mechanism arrived with the seafloor.",
+      "body": "Earth's outer shell, the lithosphere, is broken into plates. The plates move relative to one another, riding over a softer asthenosphere, at rates of centimetres a year. Where they pull apart, new oceanic crust forms. Where they meet, one may dive under the other, or they may crumple into mountains, or slide past. Earthquakes and volcanoes concentrate on those boundaries. This is plate tectonics, the organising theory of modern geology.\n\nWegener argued in the early twentieth century that the continents had once been joined and had drifted. The fit of South America and Africa, and matching fossils and rocks, were real clues. What he did not have was a convincing account of how a continent plows through ocean crust. That missing mechanism is why the idea stalled. The revival came from the ocean floor: Harry Hess's seafloor spreading, magnetic stripes that record reversals of Earth's field as crust forms and moves out from ridges, and the global map of earthquakes. The US Geological Survey's This Dynamic Earth tells that history without pretending Wegener finished it.",
+      "deeper": "Plates do not all move at one speed, and they do not respect the outline of a country. A single plate can carry ocean and continent. The Pacific plate is mostly seafloor. The boundary that matters for a city is the nearest plate edge, not the centre of the continent it sits on. Motion is measured directly now, with satellites, at the centimetres per year the geology had inferred from magnetic stripes and from the ages of ocean crust.\n\nThe theory does not say the map is fixed. Ocean crust is recycled at subduction zones on timescales of a couple of hundred million years, which is why the oldest seafloor is young compared with the oldest continental rock. Continents, being harder to subduct, preserve a much longer archive. 'The continents move' is the true popular sentence. 'The plates move, and continents are passengers on some of them' is the more careful one.",
+      "example": "The Atlantic is widening because the Americas and Europe-Africa are on plates that are separating at the Mid-Atlantic Ridge. New basalt forms at the ridge and inherits the magnetic direction of the day. When Earth's magnetic field reverses, the next basalt records the new direction. Sailing away from the ridge, you cross matching stripes on both sides, older as you go. That pattern is a tape of the spreading. It is also why a fossil match between Brazil and West Africa is no longer a puzzle that needs a sunken land bridge. The two coasts were adjacent, and the stripe record is the timer for how they parted.",
+      "sources": [
+        {
+          "title": "This Dynamic Earth, US Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
+        },
+        {
+          "title": "Plate tectonics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plate_tectonics"
+        },
+        {
+          "title": "Historical perspective, This Dynamic Earth (USGS)",
+          "url": "https://pubs.usgs.gov/gip/dynamic/historical.html"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "The distinction between Wegener’s continental drift and later seafloor-spreading evidence matches the USGS account in This Dynamic Earth. Speeds of centimetres a year and the magnetic-stripe evidence are standard and are not given false extra precision.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "mass-energy",
+      "field": "physics",
+      "title": "A mass has a rest energy, mc²",
+      "hook": "E = mc² says that mass and energy are the same kind of thing, counted in different units. It does not say that mass is destroyed and vanishes from the books.",
+      "body": "Einstein's 1905 paper 'Does the Inertia of a Body Depend upon Its Energy Content?' argued that if a body gives off energy E, its mass falls by E/c², where c is the speed of light. Rearranged, the rest energy tied to a mass m is E = mc². Because c is large, a tiny change in rest mass corresponds to a large energy when you measure it in ordinary units.\n\nIn nuclear fission, the fragments and neutrons, taken at rest, have a little less mass than the nucleus you started with. The difference leaves as kinetic energy and radiation. Nothing in the accounting has gone missing. Mass-energy is what is conserved. If you insist on keeping a separate column labelled 'mass' that only counts rest mass, that column goes down, and the energy column goes up by the matching amount. Calling this 'mass turning into energy' is acceptable shorthand only if you remember it is a transfer between columns of one ledger.",
+      "deeper": "The formula is a special case of a more general relation between energy, momentum, and mass in special relativity. A photon has energy and momentum and zero rest mass. A moving particle has more energy than its rest energy. mc² is the floor, the energy in the rest frame, not a complete inventory of a busy particle.\n\nThe size of c is why chemistry feels as if mass were conserved to the last gram. Chemical energies are real and correspond to mass changes far below what a kitchen scale sees. Nuclear energies are a much larger fraction of the rest energy, which is why the books of a reactor are where people first believe the formula. OpenStax University Physics, volume 3, section 5.9, derives the relativistic energy. The 1905 paper, in a standard English text, is short enough to read beside it.",
+      "example": "A mass defect of 1 gram, if it were fully released, corresponds to E = 0.001 times c². With c about 3 times 10^8 metres per second, c² is about 9 times 10^16, and 0.001 of that is 9 times 10^13 joules. That is the scale of a small nuclear explosion, from a mass you could hide in a pocket, which is why the coefficient is the whole story. Ordinary fission releases only a fraction of a nucleus's rest energy, not all of it. The formula tells you the exchange rate. The nuclear physics tells you how much rest mass a given reaction actually loses.",
+      "sources": [
+        {
+          "title": "Einstein, “Does the Inertia of a Body Depend upon Its Energy-Content?” (1905)",
+          "url": "https://www.fourmilab.ch/etexts/einstein/E_mc2/www/"
+        },
+        {
+          "title": "5.9 Relativistic Energy, University Physics Volume 3 (OpenStax)",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy"
+        },
+        {
+          "title": "Mass–energy equivalence, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The 1905 paper’s claim, that a body emitting energy E loses mass E/c², matches the Fourmilab text of Einstein’s article. The 1 gram illustration uses c ≈ 3×10^8, so 0.001 c² ≈ 9×10^13 J. The card treats rest mass and energy as one ledger.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "comparative-method",
+      "field": "linguistics",
+      "title": "Related languages rhyme for systematic reasons",
+      "hook": "The comparative method reconstructs a parent language from regular sound correspondences. A stray lookalike is not evidence. A rule with exceptions that have their own rule is.",
+      "body": "Languages that descend from a common ancestor share features that line up in a patterned way, not just a word or two that sound similar. The comparative method collects those correspondences and infers the sounds and words of the parent. Proto-Indo-European, spoken by nobody we can name and written down by nobody, is reconstructed this way from languages spread from Ireland to India.\n\nGrimm's law is the textbook set of correspondences for Germanic. Where Latin and Greek have p, t, or k, English and its Germanic relatives often have f, th, or h. Latin pater and English father. Latin tres and English three. Latin cornu, a horn, and English horn. The correspondences are regular across many words. That regularity is the evidence. One pair that looks cute is not.",
+      "deeper": "The method earned its keep by surviving an apparent failure. Some Germanic words did not show the consonant Grimm predicted. Karl Verner showed in the 1870s that a large set of those exceptions depended on where the accent had been in the parent language. Once the accent rule was included, the exceptions became another regularity, Verner's law. A method that explains its counterexamples by a further correspondence is stronger, not weaker.\n\nReconstruction is not a recording. Nobody claims we know exactly how Proto-Indo-European was pronounced in every detail. We know a system of contrasts that, by regular changes, yields the daughter languages. Loanwords and chance resemblances are the decoys. English and Persian both have a word that sounds like 'bad,' and it is a terrible piece of evidence by itself. Hundreds of correspondences in the same direction, with a story for the exceptions, are the real thing.",
+      "example": "Take the p-to-f correspondence and try to fake it with one word. You can always find two languages with one similar pair. Now ask for the whole series: p with f, t with th, k with h, in the inherited vocabulary, not in a word borrowed last century. Latin piscis and English fish belongs to the same p-to-f series as pater and father. A borrowed word like English 'pepper,' which came through Latin, does not have to obey the Germanic shift, and it doesn't. Sorting inherited from borrowed is part of the method. After Verner, a voicing where Grimm expected a fricative is not thrown out. You check the old accent. The method is the refusal to be impressed by a single pair, and the refusal to panic at a patterned exception.",
+      "sources": [
+        {
+          "title": "Comparative method, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comparative_method"
+        },
+        {
+          "title": "Grimm’s law, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grimm%27s_law"
+        },
+        {
+          "title": "Verner’s law, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Verner%27s_law"
+        },
+        {
+          "title": "Proto-Indo-European language, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "Grimm’s law correspondences (pater/father, tres/three, cornu/horn) and Verner’s law as the account of a major set of exceptions match the standard historical-linguistics account. The English/Persian ‘bad’ pair is correctly treated as a non-argument.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "regression-to-the-mean",
+      "field": "statistics",
+      "title": "Extreme scores are partly luck, so the next one moves inward",
+      "hook": "Francis Galton saw it in heights. A group picked for being extreme will, on average, be less extreme the next time you measure.",
+      "body": "Regression to the mean is a statistical tendency, not a force pulling the world back to mediocrity. If a measurement combines something stable with some chance, then the people with the highest measurements were, on average, lucky as well as good. Luck does not repeat on command. The next measurement of that same group is therefore closer to the middle, even if nothing about the people changed.\n\nGalton studied the heights of parents and children in the nineteenth century. Very tall parents had children who were still tall, on average, but less extremely tall than the parents. He called the pattern regression toward mediocrity. The stable part, heredity, is real. The inward step is what you expect when the parents were selected on a height that included chance variation, and when the resemblance between generations is imperfect.",
+      "deeper": "The mistake is to invent a cause for the inward step. A team that has a miraculously good season and then a more ordinary one has not necessarily become lazy. A patient who comes to a clinic on their worst week and looks better next week has not necessarily been cured by whatever you did on the day they arrived. Any policy that treats people only when they are at an extreme, and then congratulates itself on the follow-up, is walking into this trap.\n\nThe mirror image matters just as much. A group selected for a terrible measurement will, on average, look better later, for the same reason. Regression is not a downward drift in the whole population. The population mean stays put. It is the selected tail that moves. If the correlation between the two measurements is perfect, there is no regression. If it is zero, the next measurement of the extreme group is just the population average.",
+      "example": "A student sits two similar exams. Scores are a mix of skill and the day's noise. You select the students who scored above 90 on the first exam. Some of them are skilled and had an ordinary day. Some are a bit less skilled and had a great day. On the second exam the great days are not all repeated, so the group's average falls, even though nobody studied less. Students who scored below 40 on the first exam will, as a group, rise. A tutor who only coaches the first group and claims the drop as evidence that coaching hurt them, or who only coaches the second group and claims the rise as their own doing, has not yet separated the teaching from the selection.",
+      "sources": [
+        {
+          "title": "Regression toward the mean, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean"
+        },
+        {
+          "title": "Francis Galton, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Francis_Galton"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The card states regression as a consequence of imperfect correlation plus selection on a noisy measurement, which is the standard account associated with Galton’s height studies. It explicitly says the population mean does not drift.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "second-law",
+      "field": "physics",
+      "title": "Heat does not, by itself, flow uphill",
+      "hook": "The second law is about isolated systems. A living thing stays orderly by exporting entropy, not by cancelling the law.",
+      "body": "One classical statement, due to Clausius, is that heat does not spontaneously pass from a colder body to a hotter one. Kelvin's statement is that you cannot build an engine that turns heat entirely into work, in a cycle, with no other effect. The modern summary uses entropy: in an isolated system, entropy does not decrease. The statements are equivalent. They all say that some processes run one way and not the reverse, even when energy is conserved.\n\nThe first law is a conservation law. It would allow a cup of tea to get hotter while the room gets colder, if the energy books balanced. The second law is why that does not happen on its own. You can move heat from cold to hot, which is what a refrigerator does, but only by doing work and dumping even more heat somewhere else. The refrigerator plus the kitchen is not a counterexample. It is the law in action.",
+      "deeper": "Entropy is not a mood called disorder, though that metaphor sometimes helps. In statistical mechanics it tracks how many microscopic arrangements correspond to a macroscopic state. Systems tend to evolve toward states that can happen in more ways. That is a tendency of isolated systems, with a probability so close to certainty for anything large that we treat it as a law.\n\nEarth is not an isolated system. It receives a stream of energy from the Sun and radiates energy to space. A cell takes in low-entropy food and dumps heat and waste. Local order can increase. The books are kept by the surroundings. OpenStax's University Physics treats the second law in its own chapter, and the encyclopedia articles on the second law and on entropy are the right companions if the word 'disorder' has started to do too much work.",
+      "example": "Two blocks, one hot and one cold, are placed in contact inside an insulated box. Energy flows from hot to cold until the temperatures match. The reverse, a spontaneous un-mixing back into hot and cold, is compatible with conservation of energy and is not observed. A refrigerator between them can make the cold block colder, but only while a motor runs and the coils at the back warm the room by more than the cold block lost. Turn the motor off and the spontaneous direction returns. Nothing in the example requires the blocks to be 'messy' or 'tidy.' It requires an isolated pair, and a direction.",
+      "sources": [
+        {
+          "title": "Ch. 4 Introduction, University Physics Volume 2 (OpenStax)",
+          "url": "https://openstax.org/books/university-physics-volume-2/pages/4-introduction"
+        },
+        {
+          "title": "Second law of thermodynamics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+        },
+        {
+          "title": "Entropy, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Entropy"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "Clausius and Kelvin statements and the entropy formulation match the standard presentation in OpenStax University Physics Volume 2, chapter 4, and the encyclopedia articles. The card is explicit that organisms are not isolated systems.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "le-chatelier",
+      "field": "chemistry",
+      "title": "A system at equilibrium pushes back",
+      "hook": "Le Chatelier’s principle says which way an equilibrium shifts. It does not say how fast, and a catalyst does not change the answer.",
+      "body": "Henri Le Chatelier stated the idea in the 1880s. If a system at equilibrium is disturbed by a change in concentration, pressure, or temperature, it shifts in the direction that partly counteracts the disturbance. Add more of a reactant and the system makes more product. Squeeze a gas mixture and it shifts toward the side with fewer moles of gas. Heat an equilibrium and it shifts in the endothermic direction, the direction that absorbs heat.\n\nThe principle is qualitative. It tells you the direction of the shift, not the new concentrations, and not the time required. It also does not say the disturbance is completely undone. Add reactant and some of the addition is consumed, not all of it. A catalyst speeds the forward and reverse reactions by the same factor. Equilibrium arrives sooner and sits in the same place. Anyone who adds a catalyst expecting a new equilibrium has asked the principle to do a job it does not do.",
+      "deeper": "The ammonia synthesis is the standard illustration, and it is worth keeping the names straight. Nitrogen and hydrogen form ammonia: N₂ + 3H₂ ⇌ 2NH₃, with heat released. Four moles of gas become two, so higher pressure shifts the equilibrium toward ammonia. Because the reaction is exothermic, a lower temperature also favours ammonia, but the reaction is then painfully slow. Industrial Haber–Bosch plants use high pressure, a compromise temperature, and a catalyst. Le Chatelier did not invent that process. Fritz Haber and Carl Bosch did, later. They were using equilibrium logic he had helped make obvious.\n\nOpenStax Chemistry 2e, section 13.3, states the principle with these cases. The failure mode in student problems is almost always the catalyst, or a pressure change in a reaction where the number of gas moles does not change. If both sides have the same number of gas molecules, squeezing does not pick a side.",
+      "example": "Start with the ammonia equilibrium at a fixed temperature. Double the pressure by compressing the vessel. The mixture shifts toward ammonia, the side with fewer gas molecules, which brings the total pressure back down a little, not all the way. The new equilibrium has a higher mole fraction of ammonia. Now add a catalyst and change nothing else. The approach to that same equilibrium speeds up. The mole fraction you were heading toward does not move. Finally, raise the temperature. Because making ammonia releases heat, the hotter equilibrium contains less ammonia, even though the reaction is faster. Speed and position are different knobs.",
+      "sources": [
+        {
+          "title": "13.3 Shifting Equilibria: Le Châtelier’s Principle, Chemistry 2e (OpenStax)",
+          "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle"
+        },
+        {
+          "title": "Le Chatelier’s principle, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Le_Chatelier%27s_principle"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The direction of shifts for concentration, pressure, and temperature, and the fact that a catalyst does not move the equilibrium, match OpenStax Chemistry 2e section 13.3. The ammonia equation is the standard illustration. Haber–Bosch is not attributed to Le Chatelier.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "infinitude-of-primes",
+      "field": "mathematics",
+      "title": "There is no last prime number",
+      "hook": "Euclid’s proof does not say that one plus the product of the primes you listed is itself prime. It says that product-plus-one has a prime factor you missed.",
+      "body": "A prime number is an integer greater than 1 whose only positive divisors are 1 and itself. Euclid's Elements, Book IX, Proposition 20, proves that there are more primes than any finite list you can write down. Suppose the list p1, p2, ..., pk is every prime. Form N = p1 times p2 times ... times pk, plus 1. N is bigger than 1, so it has some prime factor. That factor cannot be any pi on the list, because dividing N by pi leaves a remainder of 1. So there is a prime that was not on the list. The supposition that the list was complete is false.\n\nThe proof never claims that N itself is prime. Often it is not. Two times three times five times seven times eleven times thirteen, plus one, equals 30031, and 30031 is 59 times 509. Both 59 and 509 are primes that were not in the opening list. That is all the argument needed.",
+      "deeper": "The result is that the primes do not run out. It is not a recipe for generating the next prime, and it is not a statement about how dense the primes are. Much later mathematics, from Euler's product for the Riemann zeta function through the prime number theorem, describes that density. Euclid's proposition is earlier and more elementary, which is why it is still the right first proof.\n\nThe common slip, repeated in popular accounts, is to check a few cases where the product plus one happens to be prime (2+1, 2 times 3 plus 1, and so on) and to think the proof says this always happens. The fifth primorial-plus-one is already composite if you start from a longer list, and the proof is unbothered. David Joyce's online edition of the Elements states Proposition IX.20 in Euclid's form. Reading one translation alongside that slip is the whole lesson.",
+      "example": "Start with the list 2, 3, 5. The product plus one is 31, which is prime, so this particular case does hand you a new prime directly. Start with 2, 3, 5, 7, 11, 13. The product is 30030, plus one is 30031. Divide by 59: 59 times 509 is 30031. Neither 59 nor 509 was on the list, so the list was incomplete, exactly as the proof said, even though 30031 is not prime. If someone tells you Euclid proved that 'the product of the first k primes, plus one, is always prime,' the number 30031 is a sufficient reply.",
+      "sources": [
+        {
+          "title": "Euclid’s Elements, Book IX, Proposition 20 (David Joyce)",
+          "url": "https://mathcs.clarku.edu/~djoyce/java/elements/bookIX/propIX20.html"
+        },
+        {
+          "title": "Euclid’s theorem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euclid%27s_theorem"
+        },
+        {
+          "title": "Euclid’s Theorems, Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/EuclidsTheorems.html"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.98,
+        "notes": "Proposition IX.20 was checked against Joyce’s edition of the Elements. The composite example was recomputed: 2×3×5×7×11×13+1 = 30031 = 59×509. The card corrects the common claim that N itself must be prime.",
+        "corrections": [
+          "The proof does not claim that one plus the product of the listed primes is prime. The published text says only that this number has a prime factor off the list, and gives 30031 = 59×509 as a counterexample to the stronger claim."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "present-value",
+      "field": "finance",
+      "title": "A payment later is worth less than the same payment now",
+      "hook": "Present value is the number you would accept today in place of a future cash flow, once you have named a discount rate.",
+      "body": "If money you hold can earn a return, then receiving 100 in a year is not the same as receiving 100 now. The 100 now could become 100 times (1 + r) in a year. So the future 100 is worth 100 / (1 + r) today. That is its present value at the discount rate r. Further away, you divide by (1 + r) once per year: PV = FV / (1 + r)^t.\n\nThe rate is doing a lot of quiet work. At a minimum it stands for the return you give up by waiting, which is why discounting is the other side of compound interest. It often also stands for risk: a payment that might not arrive is not discounted at the same rate as a treasury bill. Mixing those reasons up is how people argue past each other. One of them is talking about time. The other is talking about whether the payer will pay.",
+      "deeper": "Add the present values of every promised cash flow and you have a price for a bond, a project, or a tuition plan, given your rates. Change the rate and the price moves. Long-dated cash flows move more, because the exponent is larger. A project that is mostly a big receipt in year 30 can look wonderful at 2 percent and ordinary at 8 percent, with no change in the receipt.\n\nThe formula does not choose the rate. That choice is the economics: the opportunity cost of capital for this kind of risk. A public agency discounting a bridge and an investor discounting a startup should not be forced to use the same number, because they are not giving up the same alternative. Present value is an organising identity. It becomes a valuation only after the rate is defended.",
+      "example": "You are offered 110 in one year, for certain, and you can lend or borrow safely at 10 percent. The present value is 110 / 1.10 = 100. Paying 100 today for that promise is a fair swap with the safe rate. Paying 105 is a loss: 105 would grow to 115.50 if you lent it yourself, which beats 110. Now suppose the 110 might fail. You do not repair that by pretending the rate is still 10 percent. You either cut the expected receipt (say a 50 percent chance, so 55 expected, present value 50 at the safe rate) or you raise the discount rate and say what risk premium you think you are using. The arithmetic will not choose for you. It will stop you from doing both corrections at once without noticing.",
+      "sources": [
+        {
+          "title": "Present value, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Present_value"
+        },
+        {
+          "title": "Time value of money, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Time_value_of_money"
+        },
+        {
+          "title": "Compound interest, Investor.gov (US Securities and Exchange Commission)",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The one-period example 110/1.10 = 100 was checked, as was the alternative growth of 105 at 10 percent to 115.50. The card separates the pure time discount from a risk adjustment.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "double-entry",
+      "field": "history",
+      "title": "Every transaction is written down twice",
+      "hook": "Double-entry bookkeeping did not begin with Luca Pacioli. He wrote down, in 1494, a method Italian merchants were already using.",
+      "body": "In a double-entry ledger, every transaction hits two accounts. One side is a debit, the other a credit, and the two amounts match. Sell goods for cash and the cash account rises while sales, or the stock you gave up, is recorded on the other side. The books are built so that they have to balance. The accounting equation that students still learn is the same idea in one line: assets equal liabilities plus equity.\n\nLuca Pacioli, a Franciscan friar and mathematician, described the Venetian method in his Summa de arithmetica, published in Venice in 1494. He is often called the father of accounting. The fairer statement is that he codified a merchant practice and gave it a wide audience. The method was in use in Italian cities well before his book. Writing it down mattered because a written method can travel, and because a method that must balance makes some errors visible. It does not make fraud impossible. A dishonest bookkeeper enters the lie on both sides.",
+      "deeper": "The historical interest is not the arithmetic, which is simple. It is what the arithmetic lets an organisation see. A merchant with a single list of receipts can lose track of what is owed and what is owned. A ledger that ties every inflow to a source, and every outflow to a use, can produce a statement of profit and a statement of position from the same records. That is a tool for partners who do not watch the shop every day, and later for investors who never visit it.\n\nHistorians argue about how much of European commercial growth to hang on the ledger. The safe claim is narrower and still interesting. By the end of the fifteenth century the method was articulate, teachable, and already older than its famous textbook. Pacioli's virtue was exposition, including a place in a much larger work of mathematics, not a flash of invention in 1494.",
+      "example": "A shop buys a table for 10 in cash. Cash falls by 10. Inventory, or equipment, rises by 10. The books balance, and profit is untouched: wealth changed shape, not size. The table is later sold for 15 in cash. Cash rises by 15, inventory falls by 10, and the difference of 5 is profit, which increases equity. Skip the second side of either entry and the books will not balance, which is the error-catching feature. Invent both sides, cash up 15 and a fake sale of 15, and the books balance while the profit is a fiction. The method checks arithmetic consistency. It does not check the world.",
+      "sources": [
+        {
+          "title": "Double-entry bookkeeping, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Double-entry_bookkeeping"
+        },
+        {
+          "title": "Luca Pacioli, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luca_Pacioli"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "Pacioli’s Summa of 1494 described an existing Italian merchant practice rather than inventing double entry. That correction of the popular ‘father of accounting’ line is in the card. The debit-credit example was checked against the accounting equation.",
+        "corrections": [
+          "Rejected the claim that Pacioli invented double-entry bookkeeping. The published text says he codified Venetian practice in 1494."
+        ],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "duvergers-law",
+      "field": "political-science",
+      "title": "Winner-take-all districts tend toward two parties",
+      "hook": "Maurice Duverger’s ‘law’ is a tendency with a mechanism. It is not a rule that countries are obliged to obey.",
+      "body": "Duverger argued, in work that reached English readers in the 1950s, that the way votes become seats shapes the party system. Where each district elects one person and the winner is whoever has the most votes, third parties are punished twice. Mechanically, a party spread thinly can win many votes and few seats. Psychologically, voters who expect that waste often abandon their first choice for a candidate who can win. Both effects push toward two parties that can actually take a district.\n\nProportional representation, which gives seats in rough proportion to votes, weakens both effects. A small party can turn votes into seats, so fewer voters feel they are wasting a ballot. More parties persist. That is the pairing Duverger is remembered for: plurality rules with two-party politics, proportional rules with more.",
+      "deeper": "Calling it a law overstates the regularity. Canada has often had more than two parties under plurality rules. India has many. Regional parties can be large in one place and irrelevant nationally, which the district-level logic actually allows: a party that is first in Quebec or in a single state is not a wasted vote there. Presidential elections and social cleavages matter too.\n\nThe useful part is the pair of mechanisms, not the nickname. If you change the electoral rule, you change the penalty for being third. You do not thereby choose how many social divisions a country has. Researchers since Duverger have spent their time on the exceptions and on the size of the effects. A careful use of the idea predicts a pressure, and then goes looking for what else is holding the party system in place.",
+      "example": "A district of 100 voters splits 40, 35, 25 among three parties. Under plurality, the party with 40 takes the only seat. The 25 have no seat and, next time, some of them may vote for whichever of the larger two they dislike less. Under a proportional rule that allocated several seats by vote share, the third party would keep a foothold and the tactical reason to leave it would be weaker. Scale that up to a whole country of single-member districts and you can see a national third party lose everywhere while the two leaders collect seats. Scale it to a country where the third party is the local majority in a region, and Duverger's pressure does not erase it.",
+      "sources": [
+        {
+          "title": "Duverger’s law, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duverger%27s_law"
+        },
+        {
+          "title": "Electoral system, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.88,
+        "notes": "The mechanical and psychological effects match the standard account of Duverger’s law. The card calls it a tendency and names Canada and India as cases where plurality rules have not produced a simple two-party system.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "opportunity-cost",
+      "field": "economics",
+      "title": "The cost of a choice is the best thing you didn’t take",
+      "hook": "A free afternoon is not free if you had something else worth doing with it.",
+      "body": "Opportunity cost is the value of the next-best alternative you give up. It is not the sum of every alternative, and it is not the cash that leaves your pocket. Cash is part of the story only when spending it closes off something else you valued.\n\nEconomists use the idea to separate accounting profit from economic profit. Accounting profit counts explicit costs: wages, rent, materials. Economic profit also subtracts what the owner could have earned by using their time and capital in the next-best way. A shop can show an accounting profit and still be a poor use of the owner's afternoon, if that afternoon was worth more elsewhere. The cost was real. It just never appeared on the invoice.",
+      "deeper": "The idea is older than the phrase. Once you take scarcity seriously, every yes is a no to something. The modern classroom version is tied to the production possibility frontier: points on the frontier price one good in units of the other. Moving along the frontier, the opportunity cost of more of one good is the amount of the other you stop producing.\n\nTwo limits matter. First, 'the' next-best alternative depends on what was actually available, not on a fantasy option. Second, people can be wrong about the value of what they gave up. The definition is about the best forgone alternative, not about whatever the chooser happened to dwell on. Sunk costs, already spent and unrecoverable, are not opportunity costs of going forward. That is the practical twin of the definition.",
+      "example": "A researcher is offered a paid workshop that fills an afternoon they would otherwise have spent finishing a paper. The ticket is waived, so the accounting cost is zero. The opportunity cost is the value of the progress on the paper, if that was the best other use of the afternoon. If the paper was worth more than the workshop, the free ticket was expensive. Reverse the values and the workshop is cheap even with a fee, up to the point where the fee plus the lost afternoon exceeds the workshop. The invoice and the opportunity cost answer different questions.",
+      "sources": [
+        {
+          "title": "Opportunity cost, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Opportunity_cost"
+        },
+        {
+          "title": "Comparative advantage, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+        }
+      ],
+      "authorAgent": "economics-business",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "The definition matches the standard textbook notion: the value of the next-best forgone alternative, distinct from accounting cost and from sunk cost. No numerical claim beyond the illustrative afternoon was added.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "photoelectric-effect",
+      "field": "physics",
+      "title": "Light below a threshold frequency ejects no electrons",
+      "hook": "Turn up the brightness of light that is too red, and a metal still emits nothing. Einstein’s 1905 account said the energy arrives in packets.",
+      "body": "Shine light on a metal and, in the right conditions, electrons come off. Classical wave theory expected two things that do not happen. Brighter light, of any colour, should eventually shake electrons loose, and the energy of those electrons should rise with brightness. What happens instead: below a threshold frequency, no electrons leave, however bright the beam. Above the threshold, brighter light means more electrons, not faster ones. The kinetic energy of the fastest electrons rises with the frequency of the light.\n\nEinstein's 1905 explanation was that light delivers energy in quanta, later called photons, each of energy E = hf, where h is Planck's constant and f is the frequency. An electron is ejected only if one quantum supplies at least the energy needed to leave the metal, the work function. Extra energy becomes kinetic energy. A brighter beam is more quanta, not bigger ones. The Nobel Prize awarded to Einstein for 1921 cited this law of the photoelectric effect, not relativity.",
+      "deeper": "The result was one of the empirical doors into quantum theory. It does not, by itself, say everything about what light is. Later quantum electrodynamics treats light as having both wave and particle aspects in a more precise way. Historically, the photoelectric effect was decisive because it was so specifically unlike a classical wave. Robert Millikan confirmed the predicted linear relation between frequency and electron energy, and said he had tried to refute it.\n\nThe practical descendants include photomultipliers and the sensors in cameras, which count absorbed quanta. None of that requires the popular shortcut 'light is particles, so waves were a mistake.' Interference is still real. The photoelectric effect constrains how energy is exchanged. OpenStax University Physics, volume 3, section 6.2, walks through the observations without the shortcut.",
+      "example": "Suppose a metal needs 2 electronvolts to release an electron. A photon with 1.5 electronvolts cannot pool with its neighbours in this mechanism. A million of them, arriving as a brighter beam, still each fall short, and no electrons leave. A photon with 3 electronvolts can release an electron and leave it with up to about 1 electronvolt of kinetic energy. Double the brightness of that higher-frequency light and you roughly double the number of electrons, while the maximum kinetic energy stays put. The numbers here are illustrative. The pattern, a threshold in frequency and a slope in energy versus frequency, is the measured one.",
+      "sources": [
+        {
+          "title": "6.2 Photoelectric Effect, University Physics Volume 3 (OpenStax)",
+          "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect"
+        },
+        {
+          "title": "Albert Einstein, Nobel Prize facts",
+          "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+        },
+        {
+          "title": "Photoelectric effect, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Photoelectric_effect"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The threshold-frequency facts and E = hf match OpenStax and the standard account. The Nobel citation for 1921 was the photoelectric effect, as the Nobel facts page records. The 2 eV numbers are labelled as an illustration.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "linear-perspective",
+      "field": "art",
+      "title": "Parallel lines meet at a point you choose",
+      "hook": "Brunelleschi demonstrated linear perspective in Florence in the early fifteenth century. The panel is lost. What survives is the geometry, written up by Alberti in 1435.",
+      "body": "Linear perspective is a method for constructing a picture so that lines which are parallel in the world, and perpendicular to the picture plane, converge to a vanishing point. Objects of equal size are drawn smaller as they recede, in a ratio fixed by the geometry of one viewpoint. The picture is what a single eye, at a single spot, would see projected onto a plane.\n\nFilippo Brunelleschi, in Florence in the early fifteenth century, demonstrated the method with panels of the Baptistery and the Palazzo Vecchio. The panels are lost. We know the demonstration from Antonio Manetti's biography, written later. Leon Battista Alberti's De pictura (1435) is the treatise that states the construction so a painter can carry it out: a horizon, a vanishing point, and a way of spacing the receding intervals. The geometry spread through European painting because it could be taught, not because everyone agreed it was the only honest way to paint.",
+      "deeper": "Perspective solves one problem, the consistent projection from one viewpoint. It does not solve every problem a picture has. A wide scene forces a choice of where the viewer stands, and the edges of a very wide view look stretched if you insist on one plane and one point. Medieval and many non-European traditions constructed space by other rules: stacked registers, oblique parallel lines that do not meet, or a focus organised by importance rather than by optics. Those are systems, not failed attempts at Alberti.\n\nThere is also a gap between the construction and the eye. We have two eyes, we move, and we do not experience the world as a perspective diagram. The diagram is a convention that matches a projection. It was a powerful convention for architecture, stage design, and painting that wanted that match. Calling it 'how humans see' is a step further than the geometry goes.",
+      "example": "Stand on a straight road. The edges of the road are parallel on the ground and appear to meet near the horizon, at the vanishing point. A row of equal lamp posts along the road should be drawn so that their tops and bases lie on lines meeting at that same point, and the gaps between them shrink in a determined way, not by feel. Alberti's construction tells you where the next gap goes. Move the viewpoint closer and the nearest post grows sharply relative to the far ones. That sensitivity to the viewpoint is the method working. A picture that converges the road to one point and lets the lamp posts wander off a different point is not 'expressive perspective.' It is two viewpoints in one drawing, and the road will look bent whether or not you meant it to.",
+      "sources": [
+        {
+          "title": "Linear perspective, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Linear_perspective"
+        },
+        {
+          "title": "Filippo Brunelleschi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
+        },
+        {
+          "title": "Leon Battista Alberti, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leon_Battista_Alberti"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "Alberti’s De pictura of 1435 and Brunelleschi’s early-fifteenth-century demonstrations, known through Manetti, match the standard art-historical account. The card does not treat linear perspective as the only coherent pictorial system.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "simultaneous-contrast",
+      "field": "art",
+      "title": "A colour changes when its neighbour changes",
+      "hook": "Michel-Eugène Chevreul, a chemist at the Gobelins tapestry works, showed that some complaints about dyes were complaints about vision.",
+      "body": "Simultaneous contrast is the shift in a colour's appearance caused by a colour next to it, at the same time. A grey patch looks lighter on a black ground than on a white one. A colour pushes its neighbour toward the complementary hue: a grey beside green looks faintly reddish, a grey beside red looks faintly greenish. The dye did not change. The comparison did.\n\nChevreul was director of dyes at the Gobelins manufactory in Paris. Weavers complained that some blacks and some colours looked dull or wrong depending on the threads beside them. He showed that the chemistry was often fine and the perception was lawful. His book, De la loi du contraste simultané des couleurs, appeared in 1839. Painters, including Georges Seurat later in the century, read him. The result is a piece of physiology that arrived through a factory.",
+      "deeper": "Chevreul distinguished simultaneous contrast from successive contrast, which is the afterimage you see after staring at a colour and looking away. Simultaneous contrast happens while both colours are in view. It is not a small effect confined to a laboratory grey. Textile design, painting, and any interface that puts a coloured badge on a coloured ground are inside it. Two brands can use the same ink and look different because the field around the ink differs.\n\nThe principle does not say that colour is an illusion and therefore arbitrary. It says appearance is relational. If you care about the appearance, you have to specify the neighbour. Chevreul's practical advice to the weavers was about choosing combinations that would still look like the intended colour once the neighbours were present. That is a more useful moral than 'colour isn't real.' The chemistry of the dye and the physiology of the edge are both real, and they answer different complaints.",
+      "example": "Cut two squares from the same grey paper. Place one on a black sheet and one on a white sheet. The grey on black looks lighter. Nothing about the paper changed between the two placements, which you can check by swapping them and watching the appearance move with the ground rather than with the piece of paper. Then place a small grey square on a strong green. The grey takes on a rosy cast. Place the same square on a strong red and the cast goes the other way. A tapestry weaver seeing a black look brownish next to a blue has the same kind of problem Chevreul was hired to solve. Re-dyeing the black is the wrong first experiment. Changing, or accounting for, the neighbour is the right one.",
+      "sources": [
+        {
+          "title": "Michel Eugène Chevreul, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul"
+        },
+        {
+          "title": "Simultaneous contrast, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simultaneous_contrast"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.91,
+        "notes": "Chevreul’s role at the Gobelins and the 1839 book on simultaneous contrast match the standard account. The grey-on-black versus grey-on-white demonstration is the usual classroom illustration of lightness contrast. Seurat is named as a later reader, not as a pupil.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "matthew-effect",
+      "field": "sociology",
+      "title": "Credit in science tends to flow to the already known",
+      "hook": "Robert Merton named it after a verse in Matthew: to those who have, more will be given. He was talking about reputation, not money alone.",
+      "body": "In a 1968 paper in Science, Merton argued that the reward system of science does not only pay for the work. It pays an extra dividend to people who are already eminent. When a famous scientist and a less famous one make a similar contribution, the famous one tends to get a larger share of the recognition. The gap then compounds. Invitations, students, the benefit of the doubt in a dispute, and the chance to do the next visible piece of work flow toward the name people already know.\n\nHe called this the Matthew effect, after the Gospel line about more being given to those who have. The interviews he drew on, conducted by Harriet Zuckerman with Nobel laureates, were full of scientists describing exactly that tilt, sometimes as beneficiaries and sometimes as the people whose early work had been overlooked until a bigger name touched it.",
+      "deeper": "The mechanism is not a conspiracy and it is not only unfairness, though it is often unfair. Readers use reputation as a filter because they cannot read everything. A famous co-author is easier to remember than the junior partner. Journals and prize committees are made of readers. The filter then changes the future, because recognition buys time and collaborators. Merton's point is that a system which looks like it rewards contributions one by one can still produce cumulative advantage.\n\nLater work has looked for the effect in citations, hiring, and funding, with mixed sizes and plenty of argument about measurement. The 1968 paper is not a claim that every prize is undeserved, or that unknown scientists never break through. It is a claim about a bias in the allocation of credit, strong enough that the history of who 'made' a discovery is a poor photograph of who did the work.",
+      "example": "Two labs publish similar findings a few months apart. The lab led by a prizewinner is cited as the one that 'showed' the result. The other is cited, if at all, as 'see also.' Next year the prizewinner's lab is asked to write the review, which cites its own paper first, and a student who wants to enter the field writes to that lab. The second lab's paper was not worse. The returns went to the name that already organised other people's attention. Merton's effect is that loop. It can start from a genuine early difference and then run far past it.",
+      "sources": [
+        {
+          "title": "Robert K. Merton, “The Matthew Effect in Science,” Science (1968)",
+          "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+        },
+        {
+          "title": "Matthew effect, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Matthew_effect"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.93,
+        "notes": "The PDF is Merton’s Science paper, volume 159, pages 56–63, 5 January 1968, and it discusses Zuckerman’s interviews with Nobel laureates. The card stays with the credit-allocation claim and does not invent a measured size for the effect.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "natural-selection",
+      "field": "biology",
+      "title": "Heritable variants that leave more offspring become common",
+      "hook": "Natural selection is a filter on variation that already exists. The variation is undirected. The filter is not a coin toss.",
+      "body": "Three conditions do the work. Individuals vary. Some of that variation is heritable, so offspring resemble the parents that had it. And some variants leave more offspring than others, because of how they interact with the environment. If all three hold, the variants that reproduce better become a larger share of the next generation. That is natural selection. Charles Darwin and Alfred Russel Wallace both arrived at it. Darwin's On the Origin of Species (1859) is the book that laid out the case.\n\nMutation and recombination supply variation. They do not aim at what would be useful. Selection is the part that is not random: which variants spread depends on their consequences for survival and reproduction in that environment. 'Survival of the fittest' was Herbert Spencer's phrase, and it is easy to turn into a tautology. The content is differential reproductive success of heritable variants, which you can in principle measure.",
+      "deeper": "Selection is not the only process that changes the frequency of a variant. Drift, the luck of finite numbers, matters more when populations are small. Migration moves variants between populations. A trait can spread because it is tied to another trait that selection favours. And 'the fittest' is not a moral rank. It is a count of offspring in a stated environment, which can change when the environment changes.\n\nDarwin did not know Mendel's mechanism of inheritance, which is why his account of how variation is passed on is the dated part of the book. The twentieth century joined genetics to selection in what biologists call the modern synthesis. The conditions above are still the ones to check when someone claims that a trait 'evolved for' a purpose. Purpose is a description you earn after the differential reproduction is shown, not a substitute for it.",
+      "example": "A population of beetles includes a heritable shade difference, dark and light, on a pale sandy background. Birds eat the beetles they see. Light beetles are eaten less often and, on average, leave more offspring. The next generation has a higher fraction of light beetles, even though nobody needed a new mutation that year and no beetle tried to change colour. Move the same population onto dark volcanic soil and the advantage can reverse. The filter changed. The inheritance did not suddenly become random, and it did not suddenly become a plan.",
+      "sources": [
+        {
+          "title": "Charles Darwin, On the Origin of Species (Project Gutenberg)",
+          "url": "https://www.gutenberg.org/ebooks/1228"
+        },
+        {
+          "title": "Natural selection, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Natural_selection"
+        },
+        {
+          "title": "18.1 Understanding Evolution, Biology 2e (OpenStax)",
+          "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "The three conditions match the standard statement of natural selection and Darwin’s argument in the Origin. The card separates selection from mutation, names Wallace, and does not treat ‘survival of the fittest’ as Darwin’s definition.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "gettier-problem",
+      "field": "philosophy",
+      "title": "A true belief can be justified and still not knowledge",
+      "hook": "Edmund Gettier needed three pages to show that 'justified true belief' is not yet a definition of knowledge.",
+      "body": "For a long time, a tidy proposal looked enough: you know something when you believe it, it is true, and you have a good justification. In 1963 Gettier published two short cases where all three hold and, by almost everyone's lights, the person still does not know.\n\nIn the first case, Smith has strong evidence that Jones will get the job, and that Jones has ten coins in his pocket. Smith concludes that the person who will get the job has ten coins in his pocket. In fact Smith gets the job, and Smith also happens to have ten coins. The belief is true. The evidence really did justify it. But the truth arrived by a coincidence the evidence was not about. The justification and the fact missed each other.",
+      "deeper": "The paper is aimed at the analysis of knowledge, not at scepticism. Gettier does not say we know nothing. He says a popular analysis counts some lucky beliefs as knowledge. The second case in the paper uses a similar trick with a disjunction: a justified false belief, or-ed with a truth the believer has no evidence for, can still be a justified true belief.\n\nLater work tried to patch the analysis. Some add a 'no false lemmas' rule. Some require the belief to be caused by the fact in the right way. Some, following Timothy Williamson, give up the project of defining knowledge out of simpler parts and take knowledge as basic. The cases survive as a test. If your theory says Smith knows, it has not met the problem Gettier posed.",
+      "example": "Suppose you look at a clock that stopped exactly twelve hours ago. It reads 4:00, and it is 4:00. You are justified in trusting the clock, and your belief is true. You do not know the time. The stopped clock is a cousin of Gettier's cases: a reliable-looking route, a true belief, and a success that is accidental relative to that route. Gettier's own case is sharper because the justification is genuine evidence about Jones, not a broken instrument. The accident is in which fact makes the belief true.",
+      "sources": [
+        {
+          "title": "The Analysis of Knowledge, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/knowledge-analysis/"
+        },
+        {
+          "title": "Gettier problem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gettier_problem"
+        }
+      ],
+      "authorAgent": "humanities",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "The case matches Gettier's first example as presented in the Stanford Encyclopedia entry on the analysis of knowledge. The stopped-clock story is labelled as a cousin, not as Gettier's own text.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "halting-problem",
+      "field": "computing",
+      "title": "No program can decide whether every program halts",
+      "hook": "Alan Turing’s 1936 result is narrow and absolute. There is no general method that looks at an arbitrary program and an arbitrary input and always says, correctly, whether it will finish.",
+      "body": "Some programs halt. Some run forever. It would be useful to have a checker, call it H, that takes the text of a program and an input and answers 'halts' or 'runs forever,' correctly, every time. Turing showed that no such H can exist, if the programs in question are as general as a Turing machine, which is as general as ordinary programming languages.\n\nThe argument is a diagonal trick. Suppose H exists. Build a program D that calls H on D's own text, and then does the opposite of what H predicted: if H says D halts, D loops forever; if H says D loops, D halts. Run D. Whatever H answered, D has done the other thing. So H was wrong about this one case. The supposition that a perfect H exists is false. Particular programs can still be analysed. Compilers prove that some loops terminate. The theorem is about a single method that works for every program and every input.",
+      "deeper": "The result belongs to the decision problems of the 1930s. Hilbert had asked for a procedure that would decide the truth of any mathematical statement. Turing, and Alonzo Church by another route, showed that even the special question 'does this computation finish?' is already undecidable. Gödel's incompleteness theorem is a cousin, not the same theorem. One is about proofs in arithmetic. The other is about the non-existence of an algorithm.\n\nNothing here says computers cannot solve problems, or that software is mysterious. It says a certain universal tool is impossible, in the way a method for squaring the circle with straightedge and compass is impossible. You can still square lots of practical regions. You can still prove that your particular loop ends. You cannot write the checker that never fails. The Stanford Encyclopedia's entries on Turing and on Turing machines state the model. The halting problem is the application people remember.",
+      "example": "Imagine H as a function that has never been wrong. D is a short program: ask H whether D halts, and if the answer is yes, enter an infinite loop; if the answer is no, stop immediately. There is no consistent answer for H to give about D. This is not a bug in D. It is a proof that the specification of H cannot be met. A practical timeout is not a counterexample. A timeout that says 'I gave up' has not decided. A timeout that says 'this loops' will be wrong about a program that would have halted on step one more than the timeout allowed. The theorem is about correct answers, not about useful approximations.",
+      "sources": [
+        {
+          "title": "Turing machines, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/turing-machine/"
+        },
+        {
+          "title": "Alan Turing, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/turing/"
+        },
+        {
+          "title": "Halting problem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halting_problem"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.96,
+        "notes": "The diagonal construction matches the standard proof of the undecidability of the halting problem, as presented in the Stanford Encyclopedia entries on Turing and Turing machines. The card limits the claim to a general decider and does not say that particular programs cannot be analysed.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "incompleteness",
+      "field": "mathematics",
+      "title": "Some arithmetic truths are not provable inside the system",
+      "hook": "Gödel’s first incompleteness theorem is a precise limit on formal proofs. It is not a slogan about truth being impossible.",
+      "body": "In 1931 Kurt Gödel proved a theorem about formal systems that are strong enough to talk about basic arithmetic of the natural numbers. If such a system is consistent, meaning it does not prove a contradiction, then it is incomplete. There is a statement in its language that is true in the ordinary sense of arithmetic and that the system does not prove. The system cannot be both consistent and complete for that arithmetic.\n\nThe second incompleteness theorem is the sharper political fact inside mathematics. A consistent system of this kind cannot prove its own consistency. You can prove the consistency of a weaker system by stepping outside it and using stronger methods. You cannot, from inside, finish the job with the system's own rules and still be sure, by those rules alone, that the system is consistent. 'Sure' here means a formal proof, not a feeling of confidence.",
+      "deeper": "The popular retellings go wrong in a few standard ways. Gödel did not show that mathematics is contradictory. Consistency is an assumption of the first theorem, and the conclusion is incompleteness, which is a different fault. He did not show that nothing can be known, or that proof is useless. Arithmetic still proves infinitely many things. He showed that truth in the standard model of arithmetic outruns what any one such formal system can derive.\n\n'Strong enough' is a real hypothesis. A very weak system can be complete for the small language it has, and useless for general arithmetic. The theorem is about systems that can represent the basic operations and reasoning we actually use with whole numbers. The Stanford Encyclopedia's entry on the incompleteness theorems is the right place to see the hypotheses stated with care. The 1931 paper is the primary text. Neither says that reason has collapsed.",
+      "example": "Think of a rulebook for proving claims about whole numbers, powerful enough to do ordinary arithmetic and consistent in fact. Gödel's construction builds, from the rulebook, a sentence that in effect says 'this sentence is not provable in this rulebook.' If the rulebook proved that sentence, it would be proving something false, and a system that proves a false arithmetic sentence of this kind is inconsistent. So, if it is consistent, it does not prove the sentence. But then the sentence is true: it really is not provable. Truth and provability-in-this-one-system come apart for that sentence. A different, stronger rulebook might prove it. That stronger book then has a sentence of its own.",
+      "sources": [
+        {
+          "title": "Gödel’s Incompleteness Theorems, Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/goedel-incompleteness/"
+        },
+        {
+          "title": "Gödel’s incompleteness theorems, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.94,
+        "notes": "The statement follows the Stanford Encyclopedia: a consistent formal system capable of basic arithmetic is incomplete, and such a system cannot prove its own consistency. The card explicitly rejects the claim that Gödel showed mathematics to be contradictory.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "availability-heuristic",
+      "field": "psychology",
+      "title": "What comes to mind feels more common",
+      "hook": "Amos Tversky and Daniel Kahneman argued that people estimate frequency by how easily examples arrive. Ease of recall is not frequency.",
+      "body": "The availability heuristic is a shortcut: when you judge how often something happens, you reach for examples, and you let the ease of the reach stand in for the count. Vivid, recent, or widely reported events are easy to retrieve. Ordinary events are not. The shortcut is often good enough. It fails when ease and frequency come apart.\n\nA classic demonstration in their work asked whether English has more words starting with the letter K or more words with K as the third letter. Starting words (kite, king, keep) come to mind quickly. Third-letter words are harder to search for, so people say the starting words are more common. In fact the third-letter words are more common. The judgement followed availability, not the dictionary. Their 1974 Science paper, 'Judgment under Uncertainty: Heuristics and Biases,' put this shortcut beside two others, representativeness and anchoring. Kahneman's 2002 Nobel lecture is a later map of the same research, done with Tversky.",
+      "deeper": "The practical stakes are in risk. A dramatic accident that leads the news is available. The uneventful journeys are not. People can then rank dangers in something closer to the order of headlines than the order of rates. The heuristic does not mean anyone is foolish for remembering the headline. It means the headline is a biased sample of the events, and a mind that uses memory as a sample inherits the bias.\n\nAvailability is also not the same as a careful statistical argument from the examples you have. A doctor who has just seen three cases of a rare disease, and who updates too far, is being tugged by availability. A doctor who knows the base rate and uses the cases as evidence is doing something else, closer to the update Bayes described. The heuristic is what you do instead of that arithmetic when the arithmetic is unavailable and the examples are not.",
+      "example": "Ask someone whether more people die in fires or by drowning in a given country, and do not let them look it up. Whichever cause they have seen on screen lately will feel larger. The feeling is information about their memory, not about the registry of deaths. The letter-K task is cleaner because the truth is in the dictionary and the bias has a direction you can predict before you run the experiment: the easier search will be judged more frequent. Tversky and Kahneman's claim is that this substitution, ease for frequency, is a general habit, not a trick confined to letters.",
+      "sources": [
+        {
+          "title": "Daniel Kahneman, Nobel Prize lecture (2002)",
+          "url": "https://www.nobelprize.org/uploads/2018/06/kahnemann-lecture.pdf"
+        },
+        {
+          "title": "Availability heuristic, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Availability_heuristic"
+        },
+        {
+          "title": "Daniel Kahneman, Nobel Prize facts",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/"
+        }
+      ],
+      "authorAgent": "social-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The K-as-first-versus-third-letter demonstration and the 1974 heuristics paper are the standard account of availability, also covered in Kahneman’s Nobel lecture. The card does not attach a specific death-rate comparison, which would need its own source.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "central-limit-theorem",
+      "field": "statistics",
+      "title": "Averages settle into a bell, even when the raw data do not",
+      "hook": "The central limit theorem is why a mean of many independent pieces looks normal. It has hypotheses. Infinite variance is one way to escape it.",
+      "body": "Take independent observations from the same distribution, and assume that distribution has a finite mean and a finite variance. Add them up, or take their average, and standardise so the result has mean zero and variance one. As the number of observations grows, the distribution of that standardised average gets closer to the normal bell curve. The original distribution does not have to be a bell. A die is flat. The average of many dice is not.\n\nThat is the central limit theorem, in the form used all over applied statistics. It is why a sample mean has a standard error, and why confidence intervals that lean on a normal approximation are often decent for large samples even when each data point is skewed. 'Large' is not a universal number. A very skewed distribution takes longer to settle than a mild one. The theorem says where the sequence is going. It does not say your sample of thirty has arrived.",
+      "deeper": "The finite-variance hypothesis is the one people drop without noticing. A Cauchy distribution is a textbook case with a defined centre and no finite variance. The average of Cauchy observations does not settle to a normal curve. It stays Cauchy. Heavy tails in real data are a reason to be slower with a normal approximation, not a reason to quote the theorem louder.\n\nIndependence matters too. If the observations share a common shock, you do not have n pieces of information. You may have something closer to one shock, repeated. The theorem is a gift to anyone averaging genuinely many, weakly dependent, finite-variance pieces. It is not a claim that everything in nature is normally distributed. Heights of adults are roughly bell-shaped for biological reasons. The theorem is about averages, not about the histogram of the raw world.",
+      "example": "One fair die shows 1 through 6 with equal probability. The shape is flat, the mean is 3.5, and the variance is finite. Roll thirty dice and average them. You will almost never see an average near 1 or near 6, because that would require nearly every die to cooperate. Averages near 3.5 pile up. Plot those averages over many rounds and the histogram looks like a bell, even though no single roll did. The theorem is the promise that this is not a special fact about dice. Replace the die with any independent draw that has a finite variance, take enough of them, and the standardised average does the same thing.",
+      "sources": [
+        {
+          "title": "Central Limit Theorem, Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/CentralLimitTheorem.html"
+        },
+        {
+          "title": "Central limit theorem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Central_limit_theorem"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.95,
+        "notes": "The statement includes independent, identically distributed observations with finite mean and variance, and the Cauchy counterexample when variance is infinite. That matches the standard theorem as given by MathWorld and the encyclopedia account.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "milankovitch-cycles",
+      "field": "earth-science",
+      "title": "Ice ages keep time with Earth’s orbit",
+      "hook": "Eccentricity, tilt, and wobble change how sunlight is distributed. NASA is explicit that this clock does not explain the warming of the last century.",
+      "body": "Milutin Milankovitch calculated how three slow cycles change the sunlight reaching Earth. Eccentricity is the stretch of the orbit, on a rhythm near 100,000 years. Obliquity is the tilt of the axis, near 41,000 years. Precession is the wobble of that axis, on the order of 20,000 years. Together they do not much change the total sunlight the planet receives. They change where and in which season it arrives, and the northern continents are sensitive to summer sunlight, because a cool summer fails to melt the previous winter's snow.\n\nThe pacemaker paper of Hays, Imbrie, and Shackleton in 1976 found those rhythms in the climate record of ocean sediments. The match is the reason the cycles are taken seriously as a clock for the ice ages of the last few million years. NASA's account of the cycles states the three periods and the link to ice sheets.",
+      "deeper": "A clock is not a complete cause. Ice sheets themselves change the climate, by reflecting sunlight and by altering the ocean and the carbon cycle, so the orbital nudge is amplified. The cycles also do not line up with every climate shift in Earth's deeper history, when the continents were elsewhere and the atmosphere was different. They are a theory about a particular era's ice ages.\n\nThey are not a theory of the warming measured since the late nineteenth century. That warming is fast compared with the orbital periods, and the orbital changes over the last few decades are far too small, and in the wrong pattern, to account for it. NASA's Milankovitch page says outright that the cycles cannot explain Earth's current warming. A card about the ice ages owes that sentence in the same breath as the 100,000-year rhythm.",
+      "example": "Tilt is the easiest of the three to picture. More tilt means hotter summers and colder winters in a hemisphere. Less tilt means milder seasons. A landmass in the north, with milder summers, keeps snow more easily, and an ice sheet can grow even if global annual sunlight barely changed. Precession decides which hemisphere has its summer when Earth is slightly closer to the Sun. Eccentricity decides how much that closer-farther difference matters. Stack a low-tilt, snow-friendly north on top of the right precession and a stretch of eccentricity, and you have the kind of configuration the pacemaker paper found written into the sediments. None of those cycles completes in a human lifetime. That is the simplest reason they cannot be the warming on a graph of the last hundred years.",
+      "sources": [
+        {
+          "title": "Milankovitch orbital cycles and Earth’s climate, NASA Science",
+          "url": "https://science.nasa.gov/science-research/earth-science/climate-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/"
+        },
+        {
+          "title": "Milankovitch cycles, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milankovitch_cycles"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.92,
+        "notes": "The three cycles and their approximate periods match NASA’s Milankovitch page, which also states that the cycles cannot explain current warming. Hays, Imbrie, and Shackleton 1976 is the standard ‘pacemaker’ citation. Periods are given as approximate.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "factor-of-safety",
+      "field": "engineering",
+      "title": "Design it stronger than the load you expect",
+      "hook": "A factor of safety is failure load divided by working load. The number is chosen, not discovered. An elevator and a bookshelf should not share it.",
+      "body": "If a component fails at a load F and you intend to run it at a load W, the factor of safety is F/W. Equivalently, the allowable load is the failure load divided by the factor you chose. A cable that breaks at 10 kilonewtons, designed with a factor of 5, is given a working load of 2 kilonewtons. The extra capacity is there because the failure load is uncertain, the real load is uncertain, the material has flaws, and the consequences of being wrong are not all the same.\n\nThere is no universal correct factor written in the physics. Codes and experience set them. A static bookshelf bracket and a cable that carries people do not get the same number, because the uncertainty and the cost of failure differ. Using a larger factor is not free. The part gets heavier and more expensive. Engineering is the argument about how much margin this particular uncertainty is worth.",
+      "deeper": "The simple ratio hides a few distinctions that matter once you design anything real. Failure can mean breaking, or it can mean bending too far to be useful. The load can be a steady weight or a repeated cycle that causes fatigue at a level a single pull would never reach. The failure load you put in the numerator may be a tested minimum, or a published average you should not trust. Modern structural practice often talks about load factors and resistance factors separately, rather than one lumped number. The lumped number is still the right introduction, because it makes the margin visible.\n\nA factor of 1 means you believe your load and your strength exactly, and you accept failure at the first surprise. Almost no responsible design does that. A very large factor can be a way of refusing to measure the load. The interesting designs are the ones that say what uncertainty they bought the margin for.",
+      "example": "A hoist cable is tested to break at 10 kilonewtons. The heaviest intended load, including the box and a dynamic bump when the motor starts, is estimated at 1.6 kilonewtons, and the designer adds a further allowance and sets the working load at 2 kilonewtons. The factor of safety is 10/2 = 5. If someone then hangs 4 kilonewtons on it, the factor on the day is 2.5, not 5. The printed factor was a statement about the design load, not a property that travels with the cable into every misuse. If a later test shows that some cables from the batch break at 8 rather than 10, the honest factor on the original design load falls to 4, and the code, not the slogan, decides whether 4 is still enough for a hoist that carries people.",
+      "sources": [
+        {
+          "title": "Factor of safety, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Factor_of_safety"
+        },
+        {
+          "title": "Structural engineering, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Structural_engineering"
+        }
+      ],
+      "authorAgent": "maths-computing",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.9,
+        "notes": "The definition, failure load over working load, matches the standard engineering usage. The 10 kN and factor-of-5 arithmetic gives a 2 kN working load and was checked. The card states that codes, not a law of nature, choose the factor.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "hardy-weinberg",
+      "field": "biology",
+      "title": "A null model for when gene frequencies stay put",
+      "hook": "Hardy–Weinberg equilibrium is what happens when nothing interesting is happening to the genes. Its use is to notice when something is.",
+      "body": "Take a gene with two alleles, A and a, at frequencies p and q, with p + q = 1. If mating is random and nothing is systematically adding, removing, or favouring either allele, then the genotype frequencies in the next generation are p² for AA, 2pq for Aa, and q² for aa. Those three add to 1. Allele frequencies stay at p and q. The population is in Hardy–Weinberg equilibrium.\n\nG. H. Hardy and Wilhelm Weinberg published the result independently in 1908. It answered a worry that dominant alleles would inevitably take over. They don't, not from dominance alone. A rare recessive allele spends most of its time hidden in heterozygotes, and its frequency is stable under the assumptions. The equation is a null model. If you measure genotypes and they are far from p², 2pq, q², then at least one assumption has failed. The equation does not say which one.",
+      "deeper": "The assumptions are the content. No selection. No mutation that matters at this gene. No migration that brings alleles in or out. Random mating, rather than mates chosen by genotype. And a population large enough that chance, drift, does not shove the frequency around. Real populations violate these in various combinations. That is why the model is a baseline rather than a description of a forest.\n\nPeople also confuse genotype frequency with allele frequency. If 1 percent of people show a recessive condition, that is q², not q. The allele can be much more common than the condition, because most copies sit in carriers. Screening programmes and textbook problems both start from that square root. OpenStax Biology 2e, section 19.2, is the classroom version. It is worth reading beside the assumptions, not instead of them.",
+      "example": "Suppose a recessive allele has frequency q = 0.1, so p = 0.9. Under the assumptions, the fraction of people who are aa, and who show the recessive trait if it is fully recessive, is q² = 0.01, one percent. Carriers, Aa, are 2pq = 2 times 0.9 times 0.1 = 0.18, eighteen percent. AA is 0.81. Most copies of the rare allele are in the eighteen percent, not in the one percent who are affected. If you then observe that almost nobody is a carrier and almost everyone is aa, the numbers are nowhere near this, and you go looking for selection, non-random mating, or a population that is not mixing. You do not 'fix' the algebra.",
+      "sources": [
+        {
+          "title": "Hardy–Weinberg principle, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+        },
+        {
+          "title": "19.2 Population Genetics, Biology 2e (OpenStax)",
+          "url": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+        }
+      ],
+      "authorAgent": "natural-sciences",
+      "created": "2026-09-29",
+      "status": "published",
+      "review": {
+        "reviewer": "seed-review",
+        "confidence": 0.96,
+        "notes": "The genotype frequencies p², 2pq, and q² and the 1908 attribution match the standard statement. The example was recomputed: q = 0.1 gives q² = 0.01 and 2pq = 0.18. The card treats the equation as a null model.",
+        "corrections": [],
+        "unverifiedClaims": [],
+        "reviewedAt": "2026-09-29"
+      }
+    }
+  ]
+}

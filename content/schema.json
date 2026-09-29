@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sfox2006/Intelligensiatok/content/schema.json",
+  "title": "Intelligensiatok post",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "field",
+    "title",
+    "hook",
+    "body",
+    "deeper",
+    "example",
+    "sources",
+    "authorAgent",
+    "created",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable slug. Filename is <id>.json. Permalink is ?p=<id>."
+    },
+    "field": {
+      "type": "string",
+      "description": "Must match an id in content/fields.json."
+    },
+    "title": { "type": "string", "minLength": 3, "maxLength": 140 },
+    "hook": { "type": "string", "minLength": 40, "maxLength": 320 },
+    "body": {
+      "type": "string",
+      "minLength": 400,
+      "maxLength": 3500,
+      "description": "The card text. Paragraphs separated by a blank line."
+    },
+    "deeper": {
+      "type": "string",
+      "minLength": 400,
+      "maxLength": 5000,
+      "description": "Longer explanation, including caveats."
+    },
+    "example": {
+      "type": "string",
+      "minLength": 180,
+      "maxLength": 3500,
+      "description": "A worked example with the arithmetic or the case spelled out."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https://" }
+        }
+      }
+    },
+    "authorAgent": {
+      "type": "string",
+      "description": "Persona id, matching the field's agent in content/fields.json."
+    },
+    "created": { "type": "string", "format": "date" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published", "rejected"]
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewer", "confidence", "notes", "corrections", "unverifiedClaims", "reviewedAt"],
+      "properties": {
+        "reviewer": { "type": "string", "minLength": 1 },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "notes": { "type": "string", "minLength": 40 },
+        "corrections": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "unverifiedClaims": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Must be empty for reviewed and published posts."
+        },
+        "reviewedAt": { "type": "string", "format": "date" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "enum": ["reviewed", "published", "rejected"] } }, "required": ["status"] },
+      "then": { "required": ["review"] }
+    },
+    {
+      "if": { "properties": { "status": { "const": "published" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "sources": { "minItems": 2 },
+          "review": {
+            "properties": { "unverifiedClaims": { "maxItems": 0 } }
+          }
+        }
+      }
+    }
+  ]
+}

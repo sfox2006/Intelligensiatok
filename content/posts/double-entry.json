@@ -1,0 +1,32 @@
+{
+  "id": "double-entry",
+  "field": "history",
+  "title": "Every transaction is written down twice",
+  "hook": "Double-entry bookkeeping did not begin with Luca Pacioli. He wrote down, in 1494, a method Italian merchants were already using.",
+  "body": "In a double-entry ledger, every transaction hits two accounts. One side is a debit, the other a credit, and the two amounts match. Sell goods for cash and the cash account rises while sales, or the stock you gave up, is recorded on the other side. The books are built so that they have to balance. The accounting equation that students still learn is the same idea in one line: assets equal liabilities plus equity.\n\nLuca Pacioli, a Franciscan friar and mathematician, described the Venetian method in his Summa de arithmetica, published in Venice in 1494. He is often called the father of accounting. The fairer statement is that he codified a merchant practice and gave it a wide audience. The method was in use in Italian cities well before his book. Writing it down mattered because a written method can travel, and because a method that must balance makes some errors visible. It does not make fraud impossible. A dishonest bookkeeper enters the lie on both sides.",
+  "deeper": "The historical interest is not the arithmetic, which is simple. It is what the arithmetic lets an organisation see. A merchant with a single list of receipts can lose track of what is owed and what is owned. A ledger that ties every inflow to a source, and every outflow to a use, can produce a statement of profit and a statement of position from the same records. That is a tool for partners who do not watch the shop every day, and later for investors who never visit it.\n\nHistorians argue about how much of European commercial growth to hang on the ledger. The safe claim is narrower and still interesting. By the end of the fifteenth century the method was articulate, teachable, and already older than its famous textbook. Pacioli's virtue was exposition, including a place in a much larger work of mathematics, not a flash of invention in 1494.",
+  "example": "A shop buys a table for 10 in cash. Cash falls by 10. Inventory, or equipment, rises by 10. The books balance, and profit is untouched: wealth changed shape, not size. The table is later sold for 15 in cash. Cash rises by 15, inventory falls by 10, and the difference of 5 is profit, which increases equity. Skip the second side of either entry and the books will not balance, which is the error-catching feature. Invent both sides, cash up 15 and a fake sale of 15, and the books balance while the profit is a fiction. The method checks arithmetic consistency. It does not check the world.",
+  "sources": [
+    {
+      "title": "Double-entry bookkeeping, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Double-entry_bookkeeping"
+    },
+    {
+      "title": "Luca Pacioli, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luca_Pacioli"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "Pacioli’s Summa of 1494 described an existing Italian merchant practice rather than inventing double entry. That correction of the popular ‘father of accounting’ line is in the card. The debit-credit example was checked against the accounting equation.",
+    "corrections": [
+      "Rejected the claim that Pacioli invented double-entry bookkeeping. The published text says he codified Venetian practice in 1494."
+    ],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mass-energy",
+  "field": "physics",
+  "title": "A mass has a rest energy, mc²",
+  "hook": "E = mc² says that mass and energy are the same kind of thing, counted in different units. It does not say that mass is destroyed and vanishes from the books.",
+  "body": "Einstein's 1905 paper 'Does the Inertia of a Body Depend upon Its Energy Content?' argued that if a body gives off energy E, its mass falls by E/c², where c is the speed of light. Rearranged, the rest energy tied to a mass m is E = mc². Because c is large, a tiny change in rest mass corresponds to a large energy when you measure it in ordinary units.\n\nIn nuclear fission, the fragments and neutrons, taken at rest, have a little less mass than the nucleus you started with. The difference leaves as kinetic energy and radiation. Nothing in the accounting has gone missing. Mass-energy is what is conserved. If you insist on keeping a separate column labelled 'mass' that only counts rest mass, that column goes down, and the energy column goes up by the matching amount. Calling this 'mass turning into energy' is acceptable shorthand only if you remember it is a transfer between columns of one ledger.",
+  "deeper": "The formula is a special case of a more general relation between energy, momentum, and mass in special relativity. A photon has energy and momentum and zero rest mass. A moving particle has more energy than its rest energy. mc² is the floor, the energy in the rest frame, not a complete inventory of a busy particle.\n\nThe size of c is why chemistry feels as if mass were conserved to the last gram. Chemical energies are real and correspond to mass changes far below what a kitchen scale sees. Nuclear energies are a much larger fraction of the rest energy, which is why the books of a reactor are where people first believe the formula. OpenStax University Physics, volume 3, section 5.9, derives the relativistic energy. The 1905 paper, in a standard English text, is short enough to read beside it.",
+  "example": "A mass defect of 1 gram, if it were fully released, corresponds to E = 0.001 times c². With c about 3 times 10^8 metres per second, c² is about 9 times 10^16, and 0.001 of that is 9 times 10^13 joules. That is the scale of a small nuclear explosion, from a mass you could hide in a pocket, which is why the coefficient is the whole story. Ordinary fission releases only a fraction of a nucleus's rest energy, not all of it. The formula tells you the exchange rate. The nuclear physics tells you how much rest mass a given reaction actually loses.",
+  "sources": [
+    {
+      "title": "Einstein, “Does the Inertia of a Body Depend upon Its Energy-Content?” (1905)",
+      "url": "https://www.fourmilab.ch/etexts/einstein/E_mc2/www/"
+    },
+    {
+      "title": "5.9 Relativistic Energy, University Physics Volume 3 (OpenStax)",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/5-9-relativistic-energy"
+    },
+    {
+      "title": "Mass–energy equivalence, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "The 1905 paper’s claim, that a body emitting energy E loses mass E/c², matches the Fourmilab text of Einstein’s article. The 1 gram illustration uses c ≈ 3×10^8, so 0.001 c² ≈ 9×10^13 J. The card treats rest mass and energy as one ledger.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

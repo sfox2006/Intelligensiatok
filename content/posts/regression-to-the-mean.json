@@ -1,0 +1,30 @@
+{
+  "id": "regression-to-the-mean",
+  "field": "statistics",
+  "title": "Extreme scores are partly luck, so the next one moves inward",
+  "hook": "Francis Galton saw it in heights. A group picked for being extreme will, on average, be less extreme the next time you measure.",
+  "body": "Regression to the mean is a statistical tendency, not a force pulling the world back to mediocrity. If a measurement combines something stable with some chance, then the people with the highest measurements were, on average, lucky as well as good. Luck does not repeat on command. The next measurement of that same group is therefore closer to the middle, even if nothing about the people changed.\n\nGalton studied the heights of parents and children in the nineteenth century. Very tall parents had children who were still tall, on average, but less extremely tall than the parents. He called the pattern regression toward mediocrity. The stable part, heredity, is real. The inward step is what you expect when the parents were selected on a height that included chance variation, and when the resemblance between generations is imperfect.",
+  "deeper": "The mistake is to invent a cause for the inward step. A team that has a miraculously good season and then a more ordinary one has not necessarily become lazy. A patient who comes to a clinic on their worst week and looks better next week has not necessarily been cured by whatever you did on the day they arrived. Any policy that treats people only when they are at an extreme, and then congratulates itself on the follow-up, is walking into this trap.\n\nThe mirror image matters just as much. A group selected for a terrible measurement will, on average, look better later, for the same reason. Regression is not a downward drift in the whole population. The population mean stays put. It is the selected tail that moves. If the correlation between the two measurements is perfect, there is no regression. If it is zero, the next measurement of the extreme group is just the population average.",
+  "example": "A student sits two similar exams. Scores are a mix of skill and the day's noise. You select the students who scored above 90 on the first exam. Some of them are skilled and had an ordinary day. Some are a bit less skilled and had a great day. On the second exam the great days are not all repeated, so the group's average falls, even though nobody studied less. Students who scored below 40 on the first exam will, as a group, rise. A tutor who only coaches the first group and claims the drop as evidence that coaching hurt them, or who only coaches the second group and claims the rise as their own doing, has not yet separated the teaching from the selection.",
+  "sources": [
+    {
+      "title": "Regression toward the mean, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean"
+    },
+    {
+      "title": "Francis Galton, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Galton"
+    }
+  ],
+  "authorAgent": "maths-computing",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The card states regression as a consequence of imperfect correlation plus selection on a noisy measurement, which is the standard account associated with Galton’s height studies. It explicitly says the population mean does not drift.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

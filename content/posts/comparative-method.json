@@ -1,0 +1,38 @@
+{
+  "id": "comparative-method",
+  "field": "linguistics",
+  "title": "Related languages rhyme for systematic reasons",
+  "hook": "The comparative method reconstructs a parent language from regular sound correspondences. A stray lookalike is not evidence. A rule with exceptions that have their own rule is.",
+  "body": "Languages that descend from a common ancestor share features that line up in a patterned way, not just a word or two that sound similar. The comparative method collects those correspondences and infers the sounds and words of the parent. Proto-Indo-European, spoken by nobody we can name and written down by nobody, is reconstructed this way from languages spread from Ireland to India.\n\nGrimm's law is the textbook set of correspondences for Germanic. Where Latin and Greek have p, t, or k, English and its Germanic relatives often have f, th, or h. Latin pater and English father. Latin tres and English three. Latin cornu, a horn, and English horn. The correspondences are regular across many words. That regularity is the evidence. One pair that looks cute is not.",
+  "deeper": "The method earned its keep by surviving an apparent failure. Some Germanic words did not show the consonant Grimm predicted. Karl Verner showed in the 1870s that a large set of those exceptions depended on where the accent had been in the parent language. Once the accent rule was included, the exceptions became another regularity, Verner's law. A method that explains its counterexamples by a further correspondence is stronger, not weaker.\n\nReconstruction is not a recording. Nobody claims we know exactly how Proto-Indo-European was pronounced in every detail. We know a system of contrasts that, by regular changes, yields the daughter languages. Loanwords and chance resemblances are the decoys. English and Persian both have a word that sounds like 'bad,' and it is a terrible piece of evidence by itself. Hundreds of correspondences in the same direction, with a story for the exceptions, are the real thing.",
+  "example": "Take the p-to-f correspondence and try to fake it with one word. You can always find two languages with one similar pair. Now ask for the whole series: p with f, t with th, k with h, in the inherited vocabulary, not in a word borrowed last century. Latin piscis and English fish belongs to the same p-to-f series as pater and father. A borrowed word like English 'pepper,' which came through Latin, does not have to obey the Germanic shift, and it doesn't. Sorting inherited from borrowed is part of the method. After Verner, a voicing where Grimm expected a fricative is not thrown out. You check the old accent. The method is the refusal to be impressed by a single pair, and the refusal to panic at a patterned exception.",
+  "sources": [
+    {
+      "title": "Comparative method, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comparative_method"
+    },
+    {
+      "title": "Grimm’s law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grimm%27s_law"
+    },
+    {
+      "title": "Verner’s law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Verner%27s_law"
+    },
+    {
+      "title": "Proto-Indo-European language, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.92,
+    "notes": "Grimm’s law correspondences (pater/father, tres/three, cornu/horn) and Verner’s law as the account of a major set of exceptions match the standard historical-linguistics account. The English/Persian ‘bad’ pair is correctly treated as a non-argument.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

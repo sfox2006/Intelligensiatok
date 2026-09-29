@@ -1,0 +1,34 @@
+{
+  "id": "diversification",
+  "field": "finance",
+  "title": "Risk that is not shared can be mixed away",
+  "hook": "Harry Markowitz’s 1952 point was that a portfolio is not the average of its parts. What matters is how the parts move together.",
+  "body": "If two risks are perfectly correlated, holding both is like holding one. They rise and fall together, and the portfolio is as bumpy as the pieces. If they are less than perfectly correlated, one can be up while the other is down, and the portfolio's variance is lower than the weighted average of the variances. That gap is the gain from diversification. It is a fact about covariances.\n\nMarkowitz's paper 'Portfolio Selection' (Journal of Finance, 1952) made this the centre of portfolio theory. He treated the investor as caring about expected return and about variance, and he showed that some combinations are inefficient: you could get more expected return for the same variance, or less variance for the same expected return, by mixing differently. The Nobel Prize in 1990 honoured that work. The practical slogan, don't put everything in one asset, is much older. The contribution was to say exactly which feature of the 'everything' does the smoothing.",
+  "deeper": "There is a remainder that mixing does not touch. A risk that hits every asset at once, because it hits the economy those assets are claims on, is still in the portfolio after you have spread your bets. Later models call versions of this market risk. Idiosyncratic risk, the part that is special to one firm or one property, is the part diversification is built to shrink. Owning twenty stocks instead of one really does change the second. It does not entitle you to the first disappearing.\n\nDiversification is also not a forecast of profit. A bundle of overpriced assets is a diversified bundle of overpriced assets. The US Securities and Exchange Commission puts the caution in plain language on Investor.gov: spreading your money around does not ensure a profit or guarantee against loss. Markowitz's mathematics is about the shape of risk for a given set of prospects. It is not a promise about the prospects.",
+  "example": "Two firms, each of which gains 20 or loses 10 with equal probability, independently. Held alone, each has an expected outcome of 5, and a real chance of a loss. Held half and half, the portfolio loses 10 only if both lose, probability 1/4. It gains 20 only if both gain, probability 1/4. Half the time they split, and the portfolio moves by 5. The chance of the worst case has fallen from 1/2 to 1/4, and the expected outcome is still 5. If instead both firms always gain and lose on the same days, the 50-50 mix has the same distribution as either firm. Correlation, not the count of logos, did the work.",
+  "sources": [
+    {
+      "title": "Harry Markowitz, Nobel Prize facts",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1990/markowitz/facts/"
+    },
+    {
+      "title": "Diversification, Investor.gov (US Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification"
+    },
+    {
+      "title": "Modern portfolio theory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Modern_portfolio_theory"
+    }
+  ],
+  "authorAgent": "economics-business",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The 1952 paper and the role of covariance match the Nobel account of Markowitz and the standard statement of modern portfolio theory. The two-firm example was enumerated: independent worst case 1/4, expected value 5 either way. The card does not claim diversification prevents loss.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

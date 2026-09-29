@@ -1,0 +1,34 @@
+{
+  "id": "platos-cave",
+  "field": "philosophy",
+  "title": "The cave is a story about education",
+  "hook": "Plato's prisoners mistake shadows for the whole world. The point is what it would take to turn around.",
+  "body": "In the Republic, Plato asks us to imagine people chained in a cave, facing a wall. Behind them a fire burns, and puppeteers carry objects that cast shadows. The prisoners name the shadows and take them for reality, because the shadows are all they have ever seen.\n\nThe story, told in Book VII, is about education as a turning of the whole soul, not a transfer of information. One prisoner is freed, suffers the glare, and eventually looks at the sun, which stands for the Form of the Good. Coming back to the cave, he is clumsy in the dark and unpersuasive. Plato is not reporting a discovery about caves. He is building an analogy for the difference between appearance and what he thinks understanding requires.",
+  "deeper": "The cave sits inside a larger image. A line is divided into imagination, belief, thought, and understanding. The visible world, including ordinary objects, is the cave side of that line. The intelligible world, culminating in the Good, is outside. The sun does two jobs in the story: it makes sight possible, and it makes things grow. The Good, Plato suggests, makes both knowing and the being of the forms possible. That is a metaphysical claim, and it is much heavier than the memorable picture of the prisoners.\n\nSocrates tells the story to Glaucon while they are designing an education for rulers. The practical upshot in the dialogue is not 'question everything' in the modern slogan sense. It is that the people who have made the ascent would rather stay outside, and have to be compelled to go back down and rule. Whether that politics is attractive is a separate argument from the image itself.",
+  "example": "Take the shadow of a vase and the vase. A prisoner who has only ever seen the shadow can become very skilled at predicting which shadow comes next. That skill is real, and Plato does not deny it. What the prisoner cannot do is say what a vase is, or why the shadow has the shape it has. The freed prisoner who returns and talks about vases sounds, to the experts on shadows, like someone who has lost a useful skill. The analogy is doing that work: competence inside a limited frame is not the same as understanding the thing that casts it.",
+  "sources": [
+    {
+      "title": "Plato’s Myths, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/plato-myths/"
+    },
+    {
+      "title": "Plato, The Republic (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/1497"
+    },
+    {
+      "title": "Allegory of the cave, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+    }
+  ],
+  "authorAgent": "humanities",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.94,
+    "notes": "Checked against the Republic's cave passage as presented in the Gutenberg text and the Stanford Encyclopedia's discussion of Plato's myths. The card treats the cave as an analogy in an argument about education, not as a report.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

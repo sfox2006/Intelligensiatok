@@ -1,0 +1,38 @@
+{
+  "id": "stellar-parallax",
+  "field": "astronomy",
+  "title": "Nearby stars shift as the Earth goes around the Sun",
+  "hook": "Parallax is the apparent wobble of a close star against the distant ones. One parsec is the distance at which that wobble is one arcsecond.",
+  "body": "Hold a finger in front of your face and blink from one eye to the other. The finger jumps against the far wall. The jump is larger when the finger is closer. Stellar parallax is the same geometry with a much longer baseline: the diameter of Earth's orbit. As Earth moves from one side of the Sun to the other, a nearby star appears to shift against stars so distant that they barely shift at all.\n\nHalf of that annual shift, the angle at the star between the Sun and the Earth, is the parallax angle. If that angle is one arcsecond, the star is one parsec away, about 3.26 light-years. The definition is arranged so that distance in parsecs is 1 divided by the parallax in arcseconds. Proxima Centauri, the nearest star to the Sun, has a parallax a bit under an arcsecond, so it sits a bit over one parsec away, about 4.2 light-years. NASA's Imagine the Universe notes both the method and that Proxima is the nearest of the Alpha Centauri system.",
+  "deeper": "The angles are small, which is why the measurement took so long to achieve. A parsec-sized shift is one arcsecond. Most stars you can see are much further, and their parallaxes are tiny fractions of that. Friedrich Bessel measured the parallax of 61 Cygni in 1838, one of the first convincing stellar parallaxes, and a direct physical demonstration that Earth really does move around the Sun. The stars were not fixed on a nearby dome.\n\nParallax is the first rung of the cosmic distance ladder. Beyond the neighbourhood where the angle is measurable, astronomers use brighter standard candles and other methods, each calibrated on the rung below. The European Space Agency's Gaia mission has measured parallaxes for an enormous number of stars, which tightens every later rung. It does not, by itself, reach the distant galaxies. The geometry runs out of angle.",
+  "example": "A star with a parallax of 0.1 arcseconds is 1/0.1 = 10 parsecs away, about 33 light-years. A star with a parallax of 0.01 arcseconds is 100 parsecs away. The arithmetic is the definition, not a model. What is hard is measuring 0.01 arcseconds. That is why a satellite, above the blurring of the atmosphere and with a stable baseline, changed the subject. If someone quotes a distance to a nearby star and a parallax, you can check that they are reciprocals. If they quote a distance to a galaxy in the same breath as a parallax, they have changed methods, and the card you want next is the distance ladder, not a bigger triangle.",
+  "sources": [
+    {
+      "title": "Nearest star, Imagine the Universe! (NASA Goddard)",
+      "url": "https://imagine.gsfc.nasa.gov/features/cosmic/nearest_star_info.html"
+    },
+    {
+      "title": "Stellar parallax, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stellar_parallax"
+    },
+    {
+      "title": "Parsec, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parsec"
+    },
+    {
+      "title": "Gaia, European Space Agency",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+    }
+  ],
+  "authorAgent": "natural-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.93,
+    "notes": "The parsec definition (parallax of one arcsecond) and the reciprocal distance rule are standard. Proxima Centauri is the nearest star, at about 4.2 light-years, a little over one parsec. Bessel’s 1838 measurement of 61 Cygni is the usual historical marker. Gaia is correctly described as a parallax mission, not as a tool for the most distant galaxies.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

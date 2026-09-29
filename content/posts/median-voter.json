@@ -1,0 +1,38 @@
+{
+  "id": "median-voter",
+  "field": "political-science",
+  "title": "Two office-seekers are pulled toward the middle",
+  "hook": "On a single line of disagreement, the voter in the middle is hard to beat. The theorem says when that geometry runs politics.",
+  "body": "Harold Hotelling noticed in 1929 that two shops on a beach, each wanting more customers, end up side by side in the middle. Duncan Black and Anthony Downs moved the beach into politics. Line voters up by the policy they most want, from left to right. Assume preferences are single-peaked: each person has a favourite point and likes policies less as they move away from it. Assume two candidates who care only about winning, and an election decided by majority rule.\n\nThen both candidates' best position is the median voter's favourite. A candidate who stands to the left of the median loses the median and everyone to the right. The same trap waits on the other side. So platforms converge. The theorem is a result inside those assumptions. It is not a description of every campaign you have lived through.",
+  "deeper": "Drop an assumption and the result moves. If the argument has two dimensions, there may be no point that beats every alternative. A candidate can lose on a left-right line and win by opening a second fight. If candidates care about policy and not only about office, they may refuse the median. If voters abstain when nobody is close to them, standing at the centre can cost you the people at the edges. Primaries pull candidates outward before a general election pulls them back, which is why the same politician can sound like two different medians in one year.\n\nDowns's 1957 book, An Economic Theory of Democracy, is the version political science absorbed. Black's earlier theorem is the social-choice core. Hotelling's beach is the intuition, and it was about firms. Treating the median voter as a law of nature is the mistake. Treating the median as the place to look, when the fight really is one-dimensional and the candidates really do just want to win, is the use.",
+  "example": "Five voters want a tax rate of 10, 20, 30, 40, and 50 percent. The median is 30. A candidate at 40 loses to a candidate at 30, because the voters at 10, 20, and 30 all prefer 30, and that is a majority. The same happens to a candidate at 20. Nothing in the example requires the voters to be evenly spaced, or the middle to be a compromise in a moral sense. It is the middle of the ranking. Add a second issue, say trade, and a voter who is moderate on tax and extreme on trade can tip a coalition that the one-dimensional picture never sees.",
+  "sources": [
+    {
+      "title": "Median voter theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Median_voter_theorem"
+    },
+    {
+      "title": "An Economic Theory of Democracy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/An_Economic_Theory_of_Democracy"
+    },
+    {
+      "title": "Hotelling’s law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hotelling%27s_law"
+    },
+    {
+      "title": "Duncan Black, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Duncan_Black"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.91,
+    "notes": "The assumptions (single-peaked preferences, one dimension, two office-seeking candidates, majority rule) match the standard statement of the median voter theorem. Hotelling 1929, Black, and Downs 1957 are the right names. The card lists the assumptions that make the result fail.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}

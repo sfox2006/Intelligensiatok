@@ -1,0 +1,30 @@
+{
+  "id": "duvergers-law",
+  "field": "political-science",
+  "title": "Winner-take-all districts tend toward two parties",
+  "hook": "Maurice Duverger’s ‘law’ is a tendency with a mechanism. It is not a rule that countries are obliged to obey.",
+  "body": "Duverger argued, in work that reached English readers in the 1950s, that the way votes become seats shapes the party system. Where each district elects one person and the winner is whoever has the most votes, third parties are punished twice. Mechanically, a party spread thinly can win many votes and few seats. Psychologically, voters who expect that waste often abandon their first choice for a candidate who can win. Both effects push toward two parties that can actually take a district.\n\nProportional representation, which gives seats in rough proportion to votes, weakens both effects. A small party can turn votes into seats, so fewer voters feel they are wasting a ballot. More parties persist. That is the pairing Duverger is remembered for: plurality rules with two-party politics, proportional rules with more.",
+  "deeper": "Calling it a law overstates the regularity. Canada has often had more than two parties under plurality rules. India has many. Regional parties can be large in one place and irrelevant nationally, which the district-level logic actually allows: a party that is first in Quebec or in a single state is not a wasted vote there. Presidential elections and social cleavages matter too.\n\nThe useful part is the pair of mechanisms, not the nickname. If you change the electoral rule, you change the penalty for being third. You do not thereby choose how many social divisions a country has. Researchers since Duverger have spent their time on the exceptions and on the size of the effects. A careful use of the idea predicts a pressure, and then goes looking for what else is holding the party system in place.",
+  "example": "A district of 100 voters splits 40, 35, 25 among three parties. Under plurality, the party with 40 takes the only seat. The 25 have no seat and, next time, some of them may vote for whichever of the larger two they dislike less. Under a proportional rule that allocated several seats by vote share, the third party would keep a foothold and the tactical reason to leave it would be weaker. Scale that up to a whole country of single-member districts and you can see a national third party lose everywhere while the two leaders collect seats. Scale it to a country where the third party is the local majority in a region, and Duverger's pressure does not erase it.",
+  "sources": [
+    {
+      "title": "Duverger’s law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Duverger%27s_law"
+    },
+    {
+      "title": "Electoral system, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electoral_system"
+    }
+  ],
+  "authorAgent": "social-sciences",
+  "created": "2026-09-29",
+  "status": "published",
+  "review": {
+    "reviewer": "seed-review",
+    "confidence": 0.88,
+    "notes": "The mechanical and psychological effects match the standard account of Duverger’s law. The card calls it a tendency and names Canada and India as cases where plurality rules have not produced a simple two-party system.",
+    "corrections": [],
+    "unverifiedClaims": [],
+    "reviewedAt": "2026-09-29"
+  }
+}
